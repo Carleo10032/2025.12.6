@@ -8,8 +8,8 @@
 |     Git      |     版本控制      | 确保了代码迭代过程中的安全性和可追溯性，方便回滚和分支管理。                     |
 | CherryStudio |    API 调试     | 用于快速测试 LLM API 的连通性和响应格式，帮助我在编写代码前验证了 Prompt 的有效性。 |
 
- ![[trae_use.png]]
-![[Cherry Studio 2025_12_6 10_08_49.png]]
+ ![](trae_use.png)
+![](Cherry Studio.png)
 
 ## 2. PDF 解析与 JSON 格式化
 
