@@ -1,0 +1,274 @@
+{
+  "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json",
+  "total_blocks": 93,
+  "successful_blocks": 100,
+  "total_triples": 38,
+  "triples": [
+    {
+      "subject": "waste cooking oil",
+      "predicate": "poses",
+      "object": "environmental challenges",
+      "source_text_id": "batch_1",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "in situ peracid method",
+      "predicate": "epoxidizes",
+      "object": "hybrid mixture of oleic acid and waste cooking oil",
+      "source_text_id": "batch_1",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "natural zeolite",
+      "predicate": "enhances",
+      "object": "epoxidation efficiency",
+      "source_text_id": "batch_1",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "Taguchi method",
+      "predicate": "shows",
+      "object": "optimum process parameters",
+      "source_text_id": "batch_1",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "temperature of 50 °C, stirring at 100 rpm, molar ratio 1:1 with formic acid",
+      "predicate": "produces",
+      "object": "maximum relative conversion to oxirane",
+      "source_text_id": "batch_1",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "reaction rate constant",
+      "predicate": "is obtained as",
+      "object": "k11 = 13.45 mol⋅L−1⋅min−1",
+      "source_text_id": "batch_1",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "palm oil production",
+      "predicate": "is projected to reach",
+      "object": "78–79 million metric tons in 2023/24",
+      "source_text_id": "batch_1",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "Malaysia",
+      "predicate": "is the second largest producer of",
+      "object": "palm oil",
+      "source_text_id": "batch_1",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "palm oil industry",
+      "predicate": "contributes to",
+      "object": "2.4% of Malaysia's GDP",
+      "source_text_id": "batch_1",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "improperly discarding waste cooking oil",
+      "predicate": "can lead to",
+      "object": "environmental issues",
+      "source_text_id": "batch_1",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "oxirane content",
+      "predicate": "is determined by",
+      "object": "titration method",
+      "source_text_id": "batch_2",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "sample size",
+      "predicate": "is needed for",
+      "object": "accurate findings",
+      "source_text_id": "batch_2",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "unsaturated fatty acids",
+      "predicate": "are transformed into",
+      "object": "epoxidised fatty acids",
+      "source_text_id": "batch_2",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "kinetic modeling",
+      "predicate": "involves",
+      "object": "numerically solving rate equations",
+      "source_text_id": "batch_2",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "MATLAB ode45 solver",
+      "predicate": "applies",
+      "object": "fourth-order Runge–Kutta method",
+      "source_text_id": "batch_2",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "epoxidation reaction",
+      "predicate": "occurs at",
+      "object": "double bonds in unsaturated fatty acids",
+      "source_text_id": "batch_3",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "pure oleic acid",
+      "predicate": "comprises",
+      "object": "85% unsaturated fatty acids",
+      "source_text_id": "batch_3",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "WCO",
+      "predicate": "has",
+      "object": "51% unsaturated fatty acids",
+      "source_text_id": "batch_3",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "hybrid mixture",
+      "predicate": "contains",
+      "object": "62% unsaturated fatty acids",
+      "source_text_id": "batch_3",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "Taguchi method",
+      "predicate": "predicts",
+      "object": "grinding surface roughness",
+      "source_text_id": "batch_3",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "orthogonal array",
+      "predicate": "defines",
+      "object": "number of trials needed",
+      "source_text_id": "batch_3",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "L16 array",
+      "predicate": "tests",
+      "object": "four levels across five experimental factors",
+      "source_text_id": "batch_3",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "Taguchi orthogonal array",
+      "predicate": "reduces",
+      "object": "number of experimental trials required",
+      "source_text_id": "batch_3",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "RCO",
+      "predicate": "is analyzed versus",
+      "object": "reaction of formic acid",
+      "source_text_id": "batch_4",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "Temperature",
+      "predicate": "affects",
+      "object": "reaction speed",
+      "source_text_id": "batch_4",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "Higher peroxide levels",
+      "predicate": "accelerate",
+      "object": "epoxidation rate",
+      "source_text_id": "batch_4",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "Catalyst loading",
+      "predicate": "influences",
+      "object": "time to reach maximum RCO",
+      "source_text_id": "batch_4",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "Excess peracid",
+      "predicate": "leads to",
+      "object": "hydrolysis of oxirane rings",
+      "source_text_id": "batch_4",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "Kinetic data",
+      "predicate": "provides",
+      "object": "foundation for process scale-up",
+      "source_text_id": "batch_4",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "Waste cooking oil",
+      "predicate": "is utilized for",
+      "object": "producing epoxidized chemicals",
+      "source_text_id": "batch_4",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "manganese complex",
+      "predicate": "catalyzes",
+      "object": "epoxidation of vegetable oils",
+      "source_text_id": "batch_5",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "hydrogen peroxide",
+      "predicate": "is used with",
+      "object": "manganese complex",
+      "source_text_id": "batch_5",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "acetic acid",
+      "predicate": "is used with",
+      "object": "manganese complex",
+      "source_text_id": "batch_5",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "waste cooking oil",
+      "predicate": "is synthesized into",
+      "object": "polyol",
+      "source_text_id": "batch_5",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "epoxide ring-opening reaction",
+      "predicate": "is optimized for",
+      "object": "bio-polyol synthesis",
+      "source_text_id": "batch_5",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "peracetic acid",
+      "predicate": "is formed in situ for",
+      "object": "epoxidation of linseed oil",
+      "source_text_id": "batch_5",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "ion exchange resin",
+      "predicate": "is applied for",
+      "object": "catalytic green epoxidation",
+      "source_text_id": "batch_5",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    },
+    {
+      "subject": "biobased polyols",
+      "predicate": "are produced by",
+      "object": "current strategies",
+      "source_text_id": "batch_5",
+      "source_file": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.json"
+    }
+  ]
+}

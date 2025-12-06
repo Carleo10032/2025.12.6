@@ -1,0 +1,1058 @@
+{
+  "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json",
+  "total_blocks": 331,
+  "successful_blocks": 340,
+  "total_triples": 150,
+  "triples": [
+    {
+      "subject": "grid-forming inverters",
+      "predicate": "require",
+      "object": "advanced control strategies",
+      "source_text_id": "batch_1",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "traditional MPC",
+      "predicate": "struggles to preserve",
+      "object": "frequency stability",
+      "source_text_id": "batch_1",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC framework",
+      "predicate": "enhances",
+      "object": "GFM performance",
+      "source_text_id": "batch_1",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC framework",
+      "predicate": "combines",
+      "object": "offline reinforcement learning and online MPC",
+      "source_text_id": "batch_1",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "COA-jDE",
+      "predicate": "minimizes",
+      "object": "cost function Uoffline",
+      "source_text_id": "batch_1",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "outperforms",
+      "object": "traditional MPC and VSM methods",
+      "source_text_id": "batch_1",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "improves",
+      "object": "compliance with grid codes",
+      "source_text_id": "batch_1",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "provides",
+      "object": "flexible control strategy",
+      "source_text_id": "batch_1",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "low-inertia microgrids",
+      "predicate": "enhance",
+      "object": "frequency stability",
+      "source_text_id": "batch_2",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "H∞ approach",
+      "predicate": "increase",
+      "object": "controller complexity",
+      "source_text_id": "batch_2",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Higher Order Sliding Mode Control (HO-SMC)",
+      "predicate": "enhance",
+      "object": "frequency response",
+      "source_text_id": "batch_2",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "HO-SMC",
+      "predicate": "outperform",
+      "object": "classical vector control",
+      "source_text_id": "batch_2",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Hierarchical two-layer control",
+      "predicate": "minimize",
+      "object": "frequency deviations",
+      "source_text_id": "batch_2",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "self-adaptive virtual inertia control",
+      "predicate": "enhance",
+      "object": "frequency stability",
+      "source_text_id": "batch_2",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "hierarchical control",
+      "predicate": "provide",
+      "object": "stable reference for voltage and frequency",
+      "source_text_id": "batch_2",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Voltage Source Converters",
+      "predicate": "applies",
+      "object": "Decentralized Model Predictive Control",
+      "source_text_id": "batch_3",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Decentralized Model Predictive Control",
+      "predicate": "ensures",
+      "object": "stability and safety constraints",
+      "source_text_id": "batch_3",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Decentralized Model Predictive Control",
+      "predicate": "manages",
+      "object": "transitions between islanded and grid-connected modes",
+      "source_text_id": "batch_3",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Adaptive Inertia and Damping Coordination Control",
+      "predicate": "enhances",
+      "object": "frequency stability",
+      "source_text_id": "batch_3",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Adaptive Inertia and Damping Coordination Control",
+      "predicate": "improves",
+      "object": "dynamic response under fault conditions",
+      "source_text_id": "batch_3",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM control",
+      "predicate": "is implemented on",
+      "object": "Battery Energy Storage System",
+      "source_text_id": "batch_3",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Rule-based adaptive control strategy",
+      "predicate": "improves",
+      "object": "frequency stability in islanded systems",
+      "source_text_id": "batch_3",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Grid Forming Inverter",
+      "predicate": "is implemented in",
+      "object": "Virtual Synchronous Machine model",
+      "source_text_id": "batch_3",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Adaptive Model Predictive Control",
+      "predicate": "offers",
+      "object": "enhanced frequency stability",
+      "source_text_id": "batch_3",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM",
+      "predicate": "follows",
+      "object": "GC0137 and IEEE 1547",
+      "source_text_id": "batch_4",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "inverter’s internal phase",
+      "predicate": "remains synchronized with",
+      "object": "the grid",
+      "source_text_id": "batch_4",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Voltage regulation",
+      "predicate": "follows",
+      "object": "reactive power droop control",
+      "source_text_id": "batch_4",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "reactive power output",
+      "predicate": "is governed by",
+      "object": "Qe = Vinv(Vinv −Vgrid. cos(δ))",
+      "source_text_id": "batch_4",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Qe",
+      "predicate": "depends on",
+      "object": "voltage differences and phase alignment",
+      "source_text_id": "batch_4",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM VSM control architecture",
+      "predicate": "emulates",
+      "object": "synchronous machine dynamics",
+      "source_text_id": "batch_4",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "swing equation",
+      "predicate": "governs",
+      "object": "dynamic frequency (ω)",
+      "source_text_id": "batch_4",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "voltage reference Vinv",
+      "predicate": "is adjusted by",
+      "object": "virtual impedance (Zvir)",
+      "source_text_id": "batch_4",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "modulation voltages",
+      "predicate": "are generated by",
+      "object": "nested voltage and current control loops",
+      "source_text_id": "batch_4",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "inverter output",
+      "predicate": "is filtered through",
+      "object": "LCL filter",
+      "source_text_id": "batch_4",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Ts",
+      "predicate": "is",
+      "object": "sample time of the control system",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "LCL filter",
+      "predicate": "has",
+      "object": "inductance L and capacitance C",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "changes",
+      "object": "control action u(k)",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "u(k)",
+      "predicate": "represents",
+      "object": "inverter’s modulation signals",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "modulation signals",
+      "predicate": "affect",
+      "object": "output frequency and power injection",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "control input",
+      "predicate": "is expressed as",
+      "object": "u(k) = [Pref(k), Qref(k)]",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Pref(k) and Qref(k)",
+      "predicate": "are",
+      "object": "reference active and reactive power setpoints",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "disturbance vector d(k)",
+      "predicate": "represents",
+      "object": "fluctuations in external variables",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "disturbance vector",
+      "predicate": "is defined as",
+      "object": "d(k) = [∆V (k), ∆ω(k), ∆P(k)]",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "∆V (k), ∆ω(k), ∆P(k)",
+      "predicate": "represent",
+      "object": "voltage deviation, frequency deviation, and power variation",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "state-space model",
+      "predicate": "serves as",
+      "object": "basis for predictive control framework",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "MPC",
+      "predicate": "optimizes",
+      "object": "control inputs by forecasting system behavior",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "frequency deviation ωk",
+      "predicate": "is expanded to",
+      "object": "three horizons",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "state-space model",
+      "predicate": "predicts",
+      "object": "frequency deviation one-step-ahead",
+      "source_text_id": "batch_5",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "ω(k)",
+      "predicate": "is defined as",
+      "object": "[∆f(k), ∆V(k)]T",
+      "source_text_id": "batch_6",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "ω(k)",
+      "predicate": "indicates",
+      "object": "variation in frequency and voltage",
+      "source_text_id": "batch_6",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "u(k)",
+      "predicate": "indicates",
+      "object": "control effort at time step k",
+      "source_text_id": "batch_6",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Q and R",
+      "predicate": "are tuned to balance",
+      "object": "system’s performance",
+      "source_text_id": "batch_6",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Uoffline",
+      "predicate": "corresponds to maximizing",
+      "object": "hypothetical reward ρt",
+      "source_text_id": "batch_6",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "agent",
+      "predicate": "learns to optimize",
+      "object": "Q and R",
+      "source_text_id": "batch_6",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "higher Q",
+      "predicate": "penalizes",
+      "object": "frequency and voltage deviations",
+      "source_text_id": "batch_6",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "higher R",
+      "predicate": "penalizes",
+      "object": "control operations",
+      "source_text_id": "batch_6",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "COA-jDE method",
+      "predicate": "optimizes",
+      "object": "Q and R",
+      "source_text_id": "batch_6",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "simulation data",
+      "predicate": "prepares system for",
+      "object": "online minimization phase",
+      "source_text_id": "batch_6",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "enables",
+      "object": "dynamic constraint relaxation",
+      "source_text_id": "batch_7",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "slack variable mechanism",
+      "predicate": "allows",
+      "object": "temporary controlled violations",
+      "source_text_id": "batch_7",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "lower Sω values",
+      "predicate": "allow",
+      "object": "greater slack",
+      "source_text_id": "batch_7",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "relaxes",
+      "object": "λV during voltage sags",
+      "source_text_id": "batch_7",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "maintains",
+      "object": "stringent λf constraints",
+      "source_text_id": "batch_7",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "slack variables",
+      "predicate": "are initialized at",
+      "object": "zero",
+      "source_text_id": "batch_7",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "updates",
+      "object": "λf and λV iteratively",
+      "source_text_id": "batch_7",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC framework",
+      "predicate": "uses",
+      "object": "offline reinforcement learning",
+      "source_text_id": "batch_7",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "reduces",
+      "object": "cost function",
+      "source_text_id": "batch_7",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "improves",
+      "object": "frequency stability and adaptability",
+      "source_text_id": "batch_7",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Xi,j",
+      "predicate": "specifies",
+      "object": "position of the ith individual in the jth dimension",
+      "source_text_id": "batch_8",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Xi,j",
+      "predicate": "is obtained from",
+      "object": "eq (25)",
+      "source_text_id": "batch_8",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "ttemp",
+      "predicate": "drives",
+      "object": "behavioral transitions",
+      "source_text_id": "batch_8",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "ttemp",
+      "predicate": "reflects",
+      "object": "temperature of the environment",
+      "source_text_id": "batch_8",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "crayfish",
+      "predicate": "feed optimally at",
+      "object": "25◦C",
+      "source_text_id": "batch_8",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Xshade",
+      "predicate": "is computed as",
+      "object": "midpoint between XG and XL",
+      "source_text_id": "batch_8",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "C2",
+      "predicate": "decreases",
+      "object": "linearly with iterations t",
+      "source_text_id": "batch_8",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "movement toward Xshade",
+      "predicate": "enhances",
+      "object": "exploitation of promising regions",
+      "source_text_id": "batch_8",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Summer Resort stage",
+      "predicate": "directs",
+      "object": "crayfish toward the cave",
+      "source_text_id": "batch_8",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "competition stage",
+      "predicate": "occurs when",
+      "object": "temperature exceeds 30◦C and rand ≥0.5",
+      "source_text_id": "batch_8",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "positions",
+      "predicate": "update via",
+      "object": "competitive interaction",
+      "source_text_id": "batch_8",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "food size",
+      "predicate": "is defined as",
+      "object": "Q = C3.rand. fi ffood",
+      "source_text_id": "batch_9",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "temperature",
+      "predicate": "affects",
+      "object": "crayfish foraging behavior",
+      "source_text_id": "batch_9",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "crayfish",
+      "predicate": "assess",
+      "object": "food size",
+      "source_text_id": "batch_9",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "food size Q",
+      "predicate": "requires breaking down if",
+      "object": "Q > C3 + 1/2",
+      "source_text_id": "batch_9",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "crayfish movement",
+      "predicate": "is governed by",
+      "object": "sine-cosine function",
+      "source_text_id": "batch_9",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "crayfish",
+      "predicate": "move towards",
+      "object": "food if Q ≤ C3 + 1/2",
+      "source_text_id": "batch_9",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "foraging stage",
+      "predicate": "enables",
+      "object": "adaptive movement",
+      "source_text_id": "batch_10",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "COA algorithm",
+      "predicate": "improves",
+      "object": "optimization performance",
+      "source_text_id": "batch_10",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "COA",
+      "predicate": "has",
+      "object": "temperature-driven behavioral stages",
+      "source_text_id": "batch_10",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "COA-jDE",
+      "predicate": "refines",
+      "object": "offline cost function",
+      "source_text_id": "batch_10",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "Differential Evolution (DE)",
+      "predicate": "is",
+      "object": "evolutionary optimization algorithm",
+      "source_text_id": "batch_10",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "DE",
+      "predicate": "relies on",
+      "object": "mutation, crossover, and selection",
+      "source_text_id": "batch_10",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "mutation",
+      "predicate": "helps",
+      "object": "explore search space",
+      "source_text_id": "batch_10",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "COA-jDE",
+      "predicate": "eliminates",
+      "object": "manual tuning dependencies",
+      "source_text_id": "batch_11",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "jDE’s stochastic mutation",
+      "predicate": "refines",
+      "object": "solutions",
+      "source_text_id": "batch_11",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "jDE’s success-history-based mutation",
+      "predicate": "scales",
+      "object": "perturbations",
+      "source_text_id": "batch_11",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "adaptive mutation",
+      "predicate": "counters",
+      "object": "initial population bias",
+      "source_text_id": "batch_11",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "COA-jDE",
+      "predicate": "synergizes",
+      "object": "global exploration and granular exploitation",
+      "source_text_id": "batch_11",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "COA-jDE",
+      "predicate": "establishes",
+      "object": "robust optimizer for offline RL",
+      "source_text_id": "batch_11",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "parameters",
+      "predicate": "govern",
+      "object": "algorithm’s exploration-exploitation behavior",
+      "source_text_id": "batch_11",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "initial population",
+      "predicate": "ensures",
+      "object": "diversity",
+      "source_text_id": "batch_11",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "fitness function",
+      "predicate": "calculates",
+      "object": "individual’s fitness",
+      "source_text_id": "batch_11",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "COA-jDE algorithm",
+      "predicate": "minimizes",
+      "object": "Uoffline",
+      "source_text_id": "batch_12",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "COA-jDE algorithm",
+      "predicate": "alternates between",
+      "object": "COA and jDE",
+      "source_text_id": "batch_12",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC method",
+      "predicate": "assesses efficacy in",
+      "object": "GFM",
+      "source_text_id": "batch_12",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "microgrid",
+      "predicate": "is powered by",
+      "object": "eight 2MW DFIG wind turbines",
+      "source_text_id": "batch_12",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "simulation",
+      "predicate": "employs",
+      "object": "time-domain solver",
+      "source_text_id": "batch_12",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "system",
+      "predicate": "has",
+      "object": "dynamic performance",
+      "source_text_id": "batch_12",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM",
+      "predicate": "assesses performance in",
+      "object": "microgrid environment",
+      "source_text_id": "batch_13",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM",
+      "predicate": "tracks frequency variations",
+      "object": "local grid frequency",
+      "source_text_id": "batch_13",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "responds faster than",
+      "object": "MPC and VSM",
+      "source_text_id": "batch_13",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "exhibits less overshoot than",
+      "object": "MPC",
+      "source_text_id": "batch_13",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "MPC",
+      "predicate": "outperforms",
+      "object": "VSM",
+      "source_text_id": "batch_13",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM synchronization",
+      "predicate": "ensures",
+      "object": "system stability",
+      "source_text_id": "batch_13",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "demonstrates superior performance over",
+      "object": "MPC",
+      "source_text_id": "batch_13",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "minimizes frequency deviations",
+      "object": "frequency stability",
+      "source_text_id": "batch_14",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM",
+      "predicate": "injects active power",
+      "object": "frequency dip",
+      "source_text_id": "batch_14",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM",
+      "predicate": "absorbs power",
+      "object": "frequency rise",
+      "source_text_id": "batch_14",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "IEEE 1457 criteria",
+      "predicate": "require",
+      "object": "continuous frequency support",
+      "source_text_id": "batch_14",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "boosts",
+      "object": "GFM’s virtual inertia capabilities",
+      "source_text_id": "batch_14",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM",
+      "predicate": "maintains",
+      "object": "frequency stability",
+      "source_text_id": "batch_14",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC control",
+      "predicate": "exhibits",
+      "object": "smallest frequency spike",
+      "source_text_id": "batch_14",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM",
+      "predicate": "evaluates LVRT performance under",
+      "object": "symmetrical grid faults",
+      "source_text_id": "batch_15",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "compares with",
+      "object": "traditional MPC and VSM",
+      "source_text_id": "batch_15",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM",
+      "predicate": "stabilizes",
+      "object": "voltage and frequency during grid fault",
+      "source_text_id": "batch_15",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GC0137 standard",
+      "predicate": "mandates",
+      "object": "performance requirements for GFMs",
+      "source_text_id": "batch_15",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM",
+      "predicate": "improves",
+      "object": "fault ride-through performance",
+      "source_text_id": "batch_15",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "frequency behavior",
+      "predicate": "summarizes at",
+      "object": "PCC during islanding",
+      "source_text_id": "batch_15",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "three-phase LLLG fault",
+      "predicate": "applied at",
+      "object": "local grid side",
+      "source_text_id": "batch_15",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM",
+      "predicate": "compensates for",
+      "object": "frequency deviations",
+      "source_text_id": "batch_16",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "delivers",
+      "object": "highest active power injection",
+      "source_text_id": "batch_16",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "active power output",
+      "predicate": "corresponds to",
+      "object": "better frequency stabilization",
+      "source_text_id": "batch_16",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "sustains",
+      "object": "active power injection longer",
+      "source_text_id": "batch_16",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM",
+      "predicate": "reflects",
+      "object": "ability to efficiently regulate frequency",
+      "source_text_id": "batch_16",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM",
+      "predicate": "demonstrates",
+      "object": "capability to meet GC0137 standard",
+      "source_text_id": "batch_16",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "GFM under AMPC control",
+      "predicate": "maintains",
+      "object": "operational capability for 2 seconds",
+      "source_text_id": "batch_16",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "AMPC",
+      "predicate": "showcases",
+      "object": "enhanced LVRT capability",
+      "source_text_id": "batch_16",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "efficacy of AMPC",
+      "predicate": "was validated against",
+      "object": "traditional MPC and VSM",
+      "source_text_id": "batch_16",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "renewable energy source integration",
+      "predicate": "applies to",
+      "object": "european interconnected power system",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "frequency control",
+      "predicate": "occurs during",
+      "object": "transition from grid connected to island mode",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "optimal design",
+      "predicate": "sizes",
+      "object": "integrated energy systems",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "renewable energy penetration rate",
+      "predicate": "impacts",
+      "object": "power system frequency stability",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "grid following and grid forming control",
+      "predicate": "compares in",
+      "object": "high inverter penetration power system",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "grid-forming and grid-following inverters",
+      "predicate": "revisits",
+      "object": "duality theory",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "grid-forming & grid-following inverters",
+      "predicate": "contribute to",
+      "object": "frequency stability",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "steady state performance",
+      "predicate": "analyzes",
+      "object": "dfig with different magnetizing strategies",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "grid forming inverters",
+      "predicate": "solves",
+      "object": "challenges of renewable rich power grids",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "grid forming inverter",
+      "predicate": "models and controls",
+      "object": "applications",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "control and stability",
+      "predicate": "reviews",
+      "object": "grid-forming inverters",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "robust virtual inertia control",
+      "predicate": "considers",
+      "object": "frequency measurement effects",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    },
+    {
+      "subject": "higher order sliding mode control",
+      "predicate": "supports",
+      "object": "fast frequency in weak grid scenarios",
+      "source_text_id": "batch_17",
+      "source_file": "Improving frequency stability in grid-forming inverters with adaptive model predictive control and novel COA-jDE optimized reinforcement learning.json"
+    }
+  ]
+}

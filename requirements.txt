@@ -1,0 +1,16 @@
+# 核心框架
+llama-index-core>=0.10.0
+llama-index-llms-openai
+llama-index-embeddings-openai
+llama-index-readers-file
+
+# 数据库驱动
+neo4j>=5.14.0
+qdrant-client>=1.7.0
+
+# 工具库
+python-dotenv
+networkx
+pymupdf  # 用于 PDF 解析
+click    # 用于命令行参数解析
+openai

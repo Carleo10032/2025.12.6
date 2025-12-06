@@ -1,0 +1,582 @@
+{
+  "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json",
+  "total_blocks": 197,
+  "successful_blocks": 200,
+  "total_triples": 82,
+  "triples": [
+    {
+      "subject": "Photovoltaic Water Pumping Systems",
+      "predicate": "aim to enhance performance by optimizing controllers",
+      "object": "two primary controllers",
+      "source_text_id": "batch_1",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "First controller",
+      "predicate": "utilizes",
+      "object": "PSO-based MPPT technique",
+      "source_text_id": "batch_1",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Second controller",
+      "predicate": "incorporates",
+      "object": "PSO-optimized PI controller",
+      "source_text_id": "batch_1",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO-based approach",
+      "predicate": "demonstrated",
+      "object": "83.33% reduction in power oscillations",
+      "source_text_id": "batch_1",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO-based approach",
+      "predicate": "demonstrated",
+      "object": "50% improvement in response time",
+      "source_text_id": "batch_1",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Real-time simulations",
+      "predicate": "were carried out on",
+      "object": "dSPACE DS1104 platform",
+      "source_text_id": "batch_1",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Water scarcity",
+      "predicate": "has become",
+      "object": "significant global challenge",
+      "source_text_id": "batch_1",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Water pumping systems",
+      "predicate": "allow",
+      "object": "extraction and delivery of water",
+      "source_text_id": "batch_1",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "MPPT",
+      "predicate": "offers",
+      "object": "high accuracy and fast tracking",
+      "source_text_id": "batch_2",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "DTC",
+      "predicate": "reduces",
+      "object": "torque and flux ripples",
+      "source_text_id": "batch_2",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "MPPT",
+      "predicate": "is",
+      "object": "computationally demanding",
+      "source_text_id": "batch_2",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "IM",
+      "predicate": "has",
+      "object": "high system cost due to NPC inverter",
+      "source_text_id": "batch_2",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Fuzzy logic-based MPPT",
+      "predicate": "adapts to",
+      "object": "changing irradiance",
+      "source_text_id": "batch_2",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Fuzzy DTC",
+      "predicate": "improves",
+      "object": "motor control",
+      "source_text_id": "batch_2",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "ANN-based MPPT",
+      "predicate": "ensures",
+      "object": "accurate power tracking in non-uniform conditions",
+      "source_text_id": "batch_2",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO-based MPPT controller",
+      "predicate": "maximizes",
+      "object": "energy extraction from photovoltaic array",
+      "source_text_id": "batch_2",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO-optimized IM speed controller",
+      "predicate": "regulates",
+      "object": "induction motor’s operation",
+      "source_text_id": "batch_2",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Iph",
+      "predicate": "is defined as",
+      "object": "Isc + Ki (T −298.15) G 1000",
+      "source_text_id": "batch_3",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Is",
+      "predicate": "is defined as",
+      "object": "Isc + Ki(T −298.15)",
+      "source_text_id": "batch_3",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Vdc",
+      "predicate": "is defined as",
+      "object": "1 / (1 −α) VP",
+      "source_text_id": "batch_3",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Idc",
+      "predicate": "is defined as",
+      "object": "(1 −α) IP",
+      "source_text_id": "batch_3",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "VSI",
+      "predicate": "converts",
+      "object": "DC voltage to AC voltage",
+      "source_text_id": "batch_3",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Induction Motor",
+      "predicate": "connects",
+      "object": "inverter to pump",
+      "source_text_id": "batch_3",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "analytical model",
+      "predicate": "is used in",
+      "object": "Induction Motor analysis",
+      "source_text_id": "batch_3",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "stator flux linkage",
+      "predicate": "is given by",
+      "object": "Lsis + Mir",
+      "source_text_id": "batch_4",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "rotor flux linkage",
+      "predicate": "is given by",
+      "object": "Lrir + Mis",
+      "source_text_id": "batch_4",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "mechanical equation",
+      "predicate": "is represented by",
+      "object": "Te − Tr",
+      "source_text_id": "batch_4",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "electromagnetic torque",
+      "predicate": "is defined as",
+      "object": "2 (ψ sα isβ − ψ sβ isα)",
+      "source_text_id": "batch_4",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "load torque of the pump",
+      "predicate": "is proportional to",
+      "object": "square of rotor speed",
+      "source_text_id": "batch_4",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Centrifugal pump",
+      "predicate": "is linked to",
+      "object": "induction motor",
+      "source_text_id": "batch_4",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO",
+      "predicate": "is a",
+      "object": "stochastic optimization algorithm",
+      "source_text_id": "batch_4",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "particles",
+      "predicate": "represent",
+      "object": "potential solutions",
+      "source_text_id": "batch_4",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "particle",
+      "predicate": "updates",
+      "object": "velocity and position",
+      "source_text_id": "batch_4",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "boost converter",
+      "predicate": "affects",
+      "object": "duty cycle",
+      "source_text_id": "batch_5",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO method",
+      "predicate": "processes",
+      "object": "duty cycle variations",
+      "source_text_id": "batch_5",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO algorithm",
+      "predicate": "identifies",
+      "object": "optimal duty cycle",
+      "source_text_id": "batch_5",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "DTC",
+      "predicate": "regulates",
+      "object": "stator flux and electromagnetic torque",
+      "source_text_id": "batch_5",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "DTC",
+      "predicate": "eliminates",
+      "object": "current regulators",
+      "source_text_id": "batch_5",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "DTC",
+      "predicate": "operates as",
+      "object": "sensorless method",
+      "source_text_id": "batch_5",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "hysteresis regulators",
+      "predicate": "control",
+      "object": "stator flux amplitude and torque",
+      "source_text_id": "batch_5",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "electromagnetic torque",
+      "predicate": "is calculated using",
+      "object": "flux and currents",
+      "source_text_id": "batch_6",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "stator flux",
+      "predicate": "is regulated by",
+      "object": "two-level hysteresis controller",
+      "source_text_id": "batch_6",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "motor’s torque",
+      "predicate": "is regulated by",
+      "object": "three-level hysteresis comparator",
+      "source_text_id": "batch_6",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "DTC switching table",
+      "predicate": "determines",
+      "object": "suitable voltage vector",
+      "source_text_id": "batch_6",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "active voltage vectors",
+      "predicate": "adjust",
+      "object": "flux and torque",
+      "source_text_id": "batch_6",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "zero voltage vectors",
+      "predicate": "keep",
+      "object": "stator flux magnitude steady",
+      "source_text_id": "batch_6",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PI controller",
+      "predicate": "controls",
+      "object": "induction motor’s speed",
+      "source_text_id": "batch_6",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Kd",
+      "predicate": "determines",
+      "object": "controller’s reaction to error signal",
+      "source_text_id": "batch_6",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Ki",
+      "predicate": "addresses",
+      "object": "accumulated error over time",
+      "source_text_id": "batch_6",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "radiation",
+      "predicate": "varies over time",
+      "object": "600 W/m2 to 1000 W/m2",
+      "source_text_id": "batch_7",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "temperature",
+      "predicate": "remains constant",
+      "object": "25 °C",
+      "source_text_id": "batch_7",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO method",
+      "predicate": "exhibits faster response",
+      "object": "reaching MPP at 0.01 s",
+      "source_text_id": "batch_7",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "ANN method",
+      "predicate": "reaches MPP at",
+      "object": "0.03 s",
+      "source_text_id": "batch_7",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO method",
+      "predicate": "demonstrates quicker convergence",
+      "object": "reaches new MPP at 2.06 s",
+      "source_text_id": "batch_7",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "ANN method",
+      "predicate": "achieves MPP at",
+      "object": "2.15 s",
+      "source_text_id": "batch_7",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO-DTC",
+      "predicate": "stabilizes at",
+      "object": "0.3 s",
+      "source_text_id": "batch_7",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "ANN-DTC",
+      "predicate": "stabilizes at",
+      "object": "0.4 s",
+      "source_text_id": "batch_7",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Ω-PSO-DTC",
+      "predicate": "reaches reference speed at",
+      "object": "0.3 s",
+      "source_text_id": "batch_7",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Ω-ANN-DTC",
+      "predicate": "reaches reference speed at",
+      "object": "0.6 s",
+      "source_text_id": "batch_7",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO-DTC",
+      "predicate": "ensures",
+      "object": "smoother and quicker stabilization",
+      "source_text_id": "batch_8",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "ANN-DTC",
+      "predicate": "exhibits",
+      "object": "more pronounced oscillations",
+      "source_text_id": "batch_8",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO-DTC",
+      "predicate": "demonstrates",
+      "object": "smaller ripples",
+      "source_text_id": "batch_8",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "ANN-DTC",
+      "predicate": "demonstrates",
+      "object": "more significant ripples",
+      "source_text_id": "batch_8",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO-DTC",
+      "predicate": "achieves",
+      "object": "reduced fluctuations and higher precision",
+      "source_text_id": "batch_8",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PVWPS",
+      "predicate": "improves",
+      "object": "efficiency, stability, and reliability",
+      "source_text_id": "batch_8",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Experimental validation",
+      "predicate": "evaluates",
+      "object": "real-time performance of PVWPS",
+      "source_text_id": "batch_8",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Proposed PSO-MPPT",
+      "predicate": "achieves",
+      "object": "faster response times",
+      "source_text_id": "batch_9",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Proposed PSO-MPPT",
+      "predicate": "reduces",
+      "object": "power oscillations",
+      "source_text_id": "batch_9",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Proposed PSO-MPPT",
+      "predicate": "improves",
+      "object": "efficiency",
+      "source_text_id": "batch_9",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Proposed MPPT",
+      "predicate": "outperforms",
+      "object": "traditional methods INC",
+      "source_text_id": "batch_9",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "Proposed MPPT",
+      "predicate": "outperforms",
+      "object": "ANN-MPPT",
+      "source_text_id": "batch_9",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO algorithm",
+      "predicate": "compared with",
+      "object": "Ant Colony Optimization",
+      "source_text_id": "batch_9",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO algorithm",
+      "predicate": "compared with",
+      "object": "Artificial Bee Colony",
+      "source_text_id": "batch_9",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "PSO-DTC",
+      "predicate": "simulates",
+      "object": "stator current",
+      "source_text_id": "batch_10",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "ANN-DTC",
+      "predicate": "simulates",
+      "object": "stator current",
+      "source_text_id": "batch_10",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "solar water pumping system",
+      "predicate": "optimized by",
+      "object": "fuzzy logic and incremental conductance",
+      "source_text_id": "batch_10",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "BMS",
+      "predicate": "considers",
+      "object": "Greywater recycling",
+      "source_text_id": "batch_10",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "BMS",
+      "predicate": "considers",
+      "object": "responsive HVAC",
+      "source_text_id": "batch_10",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "BMS",
+      "predicate": "considers",
+      "object": "energy storage",
+      "source_text_id": "batch_10",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "DC motor speed control",
+      "predicate": "uses",
+      "object": "multi-stage FOPD(1+PI) controller",
+      "source_text_id": "batch_10",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "photovoltaic water pumping system",
+      "predicate": "optimized by",
+      "object": "Kalman filter based MPPT",
+      "source_text_id": "batch_10",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    },
+    {
+      "subject": "photovoltaic water pumping system",
+      "predicate": "fed by",
+      "object": "multilevel inverter",
+      "source_text_id": "batch_10",
+      "source_file": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.json"
+    }
+  ]
+}

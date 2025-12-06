@@ -1,0 +1,36 @@
+{
+  "source_file": "Improving frequency stability in grid-forming inverters.json",
+  "total_blocks": 331,
+  "successful_blocks": 340,
+  "total_triples": 150,
+  "triples": [
+    {
+      "subject": "grid-forming inverters",
+      "predicate": "require",
+      "object": "advanced control strategies",
+      "source_text_id": "batch_1",
+      "source_file": "Improving frequency stability in grid-forming inverters.json"
+    },
+    {
+      "subject": "traditional MPC",
+      "predicate": "struggles to preserve",
+      "object": "frequency stability",
+      "source_text_id": "batch_1",
+      "source_file": "Improving frequency stability in grid-forming inverters.json"
+    },
+    {
+      "subject": "AMPC framework",
+      "predicate": "enhances",
+      "object": "GFM performance",
+      "source_text_id": "batch_1",
+      "source_file": "Improving frequency stability in grid-forming inverters.json"
+    },
+    {
+      "subject": "AMPC framework",
+      "predicate": "combines",
+      "object": "offline reinforcement learning and online MPC",
+      "source_text_id": "batch_1",
+      "source_file": "Improving frequency stability in grid-forming inverters.json"
+    }
+  ]
+}

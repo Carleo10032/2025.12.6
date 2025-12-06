@@ -1,0 +1,330 @@
+{
+  "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json",
+  "total_blocks": 86,
+  "successful_blocks": 100,
+  "total_triples": 46,
+  "triples": [
+    {
+      "subject": "SnS/MWCNT",
+      "predicate": "improves",
+      "object": "visible-light absorption",
+      "source_text_id": "batch_1",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "SnS nanoparticles",
+      "predicate": "are distributed on",
+      "object": "MWCNT nanosheet surface",
+      "source_text_id": "batch_1",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "composite material",
+      "predicate": "has",
+      "object": "tetragonal MWCNT and orthorhombic SnS structures",
+      "source_text_id": "batch_1",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "nanocomposite",
+      "predicate": "exhibits",
+      "object": "photodegradation efficiency of about 90%",
+      "source_text_id": "batch_1",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "TiO2",
+      "predicate": "is a type of",
+      "object": "semiconducting photocatalyst",
+      "source_text_id": "batch_1",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Metal sulphides",
+      "predicate": "are used in",
+      "object": "various applications",
+      "source_text_id": "batch_1",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "SnS",
+      "predicate": "has",
+      "object": "1.3 eV direct bandgap",
+      "source_text_id": "batch_1",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "SnS",
+      "predicate": "is a member of",
+      "object": "chalcogenides group",
+      "source_text_id": "batch_1",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "MWCNT",
+      "predicate": "exhibit",
+      "object": "interconnected nanoparticle architectures",
+      "source_text_id": "batch_2",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "SnS-decorated MWCNTs",
+      "predicate": "show",
+      "object": "spherical and rod-like structures",
+      "source_text_id": "batch_2",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Elemental analysis",
+      "predicate": "confirm",
+      "object": "absence of impurities",
+      "source_text_id": "batch_2",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "SnS nanoparticles",
+      "predicate": "exhibit",
+      "object": "nanoparticulate structure",
+      "source_text_id": "batch_2",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "SnS nanoparticles",
+      "predicate": "have",
+      "object": "particle sizes ranging from 5 to 20 nm",
+      "source_text_id": "batch_2",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Chemically functionalized MWCNTs",
+      "predicate": "have",
+      "object": "diameter of 15–30 nm",
+      "source_text_id": "batch_2",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "TEM images",
+      "predicate": "show",
+      "object": "homogeneous distribution of SnS nanoparticles",
+      "source_text_id": "batch_2",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Optical properties",
+      "predicate": "rely on",
+      "object": "optical characteristics of semiconducting nanomaterial",
+      "source_text_id": "batch_2",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "SnS nanoparticles",
+      "predicate": "show",
+      "object": "remarkable absorption characteristics",
+      "source_text_id": "batch_2",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Absorbance spectrum of pristine MWCNT",
+      "predicate": "exhibit",
+      "object": "broad region absorption",
+      "source_text_id": "batch_2",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Fill factor",
+      "predicate": "equals",
+      "object": "ImaxVmax",
+      "source_text_id": "batch_3",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Efficiency",
+      "predicate": "equals",
+      "object": "Fill Factor * 100%",
+      "source_text_id": "batch_3",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "SnS/MWCNT nanocomposites",
+      "predicate": "had higher efficiency than",
+      "object": "pristine SnS and pristine MWCNT",
+      "source_text_id": "batch_3",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "elevated voltage and current density",
+      "predicate": "ascribed to",
+      "object": "improved efficiency of SnS/MWCNT",
+      "source_text_id": "batch_3",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "MB removal",
+      "predicate": "depicted in",
+      "object": "temporal history",
+      "source_text_id": "batch_3",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "MB solution’s absorption peak",
+      "predicate": "decreased with",
+      "object": "reaction time",
+      "source_text_id": "batch_3",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "CN-1.5",
+      "predicate": "achieved",
+      "object": "100% eradication in 60 min",
+      "source_text_id": "batch_3",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "photocatalytic degradation rates",
+      "predicate": "are as follows",
+      "object": "SnS < CN-0.5 < CN-1.0 < CN-1.5",
+      "source_text_id": "batch_3",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "N-ZnO/CD nanocomposite",
+      "predicate": "exhibited",
+      "object": "83.4% degradation efficiency against MB dye",
+      "source_text_id": "batch_3",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "DSSC",
+      "predicate": "associated with",
+      "object": "parameters",
+      "source_text_id": "batch_4",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "SnS/MWCNT nanocomposites",
+      "predicate": "exhibit",
+      "object": "current density vs voltage curve",
+      "source_text_id": "batch_4",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Photocatalytic degradation",
+      "predicate": "utilizes",
+      "object": "SnS/MWCNT nanocomposites",
+      "source_text_id": "batch_4",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "C/C0",
+      "predicate": "varies with",
+      "object": "time",
+      "source_text_id": "batch_4",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "SnS",
+      "predicate": "is a",
+      "object": "tin sulfide material",
+      "source_text_id": "batch_4",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "SnS nanoparticles",
+      "predicate": "demonstrate",
+      "object": "thermal stability",
+      "source_text_id": "batch_4",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Surfactant-free SnS nanorods",
+      "predicate": "are synthesized by",
+      "object": "solvothermal route",
+      "source_text_id": "batch_4",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Sakthi P",
+      "predicate": "contributes to",
+      "object": "Visualization",
+      "source_text_id": "batch_5",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Sakthi P",
+      "predicate": "contributes to",
+      "object": "Investigation",
+      "source_text_id": "batch_5",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Sakthi P",
+      "predicate": "contributes to",
+      "object": "Writing Original draft preparation",
+      "source_text_id": "batch_5",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Uma J",
+      "predicate": "contributes to",
+      "object": "Software",
+      "source_text_id": "batch_5",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Uma J",
+      "predicate": "contributes to",
+      "object": "Validation",
+      "source_text_id": "batch_5",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Uma J",
+      "predicate": "contributes to",
+      "object": "Supervision",
+      "source_text_id": "batch_5",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Uma J",
+      "predicate": "contributes to",
+      "object": "Data curation",
+      "source_text_id": "batch_5",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Balraj B",
+      "predicate": "contributes to",
+      "object": "Software",
+      "source_text_id": "batch_5",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Balraj B",
+      "predicate": "contributes to",
+      "object": "Methodology",
+      "source_text_id": "batch_5",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Balraj B",
+      "predicate": "contributes to",
+      "object": "Writing Reviewing and Editing",
+      "source_text_id": "batch_5",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Arulvendhan K",
+      "predicate": "contributes to",
+      "object": "Conceptualization",
+      "source_text_id": "batch_5",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    },
+    {
+      "subject": "Arulvendhan K",
+      "predicate": "contributes to",
+      "object": "Methodology",
+      "source_text_id": "batch_5",
+      "source_file": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.json"
+    }
+  ]
+}

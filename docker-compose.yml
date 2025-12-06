@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  neo4j:
+    image: neo4j:latest
+    container_name: neo4j
+    ports:
+      - "7474:7474" # HTTP
+      - "7687:7687" # Bolt
+    environment:
+      - NEO4J_AUTH=neo4j/www163com
+      - NEO4J_PLUGINS=["graph-data-science", "apoc"] # 启用 GDS 和 APOC 插件
+      - NEO4J_dbms_security_procedures_unrestricted=gds.*,apoc.*
+    volumes:
+      - ./data/neo4j/data:/data
+      - ./data/neo4j/logs:/logs
+      - ./data/neo4j/plugins:/plugins
+    restart: unless-stopped
+  qdrant:
+    image: qdrant/qdrant:v1.7.0
+    container_name: qdrant_vec
+    ports:
+      - "6333:6333" # API
+    volumes:
+      - ./data/qdrant/storage:/qdrant/storage
+    restart: unless-stopped

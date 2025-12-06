@@ -1,0 +1,1968 @@
+{
+  "metadata": {
+    "filename": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.pdf",
+    "source": "pdf to json\\Nature论文50篇\\In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism.pdf",
+    "pages": 11,
+    "created_at": "2025-12-05T09:16:07.944600Z",
+    "parser_version": "3.0_paragraph"
+  },
+  "structure": {
+    "sections": [
+      {
+        "id": "section_0",
+        "title": "In situ epoxidation of hybrid waste cooking oil and oleic acid via peracid mechanism",
+        "level": 2,
+        "page": 1,
+        "content": [
+          {
+            "type": "text",
+            "text": "Azmi Roslan1, Mohd Jumain Jalil1, Intan Suhada Azmi1, Nabila Sofea Aznizam1, Siti Aisyah Mustapha1, Asiah Nusaibah Masri2, Nabisab Mujawar Mubarak3,4,5 & Ahmad Hosseini-Bandegharaei6,7 The increasing generation of waste cooking oil (WCO) poses significant environmental challenges, making its valorization essential for sustainable waste management. This research investigates the in situ peracid method for epoxidizing a hybrid mixture of oleic acid and waste cooking oil. A novel approach is proposed by utilizing hybrid raw materials in the presence of natural zeolite as a catalyst to enhance epoxidation efficiency. The signal-to-noise (S/N) ratio analysis in Taguchi method showed that the optimum process parameters for production of epoxidized hybrid oleic acid and waste cooking oil to the response of relative conversion to oxirane (RCO) with determination of oxirane oxygen content (OOC) was maximum (50%) under following conditions: temperature of 50 °C, stirring at 100 rpm, and a molar ratio 1:1 with formic acid. After 100 iterations, the reaction rate constant based on optimized epoxidized hybrid oleic acid and waste cooking oil production was obtained as follows: k11 = 13.45 mol⋅L−1⋅min−1, k12 = 14.08 mol⋅L−1⋅min−1, k2 = 0.023 mol⋅L−1⋅min−1, and k3 = 0.025 mol⋅L−1⋅min−1.This discovery helps reduce waste, turns used cooking oil into a valuable commodity, and offers insight into reaction kinetics, a critical concept for industrial applications that is environmentally friendly.",
+            "page": 1,
+            "font_size": 8.5,
+            "bbox": [
+              155.90550231933594,
+              224.92877197265625,
+              553.6471557617188,
+              424.12298583984375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Keywords Epoxidation, Biomass conversion, Kinetic model, Waste cooking oil",
+            "page": 1,
+            "font_size": 9.5,
+            "bbox": [
+              155.90550231933594,
+              431.9559020996094,
+              445.92974853515625,
+              444.71588134765625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Global palm oil production is projected to reach 78–79 million metric tons in 2023/24, representing a 10% increase from the previous year1. This steady production growth ensures a consistent and abundant palm oil supply, making it a viable and sustainable feedstock for industrial applications such as epoxidation. Malaysia is the second largest palm oil producer globally, providing approximately one-third of the world’s palm oil supply. Palm oil represents a significant industry in Malaysia, contributing 2.4% to the country’s total gross domestic product (GDP)2. Malaysia’s domestic palm oil consumption saw a rise to approximately 3.37 million metric tons in 2022. This figure is anticipated to climb due to population expansion and consumer favouritism for palm oil cooking oil3. However, improperly discarding waste cooking oil (WCO) can lead to notable environmental issues like clogging drains and sewers and contaminating water or soil. WCO is classified as hazardous waste due to these potential problems4. The oil is frequently poured into drains, causing harm to the ecological balance of rivers and seas5. Globally, waste cooking oil (WCO) production surpasses 29 million tons annually, with improper disposal contributing to environmental pollution and health hazards6. Converting WCO into high-value products like epoxides supports sustainability while mitigating waste-related issues. Oleic acid, a highly reactive unsaturated fatty acid, enhances epoxidation efficiency and oxirane yield when combined with WCO. The growing demand for sustainable and environmentally friendly chemical processes necessitates the exploration of alternative catalysts that minimize ecological impact. While synthetic zeolites are widely recognized for their catalytic",
+            "page": 1,
+            "font_size": 8.4,
+            "bbox": [
+              155.90550231933594,
+              454.57489013671875,
+              556.2669677734375,
+              626.7158813476562
+            ]
+          },
+          {
+            "type": "text",
+            "text": "1School of Chemical Engineering, College of Engineering, Universiti Teknologi MARA (UiTM) Cawangan Johor, Kampus Pasir Gudang, Masai 81750, Johor, Malaysia. 2Faculty of Chemical and Energy Engineering, Universiti Teknologi Malaysia, 81310 Johor Bahru, JohorKuala Lumpur, Malaysia. 3Chemical and Energy Engineering, Faculty of Engineering, Universiti Teknologi Brunei, Jalan Tungku Link Gadong, BE1410, Bandar Seri Begawan, Brunei Darussalam. 4Department of Biosciences, Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences, Chennai, India. 5Department of Chemistry, School of Chemical Engineering and Physical Sciences, Lovely Professional University, Jalandhar, Punjab, India. 6Faculty of Chemistry, Semnan University, Semnan, Iran. 7Centre for Research Impact & Outcome, Chitkara University, Rajpura 140401, Punjab, India. email: jumain.jalil@gmail.com; mubarak.yaseen@gmail.com",
+            "page": 1,
+            "font_size": 7.6,
+            "bbox": [
+              155.8137969970703,
+              648.4107666015625,
+              555.9589233398438,
+              739.0391845703125
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_1",
+        "title": "OPEN",
+        "level": 2,
+        "page": 1,
+        "content": [
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:19304 1 | https://doi.org/10.1038/s41598-025-04803-w",
+            "page": 1,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports",
+            "page": 1,
+            "font_size": 10.0,
+            "bbox": [
+              390.56890869140625,
+              12.369770050048828,
+              546.7947998046875,
+              24.279769897460938
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 1,
+            "font_size": 0,
+            "bbox": [
+              483.0,
+              108.0,
+              555.0,
+              122.0
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 1,
+            "font_size": 0,
+            "bbox": [
+              483.0,
+              108.0,
+              555.0,
+              122.0
+            ]
+          },
+          {
+            "type": "text",
+            "text": "properties, their production involves complex and energy-intensive processes, leading to higher environmental and economic costs. In contrast, natural zeolites present a promising solution, as they are abundant, readily available, and require minimal processing7. This research addresses the challenge of utilizing WCO as a valuable resource through the epoxidation of hybrid oleic acid. Choosing natural zeolite as a heterogeneous catalyst aims to leverage its catalytic potential while reducing the ecological footprint associated with synthetic alternatives8. This study seeks to demonstrate that natural zeolites can provide an effective and sustainable pathway for the epoxidation process, ultimately contributing to waste valorization and the development of greener industrial practices. Epoxidized vegetable oils present an attractive, cost-effective, renewable option for various industrial uses, as they exhibit similar properties to traditional petroleum-based epoxy thermosets9. The widespread interest in epoxy resins stems from the versatility of the epoxy group, which can undergo numerous chemical reactions and contribute to desirable properties in the final products10. The epoxy group, known as the oxirane ring, is highly reactive and readily undergoes ring-opening reactions. It can convert into polyols through alcoholysis in the presence of alcohols or thiols or hydrolysis when acid catalysts are used, and it also forms polyols through hydrogenation11. The study focuses on optimizing the epoxidation process. Still, it does not explore its integration into circular economy frameworks or assess the market competitiveness of the final product in terms of cost and value-added benefits. The Taguchi method is a statistical optimization approach that enhances process efficiency by systematically analyzing multiple factors with minimal experimental trials. Using an orthogonal array design, it identifies key parameters influencing the reaction while minimizing variability. This study applied the Taguchi method to optimize epoxidation conditions, maximizing oxirane yield and minimizing side reactions. Its significance lies in improving process reliability, reducing resource consumption, and enhancing overall reaction performance12. Oleic acid, known for its high double-bond content, is widely used in epoxidation due to its efficient ability to form oxirane rings13. However, relying solely on oleic acid raises sustainability concerns, especially in large-scale applications, because of its high cost and limited availability. While it achieves a high oxirane content, exploring alternative or hybrid feedstocks is essential to improve the process’s economic viability and environmental sustainability. The use of WCO as alternative feedstock has been explored to promote sustainability; however, challenges such as inconsistent feedstock composition, lower epoxidation efficiency, and undesired side reactions remain14. Additionally, most studies rely on strong acid catalysts, which contribute to equipment corrosion and require extensive purification steps15. A hybrid approach can overcome these limitations by combining oleic acid and WCO, enhancing process performance while promoting waste vaporization. In contrast to traditional synthetic catalysts that involve complex and energy-intensive production, natural zeolites are abundant, readily available, and environmentally friendly16. This research presents a novel method for the epoxidation of hybrid oleic acid and WCO using natural zeolite as a heterogeneous catalyst. Combining hybrid oleic acid with waste cooking oil facilitates the production of high-value epoxidized products while addressing environmental concerns related to waste management. Ultimately, the research emphasizes natural zeolites as cost-effective and eco-friendly alternatives to conventional synthetic catalysts in industrial applications. Therefore, the aims of this research are (1) to optimise the process parameter of hybrid oleic acid and WCO with applied natural zeolite. and (2) to construct a kinetic model of epoxidation of hybrid oleic acid and WCO.",
+            "page": 2,
+            "font_size": 8.6,
+            "bbox": [
+              155.90550231933594,
+              48.140869140625,
+              556.258056640625,
+              450.2818908691406
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_2",
+        "title": "Methodology Materials The reagents employed in this study were Waste cooking palm oil from household waste, oleic acid (90%), hydrogen peroxide 50%, formic acid 94%, and natural zeolite (Clinoptilolite) as a catalyst purchased from Crystalize violet and QreC. Natural zeolite was used to promote the in situ formation of peracids and enhance the epoxidation rate by providing active sites for hydrogen peroxide activation and formic acid.",
+        "level": 1,
+        "page": 2,
+        "content": [
+          {
+            "type": "text",
+            "text": "Experimental setup and procedure The epoxidation procedure was performed in a fume hood to protect the experimenter from chemical exposure. 50 g of waste cooking oil with 50 g oleic acid mixture were combined in a beaker. The mixture was then waterbathed on a hot plate until it reached the desired temperature of 50–80 °C by using a thermometer. Subsequently, the mixture was stirred, and a constant solution of hydrogen peroxide, formic acid, and natural zeolite as a catalyst was added. Natural zeolite was used as a catalyst to replace conventional organic acids, offering higher stability, reusability, and reduced environmental impact while enhancing epoxidation efficiency. Natural zeolite sourced from Bukit Merah, Malaysia, is a microporous aluminosilicate mineral used as a heterogeneous catalyst in the epoxidation process due to its high surface area (BET surface area: 18.9 m²/g). Unlike conventional acid catalysts, natural zeolite is reusable, thermally stable, and environmentally friendly, making it a sustainable alternative. The mixture was maintained at a required temperature. The results of the titration of hydrobromic acid were recorded every 10-minute interval. Experimental design The various reaction conditions are summarized in Table 1 to assess the influence of different parameters on the epoxidation of hybrid oleic acid. The process was carried out in multiple trials to examine the effect of these conditions on the epoxidation rate, as shown in Table 1.). Optimization using the Taguchi method Optimization of the Taguchi Method process was carried out. The optimum result is analysed and predicted using the signal-to-noise ratios. The Taguchi method employs the signal-to-noise (S/N) ratio as a metric to",
+            "page": 2,
+            "font_size": 9.1,
+            "bbox": [
+              155.90550231933594,
+              529.5218505859375,
+              556.2779541015625,
+              742.2818603515625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:19304 2 | https://doi.org/10.1038/s41598-025-04803-w",
+            "page": 2,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 2,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "evaluate the effectiveness of a process. By leveraging the S/N ratio, one can assess the impact of different design factors on process performance and pinpoint areas for enhancement17. This approach helps reduce variability and enhance reliability, ultimately leading to notable gains in process efficiency and quality18. Additionally, since the Taguchi method follows a structured and systematic approach, it is relatively straightforward to implement and sustain, making it a highly appealing choice for process optimization. This approach optimizes reaction parameters with minimal experimental trials using orthogonal arrays19. All these variables were evaluated at different levels, as shown in Table 2.",
+            "page": 3,
+            "font_size": 8.5,
+            "bbox": [
+              155.90550231933594,
+              523.514404296875,
+              556.2747802734375,
+              595.6553955078125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "In this experiment, three parameters were selected: temperature, agitation speed, and the ratio of formic acid to hybrid oil. High oxirane oxygen conversion and relative conversion to oxirane (RCO) are particularly significant. The orthogonal arrays used have three parameters at three levels. Crossing these, as shown in Table 3, enables the investigation of factor diversity. Fourier transform infrared spectroscopy Infrared spectroscopy is one of the most widely used techniques for chemical analysis and is readily available in many laboratories, with Fourier transform infrared spectroscopy (FT-IR)20. This method provides insights into molecular vibrations and helps identify functional groups, making it an effective tool for determining chemical components, molecules, and molecular structures21. The resulting IR spectrum, which displays a series of absorbance bands (either as absorbance or transmittance intensity versus frequency or wave number), reveals structural and bonding information within a molecule, as different wavelengths correspond to distinct functional groups.",
+            "page": 3,
+            "font_size": 9.0,
+            "bbox": [
+              155.9053955078125,
+              593.514404296875,
+              556.2606811523438,
+              735.6553955078125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Experiment Parameters and their level",
+            "page": 3,
+            "font_size": 7.0,
+            "bbox": [
+              159.04629516601562,
+              257.2027282714844,
+              276.9487609863281,
+              285.9794006347656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Reaction temperature (oC)",
+            "page": 3,
+            "font_size": 6.3,
+            "bbox": [
+              200.69149780273438,
+              276.02679443359375,
+              278.0230712890625,
+              285.9794006347656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Agitation speed (rpm) Formic acid to oleic acid molar ratio 1 1 1 1 2 1 2 2 3 1 3 3 4 1 4 4 5 2 1 2 6 2 2 1 7 2 3 4 8 2 4 3 9 3 1 3 10 3 2 4 11 3 3 1 12 3 4 2 13 4 1 4 14 4 2 3 15 4 3 2 16 4 4 1",
+            "page": 3,
+            "font_size": 7.0,
+            "bbox": [
+              159.0471954345703,
+              268.7914123535156,
+              444.3320007324219,
+              475.0932922363281
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 3. Orthogonal array used to design experiment for the reaction parameter.",
+            "page": 3,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              484.62518310546875,
+              446.60003662109375,
+              497.0811767578125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Parameters Levels 1 2 3 4 A Reaction temperature (ºC) 50 60 70 80 B Agitation speed (rpm) 100 200 300 400 C Molar ratio of formic acid to hybrid oil 0.5 1 1.5 2",
+            "page": 3,
+            "font_size": 7.0,
+            "bbox": [
+              159.04640197753906,
+              148.33792114257812,
+              348.1458740234375,
+              204.86851501464844
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 2. Design of experiment, using three parameters and levels for the reaction optimization.",
+            "page": 3,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              214.400390625,
+              498.3949890136719,
+              226.8563995361328
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Reaction parameters Range Units Reaction temperature 50–80 ºC Speed 100–400 rpm Formic acid to hybrid oil 0.5–2.0 -",
+            "page": 3,
+            "font_size": 7.0,
+            "bbox": [
+              159.04629516601562,
+              51.061920166015625,
+              282.57379150390625,
+              96.00370025634766
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 1. Reaction parameters investigated for the overall reaction.",
+            "page": 3,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              105.53558349609375,
+              394.0409240722656,
+              117.99158477783203
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:19304 3 | https://doi.org/10.1038/s41598-025-04803-w",
+            "page": 3,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 3,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Determination of oxirane content (OOC) The titration method was used to determine the oxirane oxygen content (OOC)22. A number of procedures were taken to identify a sample’s OOC. A sample size of 3 g was needed for accurate findings. This aided in depolymerisation, which split bigger molecules into smaller ones. One drop of crystalize violet was used as an indicator. Following the completion of this reaction, the sample was titrated using hydrobromic acid. The OOC of the sample was determined by measuring the volume of bromide required for titration when the purple colour changed into yellowish green23. The unsaturated fatty acids had been successfully transformed into epoxidised fatty acids, as evidenced by the oxirane ring in Eqs. 4–6.",
+            "page": 4,
+            "font_size": 8.7,
+            "bbox": [
+              155.90550231933594,
+              48.41548538208008,
+              556.2509155273438,
+              131.1754913330078
+            ]
+          },
+          {
+            "type": "text",
+            "text": "RCO = OOCexperimental",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              136.35659790039062,
+              388.0053405761719,
+              160.0794219970703
+            ]
+          },
+          {
+            "type": "text",
+            "text": "OOCtheoretical × 100\b (1)",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              319.77911376953125,
+              141.13861083984375,
+              556.21630859375,
+              160.0794219970703
+            ]
+          },
+          {
+            "type": "text",
+            "text": "OOCtheoretical =",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              166.42062377929688,
+              299.0892639160156,
+              186.6986846923828
+            ]
+          },
+          {
+            "type": "text",
+            "text": "{(X0 Ai )",
+            "page": 4,
+            "font_size": 9.5,
+            "bbox": [
+              301.6531066894531,
+              157.75563049316406,
+              331.330078125,
+              185.50289916992188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "/",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              331.3330993652344,
+              169.8099365234375,
+              335.94183349609375,
+              178.77633666992188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "[",
+            "page": 4,
+            "font_size": 10.0,
+            "bbox": [
+              337.4761047363281,
+              157.75563049316406,
+              342.178466796875,
+              167.71823120117188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "100+( X0 2Ai )( Ao)]} × Ao × 100\b (2)",
+            "page": 4,
+            "font_size": 9.3,
+            "bbox": [
+              342.18121337890625,
+              157.75587463378906,
+              556.2162475585938,
+              186.6986846923828
+            ]
+          },
+          {
+            "type": "text",
+            "text": "OOCexperimental = 1.6 × N × (V-B)",
+            "page": 4,
+            "font_size": 8.7,
+            "bbox": [
+              155.90550231933594,
+              189.55252075195312,
+              417.2203369140625,
+              213.3479766845703
+            ]
+          },
+          {
+            "type": "text",
+            "text": "W \b (3)",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              400.6510925292969,
+              194.1171875,
+              556.2162475585938,
+              213.3479766845703
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Here, Ai is the molar mass of iodine, Ao is the molar mass of oxygen, Xo is the initial iodine value, N is the normality of HBr, V is the volume of HBr solution used for titration, and W is the weight of the sample.",
+            "page": 4,
+            "font_size": 8.2,
+            "bbox": [
+              155.90550231933594,
+              219.71087646484375,
+              556.2484741210938,
+              241.8518829345703
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Kinetic modelling of the in situ epoxidation palm stearin The kinetic data were modeled based on the following assumptions: (1) the epoxidation occurs as a single-phase process, eliminating the need for distribution constants between aqueous and oil phases; (2) phase volumes remain constant throughout the reaction; (3) all reactions are homogeneous; (4) heat transfer effects are negligible; and (5) reactions occur away from the phase interface. It involves the in situ formation of performic acid (PA) (Eq. 4) and the formation of EOA (Eq. 5), with ring opening shown in Eq. 6. FA + HP",
+            "page": 4,
+            "font_size": 9.1,
+            "bbox": [
+              155.90550231933594,
+              249.0918731689453,
+              556.2615966796875,
+              337.42608642578125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "k11 −−−→ ← k12",
+            "page": 4,
+            "font_size": 7.3,
+            "bbox": [
+              332.0050964355469,
+              318.7701110839844,
+              352.0970458984375,
+              345.9147033691406
+            ]
+          },
+          {
+            "type": "text",
+            "text": "PA + Water\b (4) PA + OA k2 −−→EOA + FA\b (5) EOA + Water k3 −−→Ring −opening\b (6) Where FA, HP, OA, and EOA are formic acid, hydrogen peroxide, hybrid oleic acid, and epoxidized hybrid oleic acid. Kinetic modeling involves two main steps: (1) numerically solving the rate equations and (2) calculating the error between simulated and experimental data. The MATLAB ode45 solver, which applies the fourth-order Runge–Kutta method, was used to solve the system of rate equations. The rate equations were modelled, resulting in simultaneous differential Eqs. 7–13. d [FA]",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              324.4248046875,
+              556.2220458984375,
+              463.79156494140625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dt = −k11 [FA] [HP] + k12 [PA] [Water] + k2 [PA] [OA]\b (7)",
+            "page": 4,
+            "font_size": 8.6,
+            "bbox": [
+              238.70579528808594,
+              456.6683044433594,
+              554.1739501953125,
+              475.3722229003906
+            ]
+          },
+          {
+            "type": "text",
+            "text": "d [HP]",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              262.1518859863281,
+              477.4396057128906,
+              286.7915344238281,
+              490.4408874511719
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dt = −k11 [FA] [HP] + k12 [PA] [Water]\b (8)",
+            "page": 4,
+            "font_size": 8.7,
+            "bbox": [
+              270.4237976074219,
+              483.3175964355469,
+              554.1738891601562,
+              502.0215148925781
+            ]
+          },
+          {
+            "type": "text",
+            "text": "d [PA]",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              231.591796875,
+              504.0887756347656,
+              256.2301330566406,
+              517.090087890625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dt = +k11 [FA] [HP] −k12 [PA] [Water] −k2 [PA] [OA]\b (9)",
+            "page": 4,
+            "font_size": 8.6,
+            "bbox": [
+              240.88780212402344,
+              509.9668884277344,
+              554.169921875,
+              528.6707763671875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "d [Water]",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              216.27679443359375,
+              530.7382202148438,
+              253.1107635498047,
+              543.739501953125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dt = +k11 [FA] [HP] −k12 [PA] [Water] −k3 [EOA] [Water]\b (10)",
+            "page": 4,
+            "font_size": 8.6,
+            "bbox": [
+              230.63980102539062,
+              536.6162109375,
+              554.1759033203125,
+              555.320068359375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "d [OA]",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              300.8468933105469,
+              557.3875122070312,
+              326.39215087890625,
+              570.3887939453125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dt = −k2 [PA] [OA]\b (11)",
+            "page": 4,
+            "font_size": 8.7,
+            "bbox": [
+              309.56781005859375,
+              563.2655029296875,
+              554.169921875,
+              581.9693603515625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "d [EOA]",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              258.0617980957031,
+              584.0367431640625,
+              289.8642578125,
+              597.0380249023438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dt = +k2 [PA] [OA] −k3 [EOA] [Water]\b (12)",
+            "page": 4,
+            "font_size": 8.7,
+            "bbox": [
+              269.91680908203125,
+              589.9148559570312,
+              554.177978515625,
+              608.6187133789062
+            ]
+          },
+          {
+            "type": "text",
+            "text": "d [Ring opening]",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              272.3619079589844,
+              610.68603515625,
+              336.1650085449219,
+              623.6873168945312
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dt = +k3 [EOA] [Water]\b (13)",
+            "page": 4,
+            "font_size": 8.7,
+            "bbox": [
+              300.21490478515625,
+              616.5640258789062,
+              554.1698608398438,
+              635.0007934570312
+            ]
+          },
+          {
+            "type": "text",
+            "text": "The experimental procedure involves feedstock preparation (WCO and oleic acid), catalyst addition (natural zeolite), and in situ peracid formation (hydrogen peroxide and formic acid). The epoxidation reaction is conducted under controlled conditions, followed by kinetic mode, as shown in Fig. 1. Result and discussion Fatty acid composition The composition of fatty acids plays a vital role in the epoxidation process, as the reaction occurs specifically at the double bonds found in unsaturated fatty acids. Table 4 highlights the fatty acid composition of pure oleic acid, waste cooking oil (WCO), and their hybrid blend analyzed using Gas Chromatography-Flame Ionization",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              642.5610961914062,
+              556.2424926757812,
+              736.7020874023438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:19304 4 | https://doi.org/10.1038/s41598-025-04803-w",
+            "page": 4,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 4,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Detection (GC-FID). Pure oleic acid, comprising 85% unsaturated fatty acids, demonstrates the greatest potential for epoxidation due to its high double-bond content. On the other hand, WCO has a lower percentage of unsaturated fatty acids (51%), which limits its reactivity. The hybrid mixture, containing 62% unsaturated fatty acids, represents a balanced approach, combining the reactivity of oleic acid with the sustainability benefits of WCO. This blend optimizes feedstock utilization while maintaining sufficient double-bond availability for effective epoxidation. Taguchi analysis The Taguchi method was applied to predict grinding surface roughness by organizing data through orthogonal experiments, as shown in Table 5. It treats error factors as sources of interference that cause fluctuations in prediction outcomes and identifies the primary and secondary factors influencing surface roughness using S/N ratio analysis and ANOVA. The sequence of experiments, based on a combination of parameters and levels, is structured using an orthogonal array, which defines the number of trials needed to ensure that each factor’s levels are equally tested. Taguchi introduced an orthogonal array to assess the influence of individual process parameters. L16 array, consisting of 16 trials, tests four levels across up to five experimental factors. Using this specific Taguchi orthogonal array, only 16 runs are necessary to optimize four levels across four factors, significantly reducing the number of experimental trials required for optimization, as shown in Table. Main effect plot for signal to noise ratios Figure 2 shows the ideal parameters for synthesizing waste cooking oil-oleic acid: a reaction temperature of 50 °C for optimal epoxidation yield, maintaining temperatures below 100 °C to prevent explosions from hydrogen peroxide, a speed of 100 rpm to avoid overmixing, and a 1:1 molar ratio of formic acid to oil for maximum oxirane conversion. The primary effect plot illustrates the impact of each component on performance based on signal-to-noise (SN) ratios24. It rapidly evaluates each component’s impact by displaying the average SN ratio at various levels for each factor. The Taguchi method is a novel optimization technique that uses the design of experiments to find ideal parameter sets. It efficiently arranges variable parameters at different levels through orthogonal arrays, minimizing the number of experiments required. Throughout the procedure, the signal-to-noise ratio (S/N) is assessed for each parameter level; the best level is indicated by the maximum S/N value, as shown in Table 6. The analysis indicates that temperature significantly affects the epoxidation process, followed by stirring speed, while the",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              441.5111083984375,
+              556.2579956054688,
+              743.652099609375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Type of oil Unsaturated fatty acid (%) Saturated fatty acid (%) Pure oleic acid 85 15 WCO 51 49 Hybrid oleic acid + WCO 62 38",
+            "page": 5,
+            "font_size": 7.0,
+            "bbox": [
+              159.04629516601562,
+              348.148193359375,
+              389.2644958496094,
+              393.0899963378906
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 4. Fatty acid composition of hybrid oleic acid and WCO.",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              402.62200927734375,
+              382.69366455078125,
+              415.0780029296875
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 5,
+            "font_size": 0,
+            "bbox": [
+              155.90550231933594,
+              50.4990234375,
+              456.385498046875,
+              296.0190124511719
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1. Flowchart of overall methodologies.",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              305.34600830078125,
+              312.31451416015625,
+              317.802001953125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:19304 5 | https://doi.org/10.1038/s41598-025-04803-w",
+            "page": 5,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 5,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Level Temperature Speed Molar ratio 1 29.81 28.04 27.16 2 26.05 26.05 26.94 3 25.17 26.05 26.05 4 25.17 26.05 26.05 Delta 4.63 1.99 1.11 Rank 1 2 3",
+            "page": 6,
+            "font_size": 7.0,
+            "bbox": [
+              159.04629516601562,
+              589.4441528320312,
+              284.1921081542969,
+              669.892333984375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 6. Response for signal-to-noise ratios.",
+            "page": 6,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              679.424072265625,
+              315.877685546875,
+              691.8800659179688
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 6,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              301.63507080078125,
+              496.345458984375,
+              537.3150634765625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 2. Main effects plot for SN ratios.",
+            "page": 6,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              546.6420288085938,
+              292.7394714355469,
+              559.0980224609375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Temperature (°C) Speed (rpm) Formic acid (g) RCO 50 100 16 45.35 50 200 8 27.21 50 300 5.3 27.21 50 400 4 27.21 60 100 16 27.21 60 200 8 18.14 60 300 5.3 18.14 60 400 4 18.14 70 100 16 18.14 70 200 8 18.14 70 300 5.3 18.14 70 400 4 18.14 80 100 16 18.14 80 200 8 18.14 80 300 5.3 18.14 80 400 4 18.14",
+            "page": 6,
+            "font_size": 7.0,
+            "bbox": [
+              159.04629516601562,
+              51.061798095703125,
+              327.6618347167969,
+              249.86363220214844
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 5. Parameters value of epoxidation and RCO.",
+            "page": 6,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              259.39556884765625,
+              342.1576843261719,
+              271.8515625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:19304 6 | https://doi.org/10.1038/s41598-025-04803-w",
+            "page": 6,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 6,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "molar ratio has the least impact. Temperature significantly impacts epoxidation by accelerating reaction kinetics and peracid formation, while excessive heat may promote side reactions. Stirring speed enhances mass transfer, ensuring efficient reactant mixing, catalyst interaction, and higher epoxide yield. In contrast, the molar ratio has minimal effect, as excess reactants beyond an optimal level do not significantly improve conversion. Optimizing these parameters can enhance the efficiency of the epoxidation of hybrid oleic acid and waste cooking oil. One way analysis of variance (ANOVA) One-way ANOVA is a method for comparing averages across different groups or conditions25. In the context of RCO, one-way ANOVA determines whether variables such as temperature, agitation speed, and molar ratio significantly influence RCO. To do this, several experiment variations are made by varying the temperature, the agitation speed, and the molar ratio. The one-way ANOVA results are customarily presented as F-statistics coupled with a p-value where the p-value expresses the probability of the testing status. High p-values indicate that factors under consideration (temperature, agitation speed, and molar ratio) cause less or no changes to the disparities in RCO. Suppose the p-value obtained is low compared to the a priori-determined level, usually chosen at a 5% level. In that case, the differences are significant, so RCO is most probably affected by these factors, and the differences likely did not occur by chance. Following one-way ANOVA also provides guidance on whether temperature, agitation speed, and molar ratio beliefs that adjustments in these variables will improve RCO cut-off and what should be the optimal conditions. In the present study, the null hypothesis postulates that the different RCO mean values taken at different time points are assumed to be equal.",
+            "page": 7,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              338.976806640625,
+              556.2843627929688,
+              541.1177978515625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 7 illustrates the interpretation of the data with a p-value of 0.007 and temperature values of 50, 60, 70, and 80. The significance level (α) set at 0.05 possesses adequate evidence to reject the null hypothesis, as the p-value (0.007) is less than the significance level (α = 0.05). This indicates that the data may be used to deduce that the mean RCOs at the various temperature points differ significantly. Therefore, data variability or random chance cannot account for the observed changes in RCO at 50, 60, 70, and 80 °C. According to this investigation, there is a lot of evidence that suggests temperature affects RCO.",
+            "page": 7,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              538.976806640625,
+              556.250244140625,
+              601.1177978515625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "With speeds of 100, 200, 300, and 400, the analysis yielded a p-value of 0.508, indicating insufficient evidence to reject the null hypothesis. This shows that the observed differences in RCO at different speeds could be caused by random chance or intrinsic data variability. Table 8 shows that the speed did not have a statistically significant effect on RCO within the confines of this study. A computed p-value of 0.827 was obtained from the analysis using molar ratios of 0.5, 1.0, 1.5, and 2.0. There was not enough data to reject the null hypothesis because the obtained p-value was higher than the significance level. This implies that data variability or random chance may account for changes in RCO at different molar ratios. The results indicate that the molar ratio did not significantly impact RCO in this investigation, as shown in Table 9. Epoxidation of hybrid oleic acid and waste cooking oil Figure 3, depicting the relative conversion to oxirane (%) over time during the epoxidation of hybrid oleic acid and waste cooking oil, provides critical insights into the reaction kinetics of this process. The data demonstrate a progressive increase in conversion, reaching a maximum of approximately 50% at around 40 min, which",
+            "page": 7,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              598.976806640625,
+              556.2666625976562,
+              741.1177978515625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Source DF Adj SS Adj MS F-Value P-Value Temperature 3 56.58 18.86 0.30 0.827 Error 12 761.20 63.43 Total 15 817.8",
+            "page": 7,
+            "font_size": 7.0,
+            "bbox": [
+              159.04620361328125,
+              245.55792236328125,
+              325.9914855957031,
+              290.5557861328125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 9. ANOVA table for RCO versus reaction of formic acid.",
+            "page": 7,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              300.08770751953125,
+              382.60357666015625,
+              312.543701171875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Source DF Adj SS Adj MS F-value P-value Temperature 3 138.9 46.29 0.82 0.508 Error 12 678.9 56.58 Total 15 817.8",
+            "page": 7,
+            "font_size": 7.0,
+            "bbox": [
+              159.04620361328125,
+              148.28192138671875,
+              323.8927917480469,
+              193.2797088623047
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 8. ANOVA table for RCO versus reaction speed.",
+            "page": 7,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              202.81158447265625,
+              352.9486999511719,
+              215.26759338378906
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Source DF Adj SS Adj MS F-value P-value Temperature 3 509.2 169.73 6.60 0.007 Error 12 308.6 25.72 Total 15 817.8",
+            "page": 7,
+            "font_size": 7.0,
+            "bbox": [
+              159.04620361328125,
+              51.00592041015625,
+              323.8927917480469,
+              96.00370025634766
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 7. ANOVA table for RCO versus reaction temperature.",
+            "page": 7,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              105.53558349609375,
+              376.3396301269531,
+              117.99158477783203
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:19304 7 | https://doi.org/10.1038/s41598-025-04803-w",
+            "page": 7,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 7,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "indicates effective interaction dynamics between the hybrid oleic acid, WCO, and the oxidizing agent employed. This peak conversion suggests that the epoxidation conditions are optimized within this timeframe, facilitating the transformation of a significant proportion of unsaturated fatty acid bonds into epoxide groups, thereby enhancing the potential for generating high-value products26. Previous studies indicate that catalyst loading and hydrogen peroxide concentration have minimal effect on the maximum achievable RCO but significantly influence the time required to reach it1,16. Higher peroxide levels and catalyst loadings accelerate the epoxidation rate, enabling faster attainment of peak oxirane content, though the ultimate RCO remains essentially unchanged.",
+            "page": 8,
+            "font_size": 8.2,
+            "bbox": [
+              155.90550231933594,
+              425.7594909667969,
+              556.2567749023438,
+              497.9004821777344
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Based on previous research findings, the impact of catalyst type and hydrogen peroxide amount was not explicitly analyzed as these parameters were kept constant27. However, the subsequent decline in conversion after 50 min may indicate that the reaction is approaching equilibrium, or it could be attributed to side reactions, product degradation, or depletion of reactants. The reagent concentration and amounts significantly influenced the formation of side products in the epoxidation process. Excess peracid led to the hydrolysis of oxirane rings, resulting in diols as a major byproduct. Additionally, over-oxidation at high oxidantThe error bars presented in the graph reflect the variability of the data, with relatively small bars indicating a high degree of reliability and reproducibility in the experimental results. This study underscores the potential of utilizing waste cooking oil as a valuable resource for producing epoxidized chemicals, promoting sustainable chemical industry practices. Numerical kinetic modelling of epoxidation hybrid oil Kinetic data provide a critical foundation for process scale-up, offering predictive insight essential for industrial applications where both high reaction efficiency and long-term product stability are key requirements28. Table 10 provides the estimated reaction rate constants derived from the kinetic modeling of the epoxidation process. The parameters k11 and k12 correspond to the formation of peracid and the subsequent epoxidation of unsaturated bonds, with their relatively large values (13.45 and 14.08 mol/L·min) indicating rapid reaction progress under the experimental conditions. Conversely, the smaller constants k2​ and k3​ (0.023 and 0.025 mol/L·min) reflect slower secondary processes, likely involving oxirane ring-opening and peroxide breakdown. These slower reactions are more noticeable during extended reaction periods and contribute to the reduction in oxirane content over time. The correlation coefficient of 0.90 suggests that the model provides a good fit to the experimental data, capturing the main kinetic behavior effectively, although further refinement may improve accuracy for side reactions and catalyst-related effects. The correlation coefficient was 0.90, showing a reasonable agreement between simulation and experimental data, as shown in Fig. 4. The mismatch between the kinetic model and experimental data, particularly at",
+            "page": 8,
+            "font_size": 8.8,
+            "bbox": [
+              155.90550231933594,
+              495.7594909667969,
+              556.2731323242188,
+              737.9005126953125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Reaction ate constant Value (mol/L⋅min)",
+            "page": 8,
+            "font_size": 7.0,
+            "bbox": [
+              159.04629516601562,
+              320.56109619140625,
+              282.9757080078125,
+              330.24908447265625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "k11 13.45 k12 14.08 k2 0.023 k3 0.025",
+            "page": 8,
+            "font_size": 6.3,
+            "bbox": [
+              160.8612060546875,
+              332.5025939941406,
+              243.74209594726562,
+              378.3030700683594
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 10. Reaction rate constants estimated from Simulations. Correlation coefficient, r= 0.90.",
+            "page": 8,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              386.87030029296875,
+              495.92083740234375,
+              399.3262939453125
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 8,
+            "font_size": 0,
+            "bbox": [
+              155.905517578125,
+              50.49896240234375,
+              527.7855224609375,
+              268.2989501953125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 3. The epoxidation of hybrid oleic acid and waste cooking oil.",
+            "page": 8,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              277.6258850097656,
+              394.23968505859375,
+              290.0818786621094
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:19304 8 | https://doi.org/10.1038/s41598-025-04803-w",
+            "page": 8,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 8,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "extended reaction times, is attributed to parasitic effects and non-ideal behaviors not fully captured by the model. Although the model assumes a homogeneous single-phase system, localized heterogeneities likely exist due to partial immiscibility between hydrogen peroxide and the oil phase, leading to concentration gradients and deviations in reaction rates. Additionally, side reactions such as hydrolysis and alcoholysis of epoxide rings and peroxide decomposition become significant over time, reducing oxirane content and increasing hydroxyl values beyond model predictions. Although the model does not account for catalyst deactivation, prolonged reaction times could lead to gradual fouling of the zeolite’s active sites due to adsorption of organic by-products, structural changes, or leaching of minor elements. This deactivation would reduce the effective catalytic activity over time, causing slower-than-predicted epoxidation rates. In contrast, the experimental process cannot account for any vaporized gases. Therefore, the epoxidation and oxirane cleavage times are expected to differ between simulation and experiment. It is not possible to match the maximum oxirane content from the simulation with the experimental results, as the simulation assumes a one-way reaction.",
+            "page": 9,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              315.0751037597656,
+              556.2572021484375,
+              447.2160949707031
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_3",
+        "title": "Conclusion This research successfully demonstrates the feasibility of using the in situ peracid method to produce epoxidized hybrid oleic acid and waste cooking oil (WCO), offering a novel and sustainable approach to WCO vaporization. This study introduces an environmentally friendly process that can convert waste into valuable epoxidised products by employing hybrid raw materials oleic acid and WCO and utilizing natural zeolite as a catalyst. The optimization of reaction parameters using the Taguchi method revealed that a temperature of 50 °C, stirring at 100 rpm, and a 1:1 molar ratio with formic acid are the ideal conditions for synthesizing epoxidized oleic acid from WCO. The highest epoxidized hybrid oleic acid and WCO yield (50%) was obtained under these optimized reaction conditions. ANOVA analysis confirmed that the temperature was the most influential factor in the epoxidation process. Finally, the process model was developed using the Runge-Kutta 4 th-order numerical integration method to determine the kinetic model. The Genetic Algorithm was applied to identify the model that best fits the experimental data. These findings provide valuable insights into reaction kinetics, which are crucial for scaling up the process for industrial applications. Overall, this work contributes to sustainable waste management by transforming WCO into a high-value product while minimizing environmental impact.",
+        "level": 1,
+        "page": 9,
+        "content": [
+          {
+            "type": "text",
+            "text": "Data availability The data that support the findings of this study are available from the corresponding author upon reasonable request.",
+            "page": 9,
+            "font_size": 9.7,
+            "bbox": [
+              155.90550231933594,
+              607.5040893554688,
+              556.259765625,
+              641.216064453125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Received: 10 February 2025; Accepted: 29 May 2025",
+            "page": 9,
+            "font_size": 8.5,
+            "bbox": [
+              155.90550231933594,
+              650.1360473632812,
+              338.38006591796875,
+              661.5855712890625
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 9,
+            "font_size": 0,
+            "bbox": [
+              155.905517578125,
+              662.1603393554688,
+              287.905517578125,
+              672.9603271484375
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_4",
+        "title": "References 1. Mohamed, N. et al. Epoxidation of sunflower oil via in situ generated hybrid peracids mechanism. Int. J. Chem. React. Eng. 1–5.",
+        "level": 1,
+        "page": 9,
+        "content": [
+          {
+            "type": "text",
+            "text": "https://doi.org/10.1515/ijcre-2024-0184 (2025). 2. Norhaizan, M. E. et al. Palm oil: features and applications. Lipid Technol. 25, 39–42. https://doi.org/10.1002/lite.201300254 (2013). 3. Nor, N. M., Derawi, D. & Salimon, J. Chemical modification of epoxidized palm oil for biolubricant application. Malaysian J. Anal. Sci. 21, 1423–1431. https://doi.org/10.17576/mjas-2017-2106-25 (2017).",
+            "page": 9,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              702.3428344726562,
+              555.8888549804688,
+              737.6603393554688
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 9,
+            "font_size": 0,
+            "bbox": [
+              155.905517578125,
+              50.49900817871094,
+              516.2655029296875,
+              266.8590087890625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4. Comparison of the oxirane content between simulation and experiment.",
+            "page": 9,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              276.1860046386719,
+              442.2538757324219,
+              288.6419982910156
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:19304 9 | https://doi.org/10.1038/s41598-025-04803-w",
+            "page": 9,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 9,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "4. Chen, J. et al. Highly efficient epoxidation of vegetable oils catalyzed by a manganese complex with hydrogen peroxide and acetic",
+            "page": 10,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              48.53391647338867,
+              555.8817749023438,
+              58.65141677856445
+            ]
+          },
+          {
+            "type": "text",
+            "text": "acid. Green. Chem. 21, 2436–2447. https://doi.org/10.1039/c8gc03857k (2019). 5. Wai, P. T. et al. Catalytic developments in the epoxidation of vegetable oils and the analysis methods of epoxidized products. RSC Adv. 9, 38119–38136. https://doi.org/10.1039/c9ra05943a (2019). 6. Hasmaruddin, N. S. & Tahir, M. Synthesis of waste cooking Oil-Based polyol via One-Pot epoxidation and hydroxylation reaction. Int. J. Recent Technol. Eng. 8, 382–385 (2019). 7. Saurabh, T., Patnaik, M. & Bhagst, S. L. Renge, epoxidation of vegetable oils: a review. Int. J. Adv. Eng. Technol. E. 2, 459–501 (2011). 8. Turco, R. et al. Selective epoxidation of soybean oil in the presence of H-Y zeolite selective epoxidation of soybean oil in the presence of H-Y zeolite, (2017). https://doi.org/10.1021/acs.iecr.7b01437 9. Awang, R., Basri, M., Ahmad, S. & Salleh, A. B. Enzymatic esterification of dihydroxystearic acid, JAOCS. J. Am. Oil Chem. Soc. 77, 609–612. https://doi.org/10.1007/s11746-000-0098-1 (2000). 10. Kamairudin, N., Hoong, S. S., Abdullah, L. C., Ariffin, H. & Biak, D. R. A. Optimisation of epoxide ring-opening reaction for the synthesis of bio-polyol from palm oil derivative using response surface methodology. Molecules 26 ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​3​3​9​0​/​m​o​l​e​c​ u​l​e​s​2​6​0​3​0​6​4​8​ (2021). 11. Janković, M. R., Govedarica, O. M. & Sinadinović-Fišer, S. V. The epoxidation of linseed oil with in situ formed peracetic acid: A model with included influence of the oil fatty acid composition. Ind. Crops Prod. 143. https://doi.org/10.1016/j.indcrop.2019.111881 (2020). 12. Bagchi, T. P. & Fearn, T. TAGUCHI methods explained: practical steps to robust design. NIR News. 12 ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​1​5​/​1​.​8​ 5​9​6​9​8​ (1993). 13. Rahman, M. A., Mubarak, N. M., Azmi, I. S. & Jalil, M. J. Sustainable approach for catalytic green epoxidation of oleic acid with applied ion exchange resin. Sci. Rep. 13, 1–8. https://doi.org/10.1038/s41598-023-42879-4 (2023). 14. Sardon, H., Mecerreyes, D., Basterretxea, A., Avérous, L. & Jehanno, C. From lab to market: current strategies for the production of biobased polyols. ACS Sustain. Chem. Eng. https://doi.org/10.1021/acssuschemeng.1c02361 (2021). 15. Silviana, S., Anggoro, D. D. & Kumoro, A. C. Waste cooking oil utilisation as Bio-plasticiser through epoxidation using inorganic acids as homogeneous catalysts. Chem. Eng. Trans. 56, 1861–1866. https://doi.org/10.3303/CET1756311 (2017). 16. Kadir, M. Z. A., Azmi, I. S., Addli, M. A., Ahmad, M. A. & Jalil, M. J. In situ epoxidation of hybrid oleic acid derived from waste palm cooking oil and palm oil with applied ZSM-5 zeolite as catalyst. J. Polym. Environ. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​9​2​4​-​0​2​3​-​0​3​1​0​ 1​-​8​ (2024). 17. Karanfil, G. Importance and applications of doe/optimization methods in PEM fuel cells: A review. Int. J. Energy Res. 44, 4–25. https://doi.org/10.1002/er.4815 (2020). 18. da Silva, T. A., Ramos, L. P., Zawadzki, S. F. & Barbosa, R. V. Application of taguchi design to produce polyols based on castor oil derivatives with diethylene glycol. Mediterr. J. Chem. 4, 93–99. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​3​1​7​1​/​m​j​c​.​4​.​2​.​2​0​1​5​.​1​1​.​0​4​.​1​5​.​3​5​/​b​a​r​b​o​s​a (2015). 19. Patyal, V. S., Modgil, S. & Maddulety, K. Application of taguchi method of experimental design for chemical process optimisation: A case study, Asia-Pacific J. Manag Res. Innov. 9, 231–238. https://doi.org/10.1177/2319510X13519320 (2013). 20. Neswati, N. & Nazir Combination of temperature and time in epoxidation for producing epoxidized palm oil as source of bio polyol, IOP conf. Ser. Earth Environ. Sci. 757, 012069. https://doi.org/10.1088/1755-1315/757/1/012069 (2021). 21. Mudri, N. H. et al. Comparative study of aromatic and cycloaliphatic isocyanate effects on physico-chemical properties of bio- based polyurethane acrylate coatings. Polym. (Basel). 12, 1–17. https://doi.org/10.3390/polym12071494 (2020). 22. Addli, M. A., Azmi, I. S. & Jalil, M. J. In situ epoxidation of Castor oil via synergistic Sulfate-Impregnated ZSM-5 as catalyst. J. Polym. Environ. https://doi.org/10.1007/s10924-023-03056-w (2023). 23. Mohd Zin, N. et al. Effect of oxygen carrier and reaction temperature in enhancing the epoxy ring stability in the epoxidation of palm kernel oil, IOP conf. Ser. Mater. Sci. Eng. 864 https://doi.org/10.1088/1757-899X/864/1/012024 (2020). 24. Kamil, R. N. M., Yusup, S. & Rashid, U. Optimization of polyol ester production by transesterification of Jatropha-based methyl ester with trimethylolpropane using taguchi design of experiment. Fuel 90, 2343–2345. https://doi.org/10.1016/j.fuel.2011.02.018 (2011). 25. Rao, S. R. & Padmanabhan, G. Application of taguchi methods and ANOVA in optimization of process parameters for metal removal rate in electrochemical machining of Al/5%SiC composites. Int. J. Eng. Res. 2(3), 192–197 (2012) 26. Dominguez-Candela, I., Lerma-Canto, A., Cardona, S. C., Lora, J. & Fombuena, V. Physicochemical characterization of novel epoxidized vegetable oil from chia seed oil. Mater. (Basel). 15, 1–19. https://doi.org/10.3390/ma15093250 (2022). 27. Azmi, I. S. et al. Synthesis of bio-polyol from epoxidized palm oleic acid by homogeneous catalyst. J. Elastomers Plast. 0, 1–13. https://doi.org/10.1177/00952443221147029 (2022). 28. Abdullah, B. M., Salih, N. & Salimon, J. Optimization of the chemoenzymatic mono-epoxidation of linoleic acid using D-optimal design. J. Saudi Chem. Soc. 18, 276–287. https://doi.org/10.1016/j.jscs.2011.07.012 (2014).",
+            "page": 10,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              56.67137908935547,
+              555.9298706054688,
+              495.451416015625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Acknowledgements This work was supported by the Fundamental Research Grant Scheme, Ministry of Education Malaysia (Ref: 600-RMC/FRGS 5/3 (022/2023) and Ref: FRGS/1/2023/TK09/UITM/03/2)). Author contributions Author contribution: Azmi Roslan: Funding; Intan Suhada Azmi: Data curationAsiah Nusaibah Masri: Experi­ mental work Siti Aisyah Binti Mustapha: Experimental workNabila Sofea: Experiment work Mohd Jumain Jalil: conceptualization and methodology: Review and editing manuscript, Nabisab Mujawar Mubarak and Ahmad Hosseini-Bandegharaei.",
+            "page": 10,
+            "font_size": 9.7,
+            "bbox": [
+              155.90550231933594,
+              504.2794189453125,
+              556.2487182617188,
+              599.9913940429688
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Declarations",
+            "page": 10,
+            "font_size": 11.0,
+            "bbox": [
+              155.90550231933594,
+              608.2794189453125,
+              215.7014923095703,
+              621.3804321289062
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Competing interests The authors declare no competing interests. Additional information Correspondence and requests for materials should be addressed to M.J.J. or N.M.M.",
+            "page": 10,
+            "font_size": 10.0,
+            "bbox": [
+              155.90550231933594,
+              630.2794189453125,
+              458.6703186035156,
+              685.9913940429688
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Reprints and permissions information is available at www.nature.com/reprints. Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.",
+            "page": 10,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              688.5811157226562,
+              556.1767578125,
+              726.0827026367188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:19304 10 | https://doi.org/10.1038/s41598-025-04803-w",
+            "page": 10,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 10,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit ​h​t​t​p​:​/​/​c​r​e​a​t​i​v​e​c​o​m​m​o​ n​s​.​o​r​g​/​l​i​c​e​n​s​e​s​/​b​y​-​n​c​-​n​d​/​4​.​0​/​.​ © The Author(s) 2025",
+            "page": 11,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              47.825870513916016,
+              556.2488403320312,
+              171.08192443847656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:19304 11 | https://doi.org/10.1038/s41598-025-04803-w",
+            "page": 11,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 11,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tables": [
+    {
+      "type": "table",
+      "page": 1,
+      "table_id": "table_1_0",
+      "bbox": [
+        0.0,
+        0.0,
+        595.2750244140625,
+        28.668283462524414
+      ],
+      "rows": [
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          "www.nature.com/scientificreports"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 3,
+      "table_id": "table_3_0",
+      "bbox": [
+        156.03429620916194,
+        50.640816824776785,
+        286.6847432454427,
+        97.58367919921875
+      ],
+      "rows": [
+        [
+          "Reaction parameters",
+          "Range",
+          "Units"
+        ],
+        [
+          "Reaction temperature",
+          "50–80",
+          "ºC"
+        ],
+        [
+          "Speed",
+          "100–400",
+          "rpm"
+        ],
+        [
+          "Formic acid to hybrid oil",
+          "0.5–2.0",
+          "-"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 3,
+      "table_id": "table_3_1",
+      "bbox": [
+        156.03429620916194,
+        147.91675482855902,
+        352.2508354187012,
+        206.448486328125
+      ],
+      "rows": [
+        [
+          "Parameters",
+          "",
+          "Levels",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        [
+          "A",
+          "Reaction temperature (ºC)",
+          "50",
+          "60",
+          "70",
+          "80"
+        ],
+        [
+          "B",
+          "Agitation speed (rpm)",
+          "100",
+          "200",
+          "300",
+          "400"
+        ],
+        [
+          "C",
+          "Molar ratio of formic acid to hybrid oil",
+          "0.5",
+          "1",
+          "1.5",
+          "2"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 3,
+      "table_id": "table_3_2",
+      "bbox": [
+        156.03429620916194,
+        256.78172084263394,
+        448.4263886951265,
+        476.6733093261719
+      ],
+      "rows": [
+        [
+          "Experiment",
+          "Parameters and their level",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Reaction temperature (oC)",
+          "Agitation speed\n(rpm)",
+          "Formic acid to oleic acid molar ratio"
+        ],
+        [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        [
+          "2",
+          "1",
+          "2",
+          "2"
+        ],
+        [
+          "3",
+          "1",
+          "3",
+          "3"
+        ],
+        [
+          "4",
+          "1",
+          "4",
+          "4"
+        ],
+        [
+          "5",
+          "2",
+          "1",
+          "2"
+        ],
+        [
+          "6",
+          "2",
+          "2",
+          "1"
+        ],
+        [
+          "7",
+          "2",
+          "3",
+          "4"
+        ],
+        [
+          "8",
+          "2",
+          "4",
+          "3"
+        ],
+        [
+          "9",
+          "3",
+          "1",
+          "3"
+        ],
+        [
+          "10",
+          "3",
+          "2",
+          "4"
+        ],
+        [
+          "11",
+          "3",
+          "3",
+          "1"
+        ],
+        [
+          "12",
+          "3",
+          "4",
+          "2"
+        ],
+        [
+          "13",
+          "4",
+          "1",
+          "4"
+        ],
+        [
+          "14",
+          "4",
+          "2",
+          "3"
+        ],
+        [
+          "15",
+          "4",
+          "3",
+          "2"
+        ],
+        [
+          "16",
+          "4",
+          "4",
+          "1"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 5,
+      "table_id": "table_5_0",
+      "bbox": [
+        156.02354685465494,
+        347.727042061942,
+        393.37578837076825,
+        394.6700134277344
+      ],
+      "rows": [
+        [
+          "Type of oil",
+          "Unsaturated fatty acid (%)",
+          "Saturated fatty acid (%)"
+        ],
+        [
+          "Pure oleic acid",
+          "85",
+          "15"
+        ],
+        [
+          "WCO",
+          "51",
+          "49"
+        ],
+        [
+          "Hybrid oleic acid + WCO",
+          "62",
+          "38"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 6,
+      "table_id": "table_6_0",
+      "bbox": [
+        156.0370603288923,
+        50.64082166883681,
+        331.75673314144734,
+        251.4437255859375
+      ],
+      "rows": [
+        [
+          "Temperature (°C)",
+          "Speed (rpm)",
+          "Formic acid (g)",
+          "RCO"
+        ],
+        [
+          "50",
+          "100",
+          "16",
+          "45.35"
+        ],
+        [
+          "50",
+          "200",
+          "8",
+          "27.21"
+        ],
+        [
+          "50",
+          "300",
+          "5.3",
+          "27.21"
+        ],
+        [
+          "50",
+          "400",
+          "4",
+          "27.21"
+        ],
+        [
+          "60",
+          "100",
+          "16",
+          "27.21"
+        ],
+        [
+          "60",
+          "200",
+          "8",
+          "18.14"
+        ],
+        [
+          "60",
+          "300",
+          "5.3",
+          "18.14"
+        ],
+        [
+          "60",
+          "400",
+          "4",
+          "18.14"
+        ],
+        [
+          "70",
+          "100",
+          "16",
+          "18.14"
+        ],
+        [
+          "70",
+          "200",
+          "8",
+          "18.14"
+        ],
+        [
+          "70",
+          "300",
+          "5.3",
+          "18.14"
+        ],
+        [
+          "70",
+          "400",
+          "4",
+          "18.14"
+        ],
+        [
+          "80",
+          "100",
+          "16",
+          "18.14"
+        ],
+        [
+          "80",
+          "200",
+          "8",
+          "18.14"
+        ],
+        [
+          "80",
+          "300",
+          "5.3",
+          "18.14"
+        ],
+        [
+          "80",
+          "400",
+          "4",
+          "18.14"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 6,
+      "table_id": "table_6_1",
+      "bbox": [
+        156.0370603288923,
+        589.0230373806423,
+        288.20818413628473,
+        671.47216796875
+      ],
+      "rows": [
+        [
+          "Level",
+          "Temperature",
+          "Speed",
+          "Molar ratio"
+        ],
+        [
+          "1",
+          "29.81",
+          "28.04",
+          "27.16"
+        ],
+        [
+          "2",
+          "26.05",
+          "26.05",
+          "26.94"
+        ],
+        [
+          "3",
+          "25.17",
+          "26.05",
+          "26.05"
+        ],
+        [
+          "4",
+          "25.17",
+          "26.05",
+          "26.05"
+        ],
+        [
+          "Delta",
+          "4.63",
+          "1.99",
+          "1.11"
+        ],
+        [
+          "Rank",
+          "1",
+          "2",
+          "3"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 7,
+      "table_id": "table_7_0",
+      "bbox": [
+        156.02354685465494,
+        50.64082688551683,
+        328.6204087999132,
+        97.58367919921875
+      ],
+      "rows": [
+        [
+          "Source",
+          "DF",
+          "Adj SS",
+          "Adj MS",
+          "F-value",
+          "P-value"
+        ],
+        [
+          "Temperature",
+          "3",
+          "509.2",
+          "169.73",
+          "6.60",
+          "0.007"
+        ],
+        [
+          "Error",
+          "12",
+          "308.6",
+          "25.72",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "15",
+          "817.8",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 7,
+      "table_id": "table_7_1",
+      "bbox": [
+        156.02354685465494,
+        147.91682786207932,
+        328.6204087999132,
+        194.85968017578125
+      ],
+      "rows": [
+        [
+          "Source",
+          "DF",
+          "Adj SS",
+          "Adj MS",
+          "F-value",
+          "P-value"
+        ],
+        [
+          "Temperature",
+          "3",
+          "138.9",
+          "46.29",
+          "0.82",
+          "0.508"
+        ],
+        [
+          "Error",
+          "12",
+          "678.9",
+          "56.58",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "15",
+          "817.8",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 7,
+      "table_id": "table_7_2",
+      "bbox": [
+        156.02354685465494,
+        245.1928945688101,
+        328.6204087999132,
+        292.13580322265625
+      ],
+      "rows": [
+        [
+          "Source",
+          "DF",
+          "Adj SS",
+          "Adj MS",
+          "F-Value",
+          "P-Value"
+        ],
+        [
+          "Temperature",
+          "3",
+          "56.58",
+          "18.86",
+          "0.30",
+          "0.827"
+        ],
+        [
+          "Error",
+          "12",
+          "761.20",
+          "63.43",
+          "",
+          ""
+        ],
+        [
+          "Total",
+          "15",
+          "817.8",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 8,
+      "table_id": "table_8_0",
+      "bbox": [
+        156.02692522321428,
+        320.0070373535156,
+        287.08329119001115,
+        378.91839599609375
+      ],
+      "rows": [
+        [
+          "Reaction ate constant",
+          "Value (mol/L⋅min)"
+        ],
+        [
+          "k11",
+          "13.45"
+        ],
+        [
+          "k12",
+          "14.08"
+        ],
+        [
+          "k2",
+          "0.023"
+        ],
+        [
+          "k3",
+          "0.025"
+        ]
+      ]
+    }
+  ],
+  "statistics": {
+    "total_sections": 5,
+    "total_paragraphs": 0,
+    "total_tables": 11,
+    "total_images": 7
+  }
+}

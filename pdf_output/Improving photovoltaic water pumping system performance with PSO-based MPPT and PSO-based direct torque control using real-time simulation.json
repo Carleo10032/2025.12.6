@@ -1,0 +1,3677 @@
+{
+  "metadata": {
+    "filename": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.pdf",
+    "source": "pdf to json\\Nature论文50篇\\Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using real-time simulation.pdf",
+    "pages": 24,
+    "created_at": "2025-12-05T09:15:56.798824Z",
+    "parser_version": "3.0_paragraph"
+  },
+  "structure": {
+    "sections": [
+      {
+        "id": "section_0",
+        "title": "Document Content",
+        "level": 1,
+        "page": 1,
+        "content": [
+          {
+            "type": "text",
+            "text": "Improving photovoltaic water pumping system performance with PSO-based MPPT and PSO-based direct torque control using realtime simulation",
+            "page": 1,
+            "font_size": 26.0,
+            "bbox": [
+              155.90550231933594,
+              128.31288146972656,
+              552.1195678710938,
+              279.3049011230469
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Ikram Saady1,2, Btissam Majout1, Badre Bossoufi1, Mohammed Karim1, Ismail Elkafazi3, Safae Merzouk2, Mishari Metab Almalki4, Thamer A. H. Alghamdi5,6, Paweł Skruch7, Anton Zhilenkov8 & Saleh Mobayen9,10",
+            "page": 1,
+            "font_size": 8.5,
+            "bbox": [
+              155.90550231933594,
+              284.9288024902344,
+              542.232177734375,
+              321.4427795410156
+            ]
+          },
+          {
+            "type": "text",
+            "text": "This work aims to enhance the performance of Photovoltaic Water Pumping Systems (PVWPS) by optimizing its two primary controllers. The first controller utilizes a Particle Swarm Optimization (PSO)- based Maximum Power Point Tracking (MPPT) technique to maximize the photovoltaic array’s output under varying irradiance conditions. The second controller incorporates a PSO-optimized ProportionalIntegral (PI) controller within a Direct Torque Control (DTC) method to improve the dynamic behavior of the induction motor (IM) and ensure the efficient functioning of the centrifugal pump. The performance of the PVWPS employing PSO for MPPT and DTC was evaluated in MATLAB Simulink and compared with a system using Artificial Neural Networks (ANN) for MPPT and DTC. The PSO-based approach demonstrated significant advantages, including an 83.33% reduction in power oscillations, a 66.67% and 60% reduction in flux and torque ripples, a 50% improvement in response time, and a rise in water flow. Real-time simulations of both the ANN-DTC and PSO-DTC configurations were carried out on the dSPACE DS1104 platform to validate the performance of each configuration. The outcomes of these simulations closely matched those from MATLAB/Simulink, further confirming the proposed PSO-based control strategy’s effectiveness, robustness, and reliability.",
+            "page": 1,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              330.40399169921875,
+              554.17724609375,
+              484.1319885253906
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Keywords PVWPS, PSO-DTC, PSO-based MPPT, dSPACE DS1104",
+            "page": 1,
+            "font_size": 9.5,
+            "bbox": [
+              155.90550231933594,
+              491.9559020996094,
+              407.7075500488281,
+              504.71588134765625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Water is a fundamental resource for sustaining life, as it is required for drinking, cleansing, agriculture, and industrial activities. However, water scarcity1 has become a significant global challenge, especially in arid and rural areas. This issue arises from factors such as unequal distribution of water resources, increasing irrigation demands, climate change effects, and inadequate water management. One effective solution to these challenges is the implementation of water pumping systems2,3, which allow the extraction and delivery of water from underground sources. However, traditional systems powered by electricity or diesel generators have limitations, including high costs, environmental impact, and impracticality in rural, off-grid locations. These challenges have contributed to the rise of renewable energy-based water pumping systems4, offering a sustainable and eco-friendly alternative. Among renewable solutions, photovoltaic water pumping systems (PVWPS)5 stand out",
+            "page": 1,
+            "font_size": 8.1,
+            "bbox": [
+              155.90550231933594,
+              514.5748901367188,
+              556.245361328125,
+              606.7158813476562
+            ]
+          },
+          {
+            "type": "text",
+            "text": "1Laboratory of Engineering Modelling and Systems Analysis, Sidi Mohamed Ben Abdellah University Fez, Fes, Morocco. 2Moroccan School of Engineering Sciences (EMSI), SMARTiLab, Rabat, Morocco. 3Superior School of Technology in Khenifra, Sultan Moulay Slimane University, Beni Mellal, Morocco. 4Department of Electrical Engineering, Faculty of Engineering, Al-Baha University, Alaqiq 65779-7738, Saudi Arabia. 5School of Engineering, Wolfson Centre for Magnetics, Cardiff University, Cardiff CF24 3AA, UK. 6Electrical Engineering Department, Faculty of Engineering, Al-Baha University, Al-Baha 65779, Saudi Arabia. 7Department of Automatic Control and Robotics, AGH University of Science and Technology, Kraków 30-059, Poland. 8Department of Cyber-Physical Systems, St. Petersburg State Marine Technical University, Saint-Petersburg, Russia190121. 9Graduate School of Intelligent Data Science, National Yunlin University of Science and Technology, 123 University Road, Section 3, Douliou, Yunlin 640301, Taiwan. 10Energy Systems Research Center, Khazar university, Mahasti str. 41, Baku AZ1096, Azerbaijan. email: badre.bossoufi@usmba.ac.ma; mobayens@yuntech.edu.tw",
+            "page": 1,
+            "font_size": 7.6,
+            "bbox": [
+              155.8137969970703,
+              628.4107666015625,
+              555.9547119140625,
+              739.0391845703125
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_1",
+        "title": "OPEN",
+        "level": 2,
+        "page": 1,
+        "content": [
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 1 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 1,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports",
+            "page": 1,
+            "font_size": 10.0,
+            "bbox": [
+              390.56890869140625,
+              12.369770050048828,
+              546.7947998046875,
+              24.279769897460938
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 1,
+            "font_size": 0,
+            "bbox": [
+              483.0,
+              108.0,
+              555.0,
+              122.0
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 1,
+            "font_size": 0,
+            "bbox": [
+              483.0,
+              108.0,
+              555.0,
+              122.0
+            ]
+          },
+          {
+            "type": "text",
+            "text": "for their ability to harness solar energy, an abundant and clean resource6. By eliminating dependence on fossil fuels, PVWPS reduces operational costs and minimizes environmental impact. They are particularly suitable for irrigation in agriculture, watering livestock, and domestic use in areas without access to conventional power sources7. Generally, a stand-alone PVWPS includes the following essential components: a photovoltaic (PV) array, storage elements, control and power processing units, a motor, and a pump. The PV array, composed of interconnected modules linked in parallel and series, efficiently harnesses sunlight and converts it into direct current (DC) electrical energy. The generated power can either be stored in a bank of batteries or used to fill a water storage tank. Water storage tanks are often preferred among these options due to their lower cost and minimal maintenance requirements, making the overall system more economical and reliable8. Due to advancements in solar technology, PV water pumping systems have gained significant attention. In the literature, DC motors have been commonly used in these systems because they can easily interface with the DC output of PV arrays. However, DC motors come with a significant drawback: the presence of brushes, which require regular maintenance and reduce system reliability9. Many systems have increasingly adopted induction motors (IMs) to address these issues. IMs are known for their robustness, reliability, and maintenance-free operation, making them particularly attractive for applications where long-term performance and minimal upkeep are essential10. The control and power processing units, including a DC-DC converter and an inverter, manage the flow of electricity within the PVWPS11. The control is a key component in optimizing the performance of the PVWPS12. First, the Maximum Power Point Tracking (MPPT) controller guarantees the optimal operation of the PV array by continuously extracting the highest available power under varying environmental conditions. This dynamic adjustment maximizes energy utilization and enhances the system’s reliability, even during solar irradiance and temperature fluctuations13. Second, the motor controller regulates the induction motor (IM) performance via the inverter by adjusting key parameters, including torque and speed. This ensures smooth and efficient motor performance, enhancing the hydraulic pump’s efficiency and effectively meeting water delivery demands14. Numerous studies have explored advanced control configurations for increasing the efficiency and effectiveness of PVWPS15. These configurations address the challenges of MPPT and motor controllers. For instance, the authors in16 applied a PVWPS control system employing the Perturb and Observe (P&O) algorithm for MPPT and Direct Field-Oriented Control (DFOC) for the IM. While P&O is widely recognized for its simplicity and ease of use, it faces persistent oscillations at the MPP, particularly in rapidly changing environmental conditions. Similarly, DFOC offers precise decoupling of torque and flux control but requires detailed measurements of rotor flux, making it heavily dependent on accurate motor parameter tuning. This dependence can lead to reduced performance under parameter variations or external disturbances. To address the limitations of P&O and DFOC, the authors in17 introduced a control strategy that integrates Variable Step Size P&O (VSS-P&O) for MPPT and Indirect Field-Oriented Control (IFOC) for motor control. VSS-P&O improves upon the fixed-step P&O by dynamically adjusting the step size, reducing oscillations, and enhancing tracking speed. However, VSS-P&O struggles with initial tracking delays during sudden changes in irradiance. On the other hand, IFOC eliminates the need for direct rotor flux measurement by estimating rotor flux using motor parameters, simplifying implementation. Nevertheless, IFOC remains sensitive to parameter inaccuracies, which can degrade performance under varying loads or environmental conditions. The authors in18 studied a control configuration that combines VSS-Incremental Conductance (VSS-INC) for MPPT and Direct Torque Control (DTC) for the motor. While DTC offers simplicity, robustness, and a faster dynamic response than IFOC, it suffers from significant drawbacks such as high torque and flux ripples, particularly at lower speeds. These ripples cause mechanical vibrations, increased noise, and higher total harmonic distortion (THD) in the stator current, limiting the system’s efficiency and stability. To address these issues, the authors in10 proposed a control strategy combining the Kalman Filter-based MPPT (KF-MPPT) and a 12-sector Direct Torque Control with a Neutral Point Clamped (NPC) three-level inverter for the motor. The KF-based MPPT algorithm enhances maximum power tracking by providing high accuracy and a fast response under variable environmental conditions. The 12-sector DTC, coupled with the NPC inverter, reduces the torque and flux ripples, improving motor efficiency and lowering harmonic distortion. However, the KF-MPPT requires accurate system modeling and real-time data processing, significantly increasing computational demands. In addition, the NPC inverter with 12-sector DTC raises system costs due to the added power of electronic components and the computational complexity required for control implementation.",
+            "page": 2,
+            "font_size": 8.3,
+            "bbox": [
+              155.90550231933594,
+              47.7063102722168,
+              556.272216796875,
+              580.2818603515625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "To further enhance the performance of photovoltaic water pumping systems (PVWPS), many authors have extensively studied AI techniques such as Artificial Neural Networks (ANNs) and Fuzzy Logic (FL) controllers. The authors in19 integrated fuzzy logic for both maximum power point tracking (MPPT) and induction motors’ direct torque control (DTC). The fuzzy logic-based MPPT adapts to changing irradiance, ensuring efficient energy extraction even in fluctuating conditions. In contrast, the fuzzy logic-based DTC improves motor performance by minimizing flux ripples and stator currents. This dual approach boosts system performance, but it has challenges. The fuzzy logic-based MPPT can take longer to converge to the optimal power point and struggles under partial shading. Moreover, the fuzzy logic approach depends on predefined rules, which can be time-consuming to design and often require expert knowledge. This reliance on rule-based systems can introduce limitations in flexibility and adaptability, primarily when the system operates under dynamic or uncertain environmental conditions. The fuzzy logic-based DTC also increases system complexity, requiring careful design and potentially limiting its real-world application. Other authors introduced in20 ANN-based systems for MPPT and DTC to address these limitations. The ANN-based MPPT ensures optimal power extraction by accurately tracking the maximum power point under non-uniform irradiance conditions, where traditional methods struggle. However, it still faces challenges in partial shading scenarios. The ANN-based DTC improves motor performance by replacing conventional Scientific Reports | (2025) 15:16127 2 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 2,
+            "font_size": 8.8,
+            "bbox": [
+              41.102298736572266,
+              578.140869140625,
+              556.2698364257812,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 2,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "controllers, such as hysteresis and Proportional-Integral (PI) controllers, with ANN structures, which enhance system stability and dynamic response. Despite promising results in simulations and real-time applications, deploying ANN-based systems faces challenges related to high computational demands and the need for extensive, high-quality training datasets. Inadequate data can compromise the system’s ability to handle variations, such as sudden changes in solar radiation or dynamic load shifts, affecting its reliability. The key findings from these recent studies are summarized in Table 1.",
+            "page": 3,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              48.140869140625,
+              556.271484375,
+              110.28186798095703
+            ]
+          },
+          {
+            "type": "text",
+            "text": "AI-driven methods have demonstrated significant potential in optimizing the performance of PVWPS. However, these methods face notable challenges. ANN-based approaches often encounter difficulties training the network, with risks of overfitting or underfitting21. Moreover, they require extensive computational resources and highly accurate datasets, complicating their implementation22. Similarly, FLC systems involve time-intensive parameter tuning, demand specialized expertise, and may lack robustness under dynamic environmental conditions23. To address these challenges, bio-inspired (BI) control techniques24, including Particle Swarm Optimization (PSO), Artificial Bee Colony (ABC), Ant Colony Optimization (ACO), and Genetic Algorithms (GA), have gained significant attention12. These methods are typically faster at converging to a global optimum. Additionally, they do not require the complex design and tuning associated with neural networks, making them more straightforward to implement in many optimization scenarios. Furthermore, bio-inspired algorithms excel in dynamic and noisy environments, making them well-suited for real-time applications, such as control systems, where stability and accuracy are paramount. Researchers have extensively studied and applied these methods to motor and photovoltaic (PV) systems. In Ref25 the authors proposed a GA-based MPPT method that minimizes oscillations near the maximum power point, improves system stability, and increases output power efficiency, with experimental validation confirming its superiority. In Ref26, the authors introduced an ACO-based MPPT controller with a novel Pheromone Updating method (ACO-NPU MPPT), which demonstrated high tracking precision, low oscillations, and robust performance under various weather conditions and partial shading. Other advancements involve hybrid algorithms, such as the GA-ACO algorithm described in Ref27, which dynamically adjusts ACO parameters based on the P-V curve, enabling rapid tracking of the global MPP under multiple peak conditions. In Ref27, the PSO algorithm outperformed GA-based methods in simulations and experimental setups. Bat Algorithm-based MPPT is studied in Ref28, demonstrating superior accuracy and efficiency even under shading conditions. The authors proposed in29 an ANFIS–PSO-based hybrid MPPT method for efficient PV power extraction with zero oscillations. The method eliminates extra sensors and ensures a high-quality inverter current with a Zeta converter. Experimental validation shows that it outperforms other MPPT methods like perturb, observation, and ant colony optimization. The authors introduced30 an FPSO-based MPPT algorithm and modified SVPWM inverter control for optimal photovoltaic power. The system was tested under varying conditions using a buck-boost Zeta converter for voltage regulation. Experimental results demonstrated high efficiency and dynamic control, with real-time verification on a dSPACE DS1104 platform. BI techniques have also significantly improved speed and torque regulation in motor control, particularly in Direct Torque Control-based systems28. The authors in Ref31 proposed a GA-based DTC strategy for Doubly Fed Induction Motors (DFIM), optimizing PI parameters offline and achieving significant torque and flux ripple reductions. The authors in Ref32, compared GA and PSO methods for optimizing PID controllers in the DTC of three-phase induction motors, with the PSO-DTC approach delivering better stability and minimal torque fluctuations. The authors in Ref33 analyzed hybrid methods such as PID-PSO and Fuzzy-PSO, with Fuzzy-PSO excelling in reducing disturbances and improving response times. ACO and ABC methods are also studied in",
+            "page": 3,
+            "font_size": 8.3,
+            "bbox": [
+              155.9053955078125,
+              108.140869140625,
+              556.2562255859375,
+              470.2818908691406
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Reference Controllers used Advantages Disadvantages Key findings",
+            "page": 3,
+            "font_size": 7.0,
+            "bbox": [
+              61.393001556396484,
+              503.3160095214844,
+              435.14569091796875,
+              513.0040283203125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "16 P&O for MPPT, DFOC for the IM",
+            "page": 3,
+            "font_size": 6.3,
+            "bbox": [
+              61.39390182495117,
+              522.7575073242188,
+              146.2498016357422,
+              539.7005004882812
+            ]
+          },
+          {
+            "type": "text",
+            "text": "MPPT: Simple and easy to implement IM: Provides accurate torque and flux control MPPT: Oscillations near MPP in fluctuating conditions IM: Requires precise parameter tuning MPPT: P&O improves energy extraction but struggles with oscillations IM: DFOC offers decoupling, but is sensitive to parameter tuning",
+            "page": 3,
+            "font_size": 7.0,
+            "bbox": [
+              153.3372039794922,
+              515.257568359375,
+              551.0008544921875,
+              547.2005004882812
+            ]
+          },
+          {
+            "type": "text",
+            "text": "17 VSS-P&O for MPPT, IFOC for IM",
+            "page": 3,
+            "font_size": 6.5,
+            "bbox": [
+              61.39390182495117,
+              553.3428955078125,
+              136.34548950195312,
+              577.785888671875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "MPPT: Reduced oscillations, dynamic tracking speed IM: Eliminates direct rotor flux measurement, making it simpler MPPT: Delays in initial tracking under sudden irradiance changes IM: Requires accurate motor parameters MPPT: VSS-P&O improves tracking speed but with delays IM: IFOC eliminates rotor flux measurement, but accuracy is dependent on parameters",
+            "page": 3,
+            "font_size": 7.0,
+            "bbox": [
+              153.3372039794922,
+              549.5928955078125,
+              544.0217895507812,
+              581.535888671875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "18 VSS-INC for MPPT, DTC for IM",
+            "page": 3,
+            "font_size": 6.5,
+            "bbox": [
+              61.39390182495117,
+              587.6783447265625,
+              134.39248657226562,
+              612.121337890625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "MPPT: tracking with fewer oscillations IM: Provides fast response MPPT: Reduced efficiency compared to other methods IM: Torque and flux ripples at low speeds MPPT: VSS-INC enhances robustness in tracking, but with reduced efficiency IM: DTC improves dynamic response but with ripple issues at low speeds",
+            "page": 3,
+            "font_size": 7.0,
+            "bbox": [
+              153.3372039794922,
+              583.9283447265625,
+              550.8054809570312,
+              615.871337890625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "10 KF-MPPT for MPPT, DTC for IM",
+            "page": 3,
+            "font_size": 6.5,
+            "bbox": [
+              61.39390182495117,
+              618.2637329101562,
+              137.54879760742188,
+              642.7067260742188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "MPPT: High accuracy, fast response IM: DTC reduces torque and flux ripples MPPT: Computationally demanding IM: High system cost due to NPC inverter MPPT: KF-MPPT offers high accuracy and fasttracking but increases computational demand IM: DTC reduces ripples but adds cost and complexity",
+            "page": 3,
+            "font_size": 7.0,
+            "bbox": [
+              153.3372039794922,
+              618.2637329101562,
+              550.2966918945312,
+              642.7067260742188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "19 Fuzzy Logic for MPPT, Fuzzy Logic for DTC",
+            "page": 3,
+            "font_size": 6.5,
+            "bbox": [
+              61.39390182495117,
+              648.8489990234375,
+              141.88882446289062,
+              673.2919921875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "MPPT: Adaptable to changing irradiance IM: Improves motor performance and minimizes flux ripples MPPT: Takes longer to converge IM: Increased system complexity due to rule-based control MPPT: Fuzzy logic-based MPPT adapts to changing irradiance but with slower convergence IM: Fuzzy DTC improves motor control but adds complexity",
+            "page": 3,
+            "font_size": 7.0,
+            "bbox": [
+              153.3372039794922,
+              645.0989990234375,
+              545.4434814453125,
+              677.0419921875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "20 ANN for MPPT, ANN for DTC",
+            "page": 3,
+            "font_size": 6.3,
+            "bbox": [
+              61.39390182495117,
+              686.821044921875,
+              144.51377868652344,
+              703.7640380859375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "MPPT: Accurate under fluctuating irradiance IM: Enhances dynamic response and stability MPPT: Requires extensive training datasets IM: High computational requirements for ANN-based control MPPT: ANN-based MPPT ensures accurate power tracking in non-uniform conditions IM: ANN-based DTC improves dynamic response but requires high computational resources",
+            "page": 3,
+            "font_size": 7.0,
+            "bbox": [
+              153.3372039794922,
+              679.321044921875,
+              551.4144897460938,
+              711.2640380859375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 1. Summary of the control strategies for PVWPS.",
+            "page": 3,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              720.7958984375,
+              356.5577392578125,
+              733.2518920898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 3 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 3,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 3,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Ref34. These methods demonstrated enhanced torque and flux control, improved speed regulation, and robust performance under varying load conditions.",
+            "page": 4,
+            "font_size": 8.3,
+            "bbox": [
+              155.90550231933594,
+              47.7061882019043,
+              556.1679077148438,
+              70.28186798095703
+            ]
+          },
+          {
+            "type": "text",
+            "text": "This paper proposes a novel PSO-optimized dual-controller approach for enhancing the performance of Photovoltaic Water Pumping Systems (PVWPS). The approach combines a PSO-based Maximum Power Point Tracking (MPPT) controller with a PSO-optimized Induction Motor (IM) speed controller to ensure the efficient operation of the centrifugal pump.",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              68.140869140625,
+              556.2520141601562,
+              110.28186798095703
+            ]
+          },
+          {
+            "type": "text",
+            "text": "• PSO-Based MPPT Controller: The proposed PSO-based Maximum Power Point Tracking (MPPT) controller",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              116.644775390625,
+              556.23779296875,
+              128.78578186035156
+            ]
+          },
+          {
+            "type": "text",
+            "text": "is designed to maximize the energy extraction from the photovoltaic array under varying environmental conditions, such as fluctuating sunlight and partial shading. By using Particle Swarm Optimization (PSO), the controller ensures optimal tracking of the maximum power point (MPP), improving the overall energy efficiency of the PV system. • PSO-Optimized IM Speed Controller: The IM speed controller is optimized using PSO to efficiently regulate the induction motor’s operation. This optimization ensures smooth and reliable water delivery while adapting to changing demands. The PSO-optimized controller improves the motor’s dynamic behavior, enhancing centrifugal pump performance. • Combined Impact of PSO-Based MPPT and IM Speed Control: Integrating the PSO-optimized MPPT and IM speed controller enhances the overall performance of the PVWPS. The MPPT controller ensures efficient energy extraction, while the IM speed controller optimizes motor performance for reliable water delivery. This dual-controller approach improves energy efficiency and system stability and reduces mechanical stress, making the PVWPS more efficient and reliable, particularly in agricultural irrigation applications. This paper is arranged as follows: Sect. 2 discusses a detailed overview of the PVWPS architecture and its components. Section 3 discusses the control strategies, including the PSO-based MPPT and DTC methods. Section 4 presents the simulation outcomes obtained using MATLAB/Simulink and the real-time validation performed on the dSPACE DS1104 platform. Finally, Sect. 5 presents the key conclusions and suggests future research. Design of the studied PVWPS The PVWPS design is presented in Fig. 1. The system includes a PV array that converts solar energy into electrical power. To optimize the energy output, a Boost converter is employed, where the duty cycle is dynamically adjusted using the PSO based on the MPPT controller. This PSO-based MPPT guarantees that the PV array operates at its maximum power point by continuously monitoring and adapting under solar irradiance and temperature variations. The electrical energy is then fed into a Voltage Source Inverter, which powers an induction motor linked to a centrifugal pump. To further enhance system performance, a second application of the PSO algorithm is used to regulate the IM’s speed, optimizing the pump’s operation to meet varying water demands efficiently. The Direct Torque Control strategy regulates the IM via the VSI, offering precise control over motor torque and flux to maintain smooth operation and improve overall system performance.",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              126.644775390625,
+              556.2688598632812,
+              429.2897033691406
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Structural design of the photovoltaic panel The PV panel’s circuit comprises four primary elements: the current source, diode, shunt resistor, and series resistor. The current source models the photon current ( IP V ), which is directly proportional to the solar irradiance. The diode reflects the P-N junction of the solar cell, capturing the nonlinear relationship between voltage and current. The shunt resistor ( Rsh) accounts for leakage currents due to material imperfections, while the series resistor ( Rs) represents internal resistive losses within the panel35. The output current ( IP V ) of the PV panel is mathematically expressed as (Fig. 2):",
+            "page": 4,
+            "font_size": 8.4,
+            "bbox": [
+              155.90550231933594,
+              436.52972412109375,
+              556.2479858398438,
+              509.2897033691406
+            ]
+          },
+          {
+            "type": "text",
+            "text": "IP V = Iph −Is",
+            "page": 4,
+            "font_size": 7.8,
+            "bbox": [
+              236.69549560546875,
+              520.7366333007812,
+              296.53839111328125,
+              540.5025024414062
+            ]
+          },
+          {
+            "type": "text",
+            "text": "(",
+            "page": 4,
+            "font_size": 10.0,
+            "bbox": [
+              298.57550048828125,
+              509.08160400390625,
+              305.9079895019531,
+              519.044189453125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "eq (VP V +RsIP V ) akT Ns −1",
+            "page": 4,
+            "font_size": 6.0,
+            "bbox": [
+              305.90850830078125,
+              516.0109252929688,
+              375.1682434082031,
+              533.09228515625
+            ]
+          },
+          {
+            "type": "text",
+            "text": ")",
+            "page": 4,
+            "font_size": 10.0,
+            "bbox": [
+              375.6675109863281,
+              509.08160400390625,
+              383.0,
+              519.044189453125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "−(VP V + RsIP V ) Rsh \b (1)",
+            "page": 4,
+            "font_size": 8.1,
+            "bbox": [
+              385.0484924316406,
+              514.8585815429688,
+              554.1725463867188,
+              539.4890747070312
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 4,
+            "font_size": 0,
+            "bbox": [
+              92.41229248046875,
+              565.3087768554688,
+              554.1732177734375,
+              711.4690551757812
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1. Architecture of PVWPS with PSO-based MPPT and PI-DTC speed regulation.",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              720.7960205078125,
+              465.1398620605469,
+              733.2520141601562
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 4 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 4,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 4,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Where",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              353.8019104003906,
+              180.17848205566406,
+              365.9429016113281
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Iph = (Isc + Ki (T −298.15) G 1000\b (2)",
+            "page": 5,
+            "font_size": 8.5,
+            "bbox": [
+              155.90550231933594,
+              372.7130126953125,
+              554.1696166992188,
+              394.75677490234375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Is = Isc + Ki(T −298.15)",
+            "page": 5,
+            "font_size": 8.4,
+            "bbox": [
+              291.08209228515625,
+              395.9010009765625,
+              400.7610778808594,
+              415.5072937011719
+            ]
+          },
+          {
+            "type": "text",
+            "text": "e",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              313.2869873046875,
+              415.92230224609375,
+              317.57293701171875,
+              424.8887023925781
+            ]
+          },
+          {
+            "type": "text",
+            "text": "q(Voc+Kv(T −298.15)",
+            "page": 5,
+            "font_size": 5.0,
+            "bbox": [
+              318.76708984375,
+              409.1730651855469,
+              386.4031982421875,
+              419.484375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "aKT Ns −1",
+            "page": 5,
+            "font_size": 7.6,
+            "bbox": [
+              340.5409851074219,
+              412.5329895019531,
+              403.95721435546875,
+              431.2369079589844
+            ]
+          },
+          {
+            "type": "text",
+            "text": "\b (3)",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              405.1510925292969,
+              404.9302062988281,
+              554.1731567382812,
+              417.0711975097656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "q is the electron charge (1.6 × 10−19 C 1.6 × 10−19 C), a denotes the ideality factor of the diode, k is the Boltzmann constant (1.38 × 10−23 J/K 1.38 × 10−23 J/K), and T is the temperature. G refers to the solar irradiance, ki is the temperature coefficient of the short-circuit current, and kv is the temperature coefficient of the open-circuit voltage. Modeling of the DC–DC boost converter Figure 3 illustrates the boost converter’s equivalent circuit connecting the PV array to the Voltage Source Inverter. The converter increases the DC voltage output from the PV panel to match the inverter’s input voltage requirements36.",
+            "page": 5,
+            "font_size": 8.4,
+            "bbox": [
+              155.90550231933594,
+              432.84429931640625,
+              556.262451171875,
+              525.4199829101562
+            ]
+          },
+          {
+            "type": "text",
+            "text": "The voltage output and the Current output of the boost converter can be expressed as:",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              167.90550231933594,
+              523.2789916992188,
+              474.59393310546875,
+              535.4199829101562
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Vdc = 1 1 −α VP V \b (4)",
+            "page": 5,
+            "font_size": 8.5,
+            "bbox": [
+              155.90550231933594,
+              538.33984375,
+              554.1735229492188,
+              568.9237670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Idc = (1 −α ) IP V \b (5)",
+            "page": 5,
+            "font_size": 8.4,
+            "bbox": [
+              155.90550231933594,
+              565.7380981445312,
+              554.1694946289062,
+              584.4419555664062
+            ]
+          },
+          {
+            "type": "text",
+            "text": "where α is the boost converter’s duty cycle. Modeling of the voltage source inverter The VSI presented in Fig. 4 converts the DC voltage from the boost converter into AC voltage with controllable amplitude and frequency. It consists of three arms containing two IGBT switches paired with anti-parallel diodes to manage reverse current. This design ensures efficient AC voltage regulation to drive the induction motor17. The equations of output voltages are formulated in matrix form as follows:",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              155.9053955078125,
+              587.7791748046875,
+              556.25927734375,
+              660.0371704101562
+            ]
+          },
+          {
+            "type": "text",
+            "text": "[",
+            "page": 5,
+            "font_size": 10.0,
+            "bbox": [
+              258.5270080566406,
+              659.83203125,
+              264.335205078125,
+              669.7946166992188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Va Vb Vc",
+            "page": 5,
+            "font_size": 7.5,
+            "bbox": [
+              269.99798583984375,
+              668.4503173828125,
+              280.08349609375,
+              695.5985107421875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "]",
+            "page": 5,
+            "font_size": 10.0,
+            "bbox": [
+              285.5639953613281,
+              659.83203125,
+              291.3721923828125,
+              669.7946166992188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "= Vdc",
+            "page": 5,
+            "font_size": 8.2,
+            "bbox": [
+              293.93499755859375,
+              672.0640258789062,
+              317.4111022949219,
+              687.208251953125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "3 [ 2 −1 −1 −1 2 −1 −1 −1 2",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              309.0820007324219,
+              659.83203125,
+              392.8327331542969,
+              701.6978759765625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "] [",
+            "page": 5,
+            "font_size": 10.0,
+            "bbox": [
+              397.81298828125,
+              659.83203125,
+              410.963623046875,
+              669.7946166992188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Ta Tb Tc",
+            "page": 5,
+            "font_size": 7.5,
+            "bbox": [
+              416.6319885253906,
+              668.4503173828125,
+              426.719482421875,
+              695.5985107421875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "]",
+            "page": 5,
+            "font_size": 10.0,
+            "bbox": [
+              432.1990051269531,
+              659.83203125,
+              438.0072021484375,
+              669.7946166992188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "\b (6)",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              438.0090026855469,
+              675.8953247070312,
+              554.1720581054688,
+              688.0363159179688
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 5,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              224.94561767578125,
+              388.4659423828125,
+              305.5857849121094
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 3. Schematic of the boost converter.",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              314.9126892089844,
+              302.3875427246094,
+              327.3686828613281
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 5,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              50.4990234375,
+              388.4659423828125,
+              173.3792724609375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 2. PV panel system electrical circuit.",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              182.7061767578125,
+              304.61761474609375,
+              195.1621856689453
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 5 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 5,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 5,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Induction motor model The Induction Motor is a key component in the PVWPS, connecting the inverter to the pump that draws water. The analytical model of the IM in the (α, β) reference frame is typically used to simplify the analysis and control. The corresponding equations are given as follows37. Electrical equations The following equations can be used to represent the voltages in (α, β):",
+            "page": 6,
+            "font_size": 8.7,
+            "bbox": [
+              155.90550231933594,
+              217.7898712158203,
+              556.1529541015625,
+              290.5498962402344
+            ]
+          },
+          {
+            "type": "text",
+            "text": "      ",
+            "page": 6,
+            "font_size": 10.0,
+            "bbox": [
+              265.94439697265625,
+              290.5668029785156,
+              274.8011474609375,
+              339.38494873046875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Vsα = Rsisα + dψ sα",
+            "page": 6,
+            "font_size": 7.2,
+            "bbox": [
+              285.1133117675781,
+              296.44879150390625,
+              368.8837890625,
+              310.1770935058594
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dt Vsβ = Rsisβ + dψ sβ",
+            "page": 6,
+            "font_size": 7.2,
+            "bbox": [
+              285.6203918457031,
+              305.1217041015625,
+              368.12408447265625,
+              322.9060974121094
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dt Vrα = 0 = Rrirα + dψ rα",
+            "page": 6,
+            "font_size": 7.1,
+            "bbox": [
+              281.8293151855469,
+              317.78369140625,
+              383.1671142578125,
+              334.5330810546875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dt −ω rψ rβ Vrβ = 0 = Rrirβ +",
+            "page": 6,
+            "font_size": 7.7,
+            "bbox": [
+              282.17138671875,
+              323.9510192871094,
+              426.23406982421875,
+              347.6221008300781
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dψ rβ",
+            "page": 6,
+            "font_size": 5.5,
+            "bbox": [
+              364.1404113769531,
+              333.98968505859375,
+              382.2434387207031,
+              341.3792419433594
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dt + ω rψ rα",
+            "page": 6,
+            "font_size": 7.5,
+            "bbox": [
+              371.0404052734375,
+              333.8277893066406,
+              426.1957092285156,
+              348.478271484375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "\b (7)",
+            "page": 6,
+            "font_size": 9.0,
+            "bbox": [
+              430.5918884277344,
+              315.99810791015625,
+              554.1708984375,
+              328.13909912109375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Magnetic equations The equations for stator and rotor flux linkage in the (α, β) are given by",
+            "page": 6,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              358.1658935546875,
+              410.1599426269531,
+              380.42388916015625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "  ",
+            "page": 6,
+            "font_size": 10.0,
+            "bbox": [
+              294.37921142578125,
+              380.5287170410156,
+              303.2359619140625,
+              417.3903503417969
+            ]
+          },
+          {
+            "type": "text",
+            "text": "ψ sα = Lsisα + Mirα ψ sβ = Lsisβ + Mirβ ψ rα = Lrirα + Misα ψ rβ = Lrirβ + Misβ",
+            "page": 6,
+            "font_size": 7.8,
+            "bbox": [
+              309.40618896484375,
+              383.9466857910156,
+              398.4291076660156,
+              426.53399658203125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "\b (8)",
+            "page": 6,
+            "font_size": 9.0,
+            "bbox": [
+              402.1570129394531,
+              399.98199462890625,
+              554.176025390625,
+              412.12298583984375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Mechanical equation and electromagnetic torque The mechanical equation is29",
+            "page": 6,
+            "font_size": 8.1,
+            "bbox": [
+              155.90550231933594,
+              436.2597961425781,
+              325.82550048828125,
+              458.5177917480469
+            ]
+          },
+          {
+            "type": "text",
+            "text": "J dΩ",
+            "page": 6,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              461.98870849609375,
+              321.82977294921875,
+              487.4217834472656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "dt + fΩ= Te −Tr\b (9)",
+            "page": 6,
+            "font_size": 8.5,
+            "bbox": [
+              313.0856018066406,
+              467.78668212890625,
+              554.1705932617188,
+              487.48760986328125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "The formula for electromagnetic torque in the (α, β) is defined as:",
+            "page": 6,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              493.7846984863281,
+              390.153076171875,
+              505.9256896972656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Te = 3P",
+            "page": 6,
+            "font_size": 8.5,
+            "bbox": [
+              155.90550231933594,
+              509.3064880371094,
+              319.8841857910156,
+              534.7396240234375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "2 (ψ sα isβ −ψ sβ isα ) \b (10)",
+            "page": 6,
+            "font_size": 8.1,
+            "bbox": [
+              312.9744873046875,
+              515.1055297851562,
+              554.1766357421875,
+              534.8713989257812
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Centrifugal pump model The centrifugal pump is mechanically linked to the induction motor (IM) for water-pumping applications. The load torque of the pump is directly proportional to the square of the rotor speed of the motor (Ω), as represented in Eq. (11)32.",
+            "page": 6,
+            "font_size": 8.8,
+            "bbox": [
+              155.90550231933594,
+              541.9796142578125,
+              556.2500610351562,
+              584.7396240234375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Tr = B Ω2\b (11)",
+            "page": 6,
+            "font_size": 8.3,
+            "bbox": [
+              155.90550231933594,
+              589.2257690429688,
+              554.174560546875,
+              604.693603515625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Where B is a proportionality coefficient [(Nm / (rad s−1)2].",
+            "page": 6,
+            "font_size": 7.9,
+            "bbox": [
+              155.90550231933594,
+              610.6217651367188,
+              365.1065979003906,
+              623.197509765625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Control strategies for system optimization This section is organized into three parts to describe the operation of the proposed control strategy for the PVWPS, as illustrated in Fig. 5. The first part details the fundamental principles of Particle Swarm Optimization. The second part focuses on the application of PSO-based MPPT controllers. The final part discusses the principles of Direct Torque Control and the utilization of PSO for optimizing motor speed control within DTC. The PV panels, boost converter, DTC controller, and IM parameters are provided in Tables A1, A2, A3, and A4, respectively.",
+            "page": 6,
+            "font_size": 9.2,
+            "bbox": [
+              155.90550231933594,
+              631.4855346679688,
+              556.2388305664062,
+              705.197509765625
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 6,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              50.49895477294922,
+              388.4659423828125,
+              169.2991943359375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4. The Schematic of the VSI.",
+            "page": 6,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              178.626220703125,
+              275.5135192871094,
+              191.0822296142578
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 6 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 6,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 6,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Principle of the PSO PSO is a stochastic optimization algorithm based on the collective social behaviors found in nature, such as birds flocking or fish schooling. The algorithm mimics these behaviors to identify optimal solutions within a multidimensional search space. In this approach, a swarm of particles represents potential solutions. Each particle modifies its position in the search space based on two key factors: its personal best position, known as Pbest, and the global best solution found by the entire swarm, known as Gbest38. This adjustment allows particles to emulate successful behaviors while exploring different areas of the search space. During each iteration, the particle evaluates Pbest and Gbest to decide its next move, updating its velocity (v) and position (y) using the equations provided below:",
+            "page": 7,
+            "font_size": 8.9,
+            "bbox": [
+              155.90550231933594,
+              482.2367248535156,
+              556.239990234375,
+              574.9967041015625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "vn+1 j = wvn j + c1r1 (Pbest j −yn i ) + c2r2(Gbest −yn j )\b (12)",
+            "page": 7,
+            "font_size": 7.9,
+            "bbox": [
+              155.90550231933594,
+              579.4888305664062,
+              554.1736450195312,
+              600.1734008789062
+            ]
+          },
+          {
+            "type": "text",
+            "text": "yn+1 j = yn j + vn+1 j \b (13)",
+            "page": 7,
+            "font_size": 7.6,
+            "bbox": [
+              155.90550231933594,
+              598.8582153320312,
+              554.1695556640625,
+              616.5700073242188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "where j denotes the number of particles, n represents the number of iterations, w is the inertia weight, which regulates the impact of the prior velocity. c1 and c2 are cognitive and social acceleration coefficients, guiding particles toward their individual and global best positions. r1 and r2 are random variables distributed uniformly between 0 and 1, introducing stochasticity to the algorithm.",
+            "page": 7,
+            "font_size": 8.7,
+            "bbox": [
+              155.90550231933594,
+              622.8158569335938,
+              556.2296142578125,
+              665.0739135742188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Figure 6 depicts the iterative procedure for modifying the particle’s velocity and position. Bold lines represent the particle’s updated velocity and position after each iteration, while dotted lines reflect the elements of Eqs. (12) and (13). The updates guide the particle’s movement based on its prior state, (P best), and (Gbest).",
+            "page": 7,
+            "font_size": 8.7,
+            "bbox": [
+              155.90550231933594,
+              662.9329223632812,
+              556.2171630859375,
+              695.9782104492188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "MPPT-based PSO To maximize the power extracted from the PV array using PSO, the initial step in the algorithm involves calculating the power output. This calculation depends on the voltages and currents generated by the PV array, which are",
+            "page": 7,
+            "font_size": 9.3,
+            "bbox": [
+              155.90550231933594,
+              702.3139038085938,
+              556.2666625976562,
+              735.0739135742188
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 7,
+            "font_size": 0,
+            "bbox": [
+              155.90550231933594,
+              310.145751953125,
+              340.22589111328125,
+              433.7460021972656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6. Particle swarm optimization dynamics: personal and global influence39.",
+            "page": 7,
+            "font_size": 8.3,
+            "bbox": [
+              155.90550231933594,
+              442.95318603515625,
+              439.310791015625,
+              455.5289001464844
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 7,
+            "font_size": 0,
+            "bbox": [
+              102.25230407714844,
+              50.499053955078125,
+              554.1732177734375,
+              258.5794677734375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 5. Structure global of the studied PVWPS with the proposed controllers.",
+            "page": 7,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              267.9064025878906,
+              433.3788757324219,
+              280.3623962402344
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 7 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 7,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 7,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "affected by changes in the boost converter’s duty cycle. The PSO method processes these duty cycle variations to converge toward the optimal value that maximizes PV power40. In this approach, the particle’s position ( yk j ) in Eq. (13) represents the duty cycle of the boost converter ( α k j ). In contrast, the particle’s velocity ( V k+1 j ) in Eq. (12) corresponds to the incremental change in the duty cycle ( ∆α k i ). The PSO algorithm identifies the optimal duty cycle that enables the PV system to achieve the MPP by updating the particle’s position and velocity. The mathematical equation of the PSO-based MPPT technique is presented in the following equation",
+            "page": 8,
+            "font_size": 7.7,
+            "bbox": [
+              155.90550231933594,
+              483.8821105957031,
+              556.24072265625,
+              554.423095703125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "∆α k+1 i = wα k",
+            "page": 8,
+            "font_size": 7.2,
+            "bbox": [
+              155.90550231933594,
+              559.2103271484375,
+              296.2847900390625,
+              577.4171142578125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "i + c1r1",
+            "page": 8,
+            "font_size": 7.7,
+            "bbox": [
+              292.3335876464844,
+              560.1279907226562,
+              324.12091064453125,
+              574.438232421875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "(",
+            "page": 8,
+            "font_size": 10.0,
+            "bbox": [
+              326.1554870605469,
+              554.4509887695312,
+              330.7183532714844,
+              564.41357421875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Pbest i −α k",
+            "page": 8,
+            "font_size": 7.5,
+            "bbox": [
+              330.7215881347656,
+              561.451904296875,
+              377.77880859375,
+              579.8948974609375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "i",
+            "page": 8,
+            "font_size": 6.0,
+            "bbox": [
+              373.8276062011719,
+              567.3368530273438,
+              376.4936218261719,
+              573.314453125
+            ]
+          },
+          {
+            "type": "text",
+            "text": ") + c2r2(Gbest −α k",
+            "page": 8,
+            "font_size": 7.9,
+            "bbox": [
+              378.4006042480469,
+              554.4509887695312,
+              458.29180908203125,
+              579.8948974609375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "i )\b (14)",
+            "page": 8,
+            "font_size": 8.4,
+            "bbox": [
+              454.3406066894531,
+              560.1279907226562,
+              554.1715087890625,
+              574.438232421875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "α k+1 i = α k i + ∆α k+1 i \b (15)",
+            "page": 8,
+            "font_size": 7.4,
+            "bbox": [
+              155.90550231933594,
+              579.3674926757812,
+              554.176513671875,
+              595.916259765625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "The steps of the PSO-based MPPT method are outlined in the flowchart shown in Fig. 7. Direct torque control model followed by PID controller design with PSO for speed regulation Operation and modeling of direct torque control DTC, developed in the 1980s by Takahashi and Depenbrock22, is a method that directly regulates the stator flux and electromagnetic torque by choosing appropriate stator voltage vectors. Unlike FOC, DTC eliminates the need for current regulators or PWM signal generators, simplifying the control structure. Additionally, DTC operates as a sensorless method, estimating torque and flux-based solely on stator quantities, which enhances reliability and reduces system complexity. As illustrated in Fig. 8, DTC uses hysteresis regulators to control the stator flux amplitude and torque. The regulators compare the calculated flux and torque to their reference values, and the resulting errors determine the optimal voltage vector for the inverter. This selection is made from six active and two zero voltage vectors, enabling precise and efficient control.",
+            "page": 8,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              602.279296875,
+              556.2561645507812,
+              724.4202880859375
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 8,
+            "font_size": 0,
+            "bbox": [
+              77.77226257324219,
+              269.82568359375,
+              554.1732177734375,
+              435.666015625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8. Direct torque control diagram applied to IM.",
+            "page": 8,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              444.9928894042969,
+              344.2636413574219,
+              457.4488830566406
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 8,
+            "font_size": 0,
+            "bbox": [
+              77.77226257324219,
+              50.498992919921875,
+              554.1732177734375,
+              218.25933837890625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 7. Flowchart of PSO base for MPPT algorithm41.",
+            "page": 8,
+            "font_size": 8.3,
+            "bbox": [
+              155.90550231933594,
+              227.4666290283203,
+              348.277587890625,
+              240.0421905517578
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 8 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 8,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 8,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Estimation of electromagnetic torque and stator flux Estimation of the stator flux The stator flux components ψsα and ψsβ, expressed in the stationary reference frame, is determined using the following equations:",
+            "page": 9,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              48.02387237548828,
+              556.2091674804688,
+              70.28186798095703
+            ]
+          },
+          {
+            "type": "text",
+            "text": "ψ sα =",
+            "page": 9,
+            "font_size": 8.0,
+            "bbox": [
+              289.1958923339844,
+              82.05667877197266,
+              318.23004150390625,
+              96.9820785522461
+            ]
+          },
+          {
+            "type": "text",
+            "text": "∫ t",
+            "page": 9,
+            "font_size": 8.0,
+            "bbox": [
+              320.79290771484375,
+              70.88984680175781,
+              335.65521240234375,
+              82.81727600097656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "0",
+            "page": 9,
+            "font_size": 6.0,
+            "bbox": [
+              332.80389404296875,
+              94.77245330810547,
+              336.4562072753906,
+              103.27857971191406
+            ]
+          },
+          {
+            "type": "text",
+            "text": "(Vsα −Rsisα ) dt\b (16)",
+            "page": 9,
+            "font_size": 8.2,
+            "bbox": [
+              338.4898986816406,
+              82.05667877197266,
+              554.1709594726562,
+              101.75668334960938
+            ]
+          },
+          {
+            "type": "text",
+            "text": "ψ sβ =",
+            "page": 9,
+            "font_size": 8.0,
+            "bbox": [
+              289.6908874511719,
+              113.8760757446289,
+              318.3951416015625,
+              128.80142211914062
+            ]
+          },
+          {
+            "type": "text",
+            "text": "∫ t",
+            "page": 9,
+            "font_size": 8.0,
+            "bbox": [
+              320.9590148925781,
+              102.70912170410156,
+              335.8202209472656,
+              114.63661193847656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "0",
+            "page": 9,
+            "font_size": 6.0,
+            "bbox": [
+              332.9689025878906,
+              126.59178924560547,
+              336.6212158203125,
+              135.09791564941406
+            ]
+          },
+          {
+            "type": "text",
+            "text": "(Vsβ −Rsisβ ) dt\b (17) The stator voltage components, Vsα and Vsβ , are derived by applying the Concordia transformation to the output voltage of the three-phase VSI and are expressed as:",
+            "page": 9,
+            "font_size": 8.2,
+            "bbox": [
+              155.90550231933594,
+              113.8760757446289,
+              556.2042846679688,
+              165.2589874267578
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Vsα =",
+            "page": 9,
+            "font_size": 8.0,
+            "bbox": [
+              281.81561279296875,
+              178.44076538085938,
+              307.4117431640625,
+              192.16909790039062
+            ]
+          },
+          {
+            "type": "text",
+            "text": "√",
+            "page": 9,
+            "font_size": 10.0,
+            "bbox": [
+              309.9755859375,
+              165.45179748535156,
+              319.93817138671875,
+              175.41439819335938
+            ]
+          },
+          {
+            "type": "text",
+            "text": "2 3Vdc(Sa −1 2 (Sb + Sc))\b (18)",
+            "page": 9,
+            "font_size": 8.3,
+            "bbox": [
+              321.13360595703125,
+              172.64181518554688,
+              554.169677734375,
+              198.14071655273438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Vsβ =",
+            "page": 9,
+            "font_size": 8.0,
+            "bbox": [
+              300.54058837890625,
+              210.72012329101562,
+              325.8077392578125,
+              224.51541137695312
+            ]
+          },
+          {
+            "type": "text",
+            "text": "√",
+            "page": 9,
+            "font_size": 10.0,
+            "bbox": [
+              328.37060546875,
+              197.73109436035156,
+              338.33319091796875,
+              207.69369506835938
+            ]
+          },
+          {
+            "type": "text",
+            "text": "1 2Vdc(Sb −Sc)\b (19) The stator currents in the αβ ( isα and isβ ) are also determined by applying the Concordia transformation to the three-phase stator currents ( isa, isb, isc) as expressed in the following equation:",
+            "page": 9,
+            "font_size": 8.3,
+            "bbox": [
+              155.90550231933594,
+              204.92111206054688,
+              556.185302734375,
+              261.15618896484375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "{",
+            "page": 9,
+            "font_size": 10.0,
+            "bbox": [
+              299.09710693359375,
+              261.25311279296875,
+              306.5690612792969,
+              271.2157287597656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "isα = √2",
+            "page": 9,
+            "font_size": 8.0,
+            "bbox": [
+              313.5780944824219,
+              261.34613037109375,
+              354.3283996582031,
+              281.19940185546875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "3isa isβ = 1 √",
+            "page": 9,
+            "font_size": 7.1,
+            "bbox": [
+              313.5981140136719,
+              270.86041259765625,
+              366.202880859375,
+              293.0389709472656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "2(isa −isb) \b (20)",
+            "page": 9,
+            "font_size": 8.1,
+            "bbox": [
+              346.381103515625,
+              274.32928466796875,
+              554.1741333007812,
+              297.9850158691406
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Estimation of the torque The estimated electromagnetic torque is calculated using the estimated flux and currents, expressed as:",
+            "page": 9,
+            "font_size": 9.0,
+            "bbox": [
+              155.9055938720703,
+              302.7261047363281,
+              556.2351684570312,
+              324.9841003417969
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Te = 3",
+            "page": 9,
+            "font_size": 8.4,
+            "bbox": [
+              155.9055938720703,
+              327.9049072265625,
+              306.6473388671875,
+              353.3379821777344
+            ]
+          },
+          {
+            "type": "text",
+            "text": "2 × p (",
+            "page": 9,
+            "font_size": 9.2,
+            "bbox": [
+              302.0386047363281,
+              328.02691650390625,
+              331.8774719238281,
+              358.4888000488281
+            ]
+          },
+          {
+            "type": "text",
+            "text": "isβ ψ sα −isα ψ sβ",
+            "page": 9,
+            "font_size": 7.6,
+            "bbox": [
+              331.880615234375,
+              336.8511047363281,
+              405.9028625488281,
+              354.6007995605469
+            ]
+          },
+          {
+            "type": "text",
+            "text": ")",
+            "page": 9,
+            "font_size": 10.0,
+            "bbox": [
+              408.4085998535156,
+              328.02691650390625,
+              412.9714660644531,
+              337.9895324707031
+            ]
+          },
+          {
+            "type": "text",
+            "text": "\b (21) Hysteresis controller for flux and electromagnetic torque The stator flux is regulated by a two-level hysteresis controller (Fig. 9), ensuring that its vector magnitude follows a circular path. In contrast, a three-level hysteresis comparator (Fig. 10) regulates the motor’s torque in both rotational directions.",
+            "page": 9,
+            "font_size": 9.0,
+            "bbox": [
+              155.9055938720703,
+              334.6722106933594,
+              556.258056640625,
+              393.3379821777344
+            ]
+          },
+          {
+            "type": "text",
+            "text": "The DTC switching table In DTC, the switching table determines the most suitable voltage vector from eight choices, comprising six active vectors (V1 to V6) and two zero vectors (V0, V7). These vectors are allocated across six sectors (T1, T2, T3, T4, T5, T6), each covering 60 degrees. The selection is based on the stator flux position and inputs from the flux and torque hysteresis controllers, as detailed in Table 2. Active voltage vectors adjust the flux and torque according to the control requirements. In contrast, zero voltage vectors keep the stator flux magnitude steady and cause a moderate reduction in electromagnetic torque. The PI speed-based PSO controller The PI controller is implemented to control the induction motor’s speed in the PVWPS and is valued for its simplicity, cost-effectiveness, and reliability across various operating condi­ tions. It ensures accurate speed control by minimizing steady-state errors and enhancing the system’s dynamic response. The controller effectively reduces overshoot and rise time, compensating for changes in motor load or variations in solar irradiance. The controller achieves this by utilizing two key parameters: the proportional gain ( Kd) and the integral gain ( Ki). Kd determines the controller’s immediate reaction to the error signal e(t), which is defined as the difference between the reference speed ( Ωref) and the actual motor speed (Ω).",
+            "page": 9,
+            "font_size": 8.2,
+            "bbox": [
+              155.9055938720703,
+              401.1969909667969,
+              556.2662963867188,
+              543.3380126953125
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 9,
+            "font_size": 0,
+            "bbox": [
+              128.89234924316406,
+              566.5087890625,
+              554.1732177734375,
+              711.4691162109375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9. Two levels of hysteresis controller for stator flux.",
+            "page": 9,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              720.7960205078125,
+              356.2335510253906,
+              733.2520141601562
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 9 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 9,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 9,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "On the other hand, Ki addresses the accumulated error over time, ensuring the motor speed converges to the desired setpoint and eliminating steady-state errors22. However, determining the optimal values for Kd and Ki can be complex and time-consuming. Suboptimal tuning may lead to degraded performance, including slower response times, higher overshoot, or even instability in the system. To address this challenge, the PSO can employed as a robust and efficient optimization method for tuning the PI controller. Figure 11 illustrates the block diagram of the PI controller optimized employing the PSO method. In which the PSO algorithm iter­ atively adjusts the gains Kp and Ki to achieve optimal system performance. As previously described, the PSO algorithm utilizes velocity and position update equations to refine the particle positions, representing potential combinations of Kp and Ki. These updates are based on each particle’s personal best performance and the global best solution within the swarm.",
+            "page": 10,
+            "font_size": 8.1,
+            "bbox": [
+              155.90550231933594,
+              501.7738037109375,
+              556.244140625,
+              603.9149169921875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Overview of simulation results and real-time analysis Simulation results and their interpretation This study evaluates the performance of a Photovoltaic Water Pumping System incorporating a PSO-based MPPT controller for optimal power extraction. Direct Torque Control is implemented to minimize torque and flux ripple, ensuring smoother and more efficient motor operation. The PSO-optimized PI controller also regulates speed, improving dynamic performance and stability. The effectiveness of these control strategies is evaluated by comparing the simulation outcomes of the PSO-based MPPT approach with those of the ANNbased MPPT controller. The PVWPS is tested under various operating conditions throughout this study to assess its performance, reliability, and adaptability. The system is evaluated explicitly in the following scenarios:",
+            "page": 10,
+            "font_size": 9.3,
+            "bbox": [
+              155.90550231933594,
+              612.2029418945312,
+              556.247314453125,
+              705.9149169921875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "• Sudden Changes in Irradiation: Simulating sudden fluctuations in solar radiation to analyze their impact on",
+            "page": 10,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              712.2777709960938,
+              556.2081298828125,
+              724.4187622070312
+            ]
+          },
+          {
+            "type": "text",
+            "text": "system performance and response.",
+            "page": 10,
+            "font_size": 9.0,
+            "bbox": [
+              165.82679748535156,
+              722.2777709960938,
+              289.8810729980469,
+              734.4187622070312
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 10,
+            "font_size": 0,
+            "bbox": [
+              155.90550231933594,
+              365.23760986328125,
+              354.38592529296875,
+              453.55780029296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 11. Block diagram of the PI controller optimized by PSO for speed regulation in PVWPS using DTC.",
+            "page": 10,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              462.88470458984375,
+              535.8888549804688,
+              475.3406982421875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Flux ∆ψ e 1 0 Torque ∆T e 1 0 − 1 1 0 − 1",
+            "page": 10,
+            "font_size": 6.5,
+            "bbox": [
+              159.04629516601562,
+              221.33847045898438,
+              312.53021240234375,
+              242.70628356933594
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Sectors (Ti) 1 V2 V0 V6 V3 V7 V5 2 V3 V7 V1 V4 V0 V6 3 V4 V0 V2 V5 V7 V1 4 V5 V7 V3 V6 V0 V2 5 V6 V0 V4 V1 V7 V3 6 V1 V0 V5 V2 V0 V4",
+            "page": 10,
+            "font_size": 6.3,
+            "bbox": [
+              159.0471954345703,
+              244.95980834960938,
+              312.8033752441406,
+              314.25665283203125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 2. Switching table for direct torque control with VSI.",
+            "page": 10,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              322.9981994628906,
+              368.2486572265625,
+              335.4541931152344
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 10,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              50.49896240234375,
+              552.8663330078125,
+              169.0592041015625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 10. Three levels hysteresis controller for electromagnetic torque.",
+            "page": 10,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              178.38616943359375,
+              403.4368591308594,
+              190.84217834472656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 10 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 10,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 10,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "• Profile Radiation: Testing the system with specific radiation profiles that mimic real-world variations in sun­",
+            "page": 11,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              48.140869140625,
+              554.1734008789062,
+              60.2818717956543
+            ]
+          },
+          {
+            "type": "text",
+            "text": "light availability throughout the day. MATLAB/Simulink models and simulates the PVWPS, providing detailed insights into system behavior under these scenarios. The results focus on comparing the effectiveness of the PSO-based MPPT and ANN-based MPPT approaches in optimizing the PVWPS under varying environmental conditions.",
+            "page": 11,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              58.140869140625,
+              556.240966796875,
+              108.78577423095703
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Simulation results under variable irradiation In the first simulation, the radiation varies over time, starting at 600 W/m2 (0–1 s), increasing to 800 W/m2 (1–2 s), reaching 1000 W/m2 (2–3 s), then decreasing to 800 W/m2 (3–4 s) and 700 W/m2 (4–5 s), before returning to 600 W/m2 (5–6 s), as illustrated in Fig. 12a. The temperature remained constant at 25 °C throughout, as illustrated in Fig. 12b.",
+            "page": 11,
+            "font_size": 8.2,
+            "bbox": [
+              155.90550231933594,
+              116.52777862548828,
+              556.2384033203125,
+              168.78578186035156
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Figure 12c and d illustrate the PV voltage and PV power obtained for the PVWPS using the PSO-and ANNbased MPPT methods under varying radiation conditions. Figure 12c demonstrates the PV voltage (Vpv) responses, showing that both algorithms effectively track the voltage under varying conditions. Meanwhile, Fig. 12d highlights that both methods successfully track the maximum power point (MPP) during dynamic changes. Both figure’s zoomed-in sections (Zoom 1 and Zoom 2) provide a detailed examination of the transient responses. In Zoom 1, during the initial increase in radiation, the PSO method exhibits a faster response in reaching the MPP than the ANN. Specifically, the PSO reaches the MPP at approximately 0.01 s, while the ANN reaches it at around 0.03 s, indicating a faster response by PSO. In Zoom 2, corresponding to the radiation change at around 2 s, the PSO method again demonstrates quicker convergence. It reaches the new MPP at approximately 2.06 s, whereas the ANN achieves the exact point at 2.15 s, maintaining a consistent 0.1 s faster response. Furthermore, the PSO response stabilizes at 2.2 s, while the ANN requires until around 2.3 s to reach stability. Figure 12e shows the torque response for the PVWPS using PSO-DTC and ANN-DTC, with zoomedin. In Zoom 1, PSO-DTC overshoots to 13 N m and stabilizes at 0.3 s with minimal ripples, while ANN-DTC overshoots to 15 N.m and stabilizes at 0.4 s with more pronounced ripples. In Zoom 2, PSO-DTC reaches stability by 2.2 s after a step change, whereas ANN-DTC stabilizes by 2.3 s. Figure 12f and g present the rotor speed and water flow responses for the PVWPS using the PSO-DTC and ANN-DTC, respectively. In Fig. 12f, the rotor speed closely follows the reference speed, which dynamically adjusts based on the system’s operation. Zoom 1 shows the initial response, where the Ω-PSO-DTC reaches the reference speed of 50 rad/s at approximately 0.3 s, demonstrating superior performance with smoother stabilization compared to the Ω-ANN-DTC method, which reaches the reference speed slightly later, at around 0.6 s. Zoom 2 examines the response at approximately 2 s, where the Ω-PSO-DTC again outperforms by reaching the reference speed of 150 rad/s at approximately 2.8 s with rapid stabilization. In contrast, the Ω-ANN-DTC reaches the reference speed slightly later, at approximately 3 s. Figure 12g illustrates the water flow response, showing that PSO-DTC attains a greater flow rate than ANNDTC under identical operating conditions. Zoom 1 shows that the Q-PSO-DTC achieves a flow rate of 2.9 × 10−3 m3/s at approximately 0.45 s, while the Q-ANN-DTC achieves a slightly lower flow rate of 2.8 × 10−3 m3/s at the same time. Zoom 2 highlights the system’s behavior at 2 s, where the Q-PSO-DTC achieves a higher flow rate of 5.4 × 10−3 m3/s at approximately 2.8 s, while the Q-ANN-DTC achieves 5.2 × 10−3 m3/s at the same time. Figure 12h and j depict the stator currents ( isa, isb, and isc) obtained using the PSO-DTC and ANN-DTC. As observed in the zoomed views, the stator currents with PSO-DTC exhibit well-formed sinusoidal waveforms with minimal distortion and smoother patterns. Zoom 1 highlights the initial transient response, where the PSODTC quickly stabilizes the currents. Zoom 2 illustrates the steady-state operation, where PSO-DTC consistently maintains sinusoidal patterns with reduced oscillations. This observation is corroborated by the THD analysis as presented in figure i, with a value of 3.56% during the transient phase (Zoom 1) and a lower THD of 3.08% during steady-state operation (Zoom 2), reflecting reduced harmonic distortion and superior waveform quality. In contrast, Fig. 12j, which presents the stator currents using ANN-DTC, shows more distortion than PSO-DTC. Zoom 1 reveals irregularities during the initial transient, indicating slower stabilization than the PSO-DTC method. Zoom 2 focuses on steady-state performance, where the ANN-DTC currents deviate further from the sinusoidal waveform. The THD (Fig. 12k) analysis further supports these observations. THD values of 6.74% during the transient phase (Zoom 1) and 6.63% during steady-state operation (Zoom 2), indicating increased harmonic distortion and less effective control.",
+            "page": 11,
+            "font_size": 8.6,
+            "bbox": [
+              155.90550231933594,
+              166.644775390625,
+              556.2716674804688,
+              568.7857666015625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Figure 12l presents the stator flux ( ϕ s) for the PVWPS employing ANN-DTC and PSO-DTC. The flux with PSO-DTC and ANN-DTC remains around 0.8 Wb during steady-state operation. The zoomed views highlight key differences: in the transient phase (Zoom 1), PSO-DTC achieves faster stabilization with fewer overshoots compared to ANN-DTC, while in the steady-state phase (Zoom 2), PSO-DTC exhibits a smaller flux ripple of approximately 0.02 Wb, outperforming ANN-DTC, which has a larger ripple of around 0.05 Wb.",
+            "page": 11,
+            "font_size": 8.7,
+            "bbox": [
+              155.9055938720703,
+              566.644775390625,
+              556.2261962890625,
+              618.7857666015625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Figure 12m presents the stator flux trajectories in the α-β plane for the PVWPS utilizing ANN-DTC and PSO-DTC. The flux with both ANN-DTC and PSO-DTC remains near the desired value of approximately 0.8 Wb, forming elliptical trajectories. However, the zoomed view reveals differences in performance. PSO-DTC exhibits smaller ripple amplitudes and reduced trajectory fluctuations, indicating better control precision. In contrast, ANN-DTC shows larger oscillations and less stability in maintaining a consistent flux trajectory.",
+            "page": 11,
+            "font_size": 9.0,
+            "bbox": [
+              155.9055938720703,
+              616.644775390625,
+              556.2593383789062,
+              668.7857666015625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Simulation results under profile irradiation In the second simulation, the daily radiation profile is used, as shown in Fig. 13a, increasing gradually until it reaches a peak of 1000 W/m² at 12s, then decreasing similarly. Meanwhile, the temperature stays fixed at 25 °C throughout the simulation, as shown in Fig. 13b. Figure 13c and d illustrate the PV voltage (Vpv) and PV power (Ppv) for the PVWPS using PSOand ANN-based MPPT methods. The voltage and power closely follow the radiation profile. In Zoom 1(the initial rise), PSO achieves faster tracking of both voltage and power",
+            "page": 11,
+            "font_size": 8.7,
+            "bbox": [
+              155.90550231933594,
+              676.5277709960938,
+              556.2645263671875,
+              738.7857666015625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 11 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 11,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 11,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 12,
+            "font_size": 0,
+            "bbox": [
+              128.8923797607422,
+              50.4990234375,
+              554.1732177734375,
+              616.900146484375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 12. Results of the PVWPS under sudden changes in radiation. (a) Variable radiation, (b) Constant temperature, (c) PV voltage with PSO and ANN, (d) PV power with PSO and ANN, (e) Electromagnetic torque with PSO-DTC and ANN-DTC, (f) Rotor speed with PSO-DTC and ANN-DTC, (g) Water flow with PSO-DTC and ANN-DTC, Stator current with (h) PSO-DTC, and (i) with ANN-DTC, (j) Stator flux with PSO-DTC and ANN-DTC, THD with (k) PSO-DTC, and (l) with ANN-DTC, (m) Stator flux trajectory with PSO-DTC and ANN-DTC.",
+            "page": 12,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              626.2271118164062,
+              548.58740234375,
+              688.68310546875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 12 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 12,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 12,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "than ANN. This rapid response ensures quicker convergence to the maximum power point (MPP). In Zoom 2(peak radiation), PSO demonstrates better stability with smoother voltage and power profiles, whereas ANN exhibits slightly more fluctuations during this period. Figure 13e illustrates the electromagnetic torque response. In Zoom 1, PSO-DTC stabilizes faster, reaching stability at approximately 6.2 s with a ripple value of 0.4 N m. In contrast, ANN-DTC stabilizes at around 6.6 s with a larger ripple of 1.2 N·m. In Zoom 2, PSO-DTC demonstrates better stability during peak conditions, with a ripple of 0.5 N·m, while ANN-DTC exhibits greater",
+            "page": 13,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              673.9962768554688,
+              556.2598876953125,
+              736.1372680664062
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 13,
+            "font_size": 0,
+            "bbox": [
+              128.89234924316406,
+              50.49896240234375,
+              554.1732177734375,
+              625.7801513671875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 12. (continued)",
+            "page": 13,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              635.1071166992188,
+              230.31639099121094,
+              647.5631103515625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 13 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 13,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 13,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "fluctuations, with a ripple of 1.5 N m. Figure 13f and g present the rotor speed and water flow responses for the PVWPS using PSO-DTC and ANN-DTC. Figure 12f illustrates the rotor speed response. In Zoom 1, PSO-DTC reaches the reference speed of 40 rad/s at approximately 3.8 s, whereas ANN-DTC achieves the same speed later, at around 4.02 s. In Zoom 2(high solar radiation) PSO-DTC maintains closer alignment to the reference speed of 150 rad/s, with fewer deviations than ANN-DTC. Figure 12g depicts the water flow response. In Zoom 1, the water flow using PSO-DTC reaches 2.0 × 10−3 m³/s at approximately 4.0 s, whereas flow using ANN-DTC at the same time reaches 1.8 × 10−3 m³/s. In Zoom 2(peak radiation conditions) PSO-DTC sustains a higher flow rate of 5.2 × 10−3 m³/s, while ANN-DTC achieves a lower flow rate of 5.0 × 10−3 m³/s. Figure 13h and j show the stator currents ( isa, isb, and isc) using the PSO-DTC and ANN-DTC, respectively. Zoom 1 in Fig. 12h for the stator currents using PSO-DTC, highlights rapid stabilization, ensuring they settle quickly with minimal irregularities. Zoom 2 shows that the stator currents exhibit well-formed sinusoidal waveforms with minimal distortion, indicating smooth and consistent operation. The Total Harmonic Distortion analysis in Fig. 12i corroborates this performance, with a THD value of 4.47% in Zoom 1 and 2.87% in Zoom 2, reflecting lower harmonic content and superior waveform quality. In contrast, zoom 1 in Fig. 13j, for the stator currents using ANN-DTC, reveals slower stabilization with noticeable distortions, while Zoom 2 highlights less precise sinusoidal waveforms than PSO-DTC.This observation is corroborated by the THD analysis in Fig. 13k, where the ANN-DTC exhibits a higher THD with a value of 7.26% in Zoom 1 and 6.80% in Zoom 2, reflecting increased harmonic distortion",
+            "page": 14,
+            "font_size": 8.6,
+            "bbox": [
+              155.90550231933594,
+              562.635986328125,
+              556.2554321289062,
+              734.7769775390625
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 14,
+            "font_size": 0,
+            "bbox": [
+              128.89234924316406,
+              50.498992919921875,
+              554.1732177734375,
+              514.419921875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 12. (continued)",
+            "page": 14,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              523.7468872070312,
+              230.31639099121094,
+              536.202880859375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 14 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 14,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 14,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 15,
+            "font_size": 0,
+            "bbox": [
+              129.1323699951172,
+              50.4990234375,
+              554.1732177734375,
+              622.18017578125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 13. PVWPS results under the radiation profile: (a) profile radiation, (b) Constant temperature, (c) PV voltage with PSO and ANN, (d) PV power using PSO and ANN, (e) Electromagnetic torque with PSO-DTC and ANN-DTC, (f) Rotor speed with PSO-DTC and ANN-DTC, (g) Water flow using PSO-DTC and ANNDTC, Stator current with (h) PSO-DTC and (i) ANN-DTC, (j) Stator flux with PSO-DTC and ANN-DTC, THD with (l) PSO-DTC, and (l) with ANN-DTC, (m) Stator flux trajectory with PSO-DTC and ANN-DTC.",
+            "page": 15,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              631.507080078125,
+              545.1513061523438,
+              683.9630737304688
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 15 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 15,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 15,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "and less effective waveform. Figure 13l shows the stator flux (ϕs), which rises, stabilizes near 0.8 Wb, and then decreases. Zoom 1 focuses on the increase in radiation, showing that PSO-DTC ensures a smoother and quicker stabilization than ANN-DTC, which exhibits more pronounced oscillations. Zoom 2 highlights the peak flux operation. PSO-DTC demonstrates smaller ripples (approximately 0.015 Wb) than the more significant ripples of ANN-DTC (around 0.08 Wb), reflecting better stability and control at the peak. Figure 13m illustrates the stator flux trajectories in the α-β plane, maintaining elliptical paths around 0.8 Wb. The zoom shows that PSODTC achieves reduced fluctuations and higher precision than ANN-DTC.",
+            "page": 16,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              658.876220703125,
+              556.2471313476562,
+              731.0172119140625
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 16,
+            "font_size": 0,
+            "bbox": [
+              128.89234924316406,
+              50.4990234375,
+              554.1732177734375,
+              610.66015625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 13. (continued)",
+            "page": 16,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              619.9871215820312,
+              230.31639099121094,
+              632.443115234375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 16 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 16,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 16,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Recapitulation-1 Table 3 compares the PVWPS performance with PSO-DTC and ANN-DTC. The results highlight the superiority of PSO-DTC in achieving quicker response times, greatly reduced power oscillations, torque, and flux ripples, and lower THD current under both sudden changes and varying radiation profiles. These enhancements highlight the PSO-DTC’s superiority in improving the efficiency, stability, and reliability of the PVWPS. The real-time results and their interpretation Overview of the test validation workflow Experimental validation can be performed to evaluate the real-time performance of the analyzed PVWPS with a dSPACE DS1104 board, MATLAB/Simulink, and Control Desk (DSPFA-79D99-834A5-41BA8-808C5).As shown in Fig. 14, the system establishes a seamless connection between sensors and the control algorithms. Input signals, such as current, voltage, and speed, are transmitted to the DS1104 board via the CP1104 panel, processed in real-time using MATLAB/Simulink, and monitored through ControlDesk. The resulting control commands are returned to the converters, completing the loop for precise operation. The experimental validation used in this paper was conducted at the “Engineering, Modeling, and Systems Analysis” laboratory of the Faculty of Sciences Dhar El Mehraz, as shown in Fig. 15. Given the absence of necessary physical equipment, direct implementation of the control techniques on a full-scale real system was not feasible. The ‘DS1104 R&D in the",
+            "page": 17,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              568.2791137695312,
+              556.2597045898438,
+              740.537109375
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 17,
+            "font_size": 0,
+            "bbox": [
+              128.89234924316406,
+              50.498992919921875,
+              554.1732177734375,
+              520.179931640625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 13. (continued)",
+            "page": 17,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              529.5068969726562,
+              230.31639099121094,
+              541.962890625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 17 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 17,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 17,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 18,
+            "font_size": 0,
+            "bbox": [
+              155.90550231933594,
+              586.4891357421875,
+              439.3460693359375,
+              703.12939453125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 15. The experimental test bench of the studied PVWPS.",
+            "page": 18,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              712.456298828125,
+              373.88165283203125,
+              724.9122924804688
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 18,
+            "font_size": 0,
+            "bbox": [
+              77.77226257324219,
+              265.8822326660156,
+              554.1732177734375,
+              534.9227905273438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 14. Schematic of the PVWPS integrated with dSPACE DS1104 for real-time control and monitoring.",
+            "page": 18,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              544.2498168945312,
+              533.86474609375,
+              556.705810546875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "The PVWPS performance Sudden change radiation Profile radiation ANN algorithm PSO algorithm Improvement (%) ANN algorithm PSO algorithm Improvement (%) Time response in power (s)",
+            "page": 18,
+            "font_size": 7.0,
+            "bbox": [
+              88.5072021484375,
+              51.061920166015625,
+              550.2277221679688,
+              84.03507232666016
+            ]
+          },
+          {
+            "type": "text",
+            "text": "ZOOM 1 0.03 0.01 66 4.5 4.3 4.44 Power oscillation (W) 3 0.5 83.33 2.5 0.8 68 Time response on the rotor speed (s) 0.6 0.3 50 4.02 3.8 5.47 Ripple in the torque (N m) 2.5 1 60 1.2 0.4 66.67 Ripple in the flux (Wb) 0.03 0.01 66.67 0.04 0.01 75 Current THD (%) 6.74 3.56 47.18 7.26 4.27 41.18 Time response in power (s)",
+            "page": 18,
+            "font_size": 7.0,
+            "bbox": [
+              88.50810241699219,
+              74.59207153320312,
+              513.4507446289062,
+              155.0475311279297
+            ]
+          },
+          {
+            "type": "text",
+            "text": "ZOOM 2 2.15 2.06 4.18 11.8 11.5 2.54 Power oscillation (W) 2 0.2 90 4 0.6 85 Time response on the rotor speed (s) 3 2.8 6.7 11.8 11.5 2.54 Ripple in the torque (N m) 1.5 0.5 66.67 1.5 0.5 66.67 Ripple in the flux (Wb) 0.05 0.02 60 0.08 0.015 81.25 Current THD (%) 6.63 3.08 53.54 6.80 2.87 57.79",
+            "page": 18,
+            "font_size": 7.0,
+            "bbox": [
+              88.50810241699219,
+              145.60452270507812,
+              513.4507446289062,
+              214.1110076904297
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 3. Performance comparison of PVWPS using PSO-DTC and ANN-DTC.",
+            "page": 18,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              223.64288330078125,
+              442.2467346191406,
+              236.09889221191406
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 18 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 18,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 18,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Loop methodology was employed to address this limitation. This approach involved implementing the entire system model, including the mathematical representations of power and control components, directly onto the DS1104 R&D card. The experimental configuration, presented in Fig. 16, enabled comprehensive testing of the proposed PSO-DTC and ANN-DTC control strategies in an environment that closely simulates realworld conditions. This innovative simulation method validated the reliability and effectiveness of both control strategies, demonstrating their potential for future real-world applications. Validation of the PVWPS using the PSO-DTC and ANN-DTC The simulation outcomes demonstrate that the PVWPS utilizing PSO-DTC significantly outperforms the ANNDTC system, establishing PSO-DTC as the superior choice for optimizing MPPT and DTC. Experimental tests were conducted under varying radiation conditions that mimic realistic operating scenarios to highlight these differences further. The results from implementing the PVWPS using both PSO-DTC and ANN-DTC on the DS1104 R&D platform are presented in Figs. 17, 18, 19, 20, 21, 22, 23 and 24 below. The sampling frequency was set to 10 kHz. Figures 17, 18, 19, 20, 21, 22, 23 and 24 correlate the experimental results obtained via the ControlDesk software with the simulations conducted in MATLAB/Simulink. These experimental results confirm the enhanced performance of the PVWPS with PSO-DTC, validating its effectiveness and making it the optimal choice for experimental validation with the material.",
+            "page": 19,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              527.0822143554688,
+              556.2589721679688,
+              709.2232055664062
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 19,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              319.98577880859375,
+              552.8663330078125,
+              478.8660888671875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 17. Real-time simulation of the PVWPS: (a) variable radiation, (b) constant temperature.",
+            "page": 19,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              488.1930847167969,
+              493.1744384765625,
+              500.6490783691406
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 19,
+            "font_size": 0,
+            "bbox": [
+              128.89234924316406,
+              50.499053955078125,
+              554.1732177734375,
+              268.41949462890625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 16. The flowchart of simulink model implementation and visualization using DS1104 card.",
+            "page": 19,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              277.74639892578125,
+              499.1247863769531,
+              290.202392578125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 19 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 19,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 19,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Recapitulation-2 Table 4 compares the experimental results of the PVWPS performance using INC, ANN-MPPT, and Proposed MPPT under sudden radiation changes. The results highlight the superiority of the Proposed PSO-MPPT in achieving faster response times, significantly reduced power oscillations, and improved efficiency. The Proposed MPPT outperforms the traditional methods INC and the artificial intelligence method ANN-MPPT, especially",
+            "page": 20,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              685.0916748046875,
+              556.2501220703125,
+              737.3496704101562
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 20,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              475.23236083984375,
+              552.8663330078125,
+              636.99267578125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 20. Real-time simulation of the torque: (a) using the PSO-DTC, (b) using ANN-DTC.",
+            "page": 20,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              646.319580078125,
+              482.15045166015625,
+              658.7755737304688
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 20,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              261.6656494140625,
+              552.8663330078125,
+              423.66595458984375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 19. Real-time simulation of the PV POWER: (a) using the PSO-DTC, (b) using ANN-DTC.",
+            "page": 20,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              432.99298095703125,
+              503.15594482421875,
+              445.448974609375
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 20,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              50.49903869628906,
+              552.8663330078125,
+              210.099365234375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 18. Real-time simulation of the voltage: (a) using the PSO-DTC, (b) using ANN-DTC.",
+            "page": 20,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              219.42626953125,
+              484.10345458984375,
+              231.8822784423828
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 20 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 20,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 20,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 21,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              480.03240966796875,
+              552.8663330078125,
+              640.3527221679688
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 23. Real-time simulation of the stator flux: (a) using the PSO-DTC, (b) using ANN-DTC.",
+            "page": 21,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              649.6796264648438,
+              494.75006103515625,
+              662.1356201171875
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 21,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              268.62567138671875,
+              552.8663330078125,
+              428.46600341796875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 22. Real-time simulation of the water flow: (a) using the PSO-DTC, (b) using ANN-DTC.",
+            "page": 21,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              437.7929992675781,
+              496.1721496582031,
+              450.2489929199219
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 21,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              50.499053955078125,
+              552.8663330078125,
+              217.05938720703125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 21. Real-time simulation of the rotor speed: (a) using the PSO-DTC, (b) using ANN-DTC.",
+            "page": 21,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              226.38629150390625,
+              499.45684814453125,
+              238.84230041503906
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 21 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 21,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 21,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "in minimizing power fluctuations and achieving higher efficiency across varying radiation levels. These improvements underscore the Proposed MPPT’s ability to enhance the PVWPS’s overall performance, stability, and reliability.",
+            "page": 22,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              405.968994140625,
+              556.2498168945312,
+              438.1099853515625
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_2",
+        "title": "Conclusion This study introduced a novel approach for improving the performance of PVWPS by combining a PSObased MPPT algorithm to maximize energy extraction from the photovoltaic array and a PSO-optimized Proportional–Integral (PI) controller for accurate motor speed control utilizing DTC. The simulation outcomes illustrated that the PSO-DTC outperformed the ANN-DTC under variable and profile radiation tests. Key improvements included noticeable reductions in power oscillations, flux, and torque ripples and reduced total harmonic distortion. Additionally, the PSO-DTC provided faster response times and better stability than the ANN-DTC. Real-time validation of the ANN-DTC and PSO-DTC configurations using the dSPACE DS1104 platform further confirmed the effectiveness of the PSO-DTC approach, with results closely matching the simulation findings. This alignment highlights the benefits of integrating PSO with MPPT and DTC, resulting in improved energy efficiency, reduced mechanical stress, and better system stability. These improvements make the PSO-DTC system a strong option for creating more efficient and cost-effective PVWPS, particularly for agricultural irrigation.",
+        "level": 1,
+        "page": 22,
+        "content": [
+          {
+            "type": "text",
+            "text": "Future work includes testing the PVWPS with the proposed controls using hardware under variable and profile irradiation conditions to validate real-world performance. Additionally, the PSO algorithm and other bio-inspired methods, such as Ant Colony Optimization and Artificial Bee Colony, will be compared under shading conditions to evaluate their effectiveness in improving PVWPS performance under all conditions.",
+            "page": 22,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              577.968994140625,
+              556.248046875,
+              620.1099853515625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Data availability Data AvailabilityThe datasets used and/or analysed during the current study is available from Badre Bossoufi (badre.bossoufi@usmba.ac.ma).",
+            "page": 22,
+            "font_size": 9.7,
+            "bbox": [
+              155.90550231933594,
+              628.3980102539062,
+              554.81787109375,
+              662.1099853515625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Received: 10 February 2025; Accepted: 28 April 2025",
+            "page": 22,
+            "font_size": 8.5,
+            "bbox": [
+              155.90550231933594,
+              671.0299682617188,
+              340.26708984375,
+              682.4794921875
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 22,
+            "font_size": 0,
+            "bbox": [
+              155.905517578125,
+              683.0542602539062,
+              287.905517578125,
+              693.854248046875
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_3",
+        "title": "References 1. Elsir, M., Al-Sumaiti, A. S., El, M. S., Moursi & Al-Awami, A. T. Coordinating the day-ahead operation scheduling for demand",
+        "level": 1,
+        "page": 22,
+        "content": [
+          {
+            "type": "text",
+            "text": "response and water desalination plants in smart grid. Appl. Energy. 335 (120770). https://doi.org/10.1016/j.apenergy.2023.120770 (2023).",
+            "page": 22,
+            "font_size": 7.5,
+            "bbox": [
+              168.6614990234375,
+              722.9741821289062,
+              555.875732421875,
+              741.7543334960938
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Ref MPPT controllers Sudden change of the radiation From 600 to 800 From 800 to 1000 From 800 to 700 Response time (s) Oscillation (W) power Efficiency (%) Response time (s) Oscillation (W) power Efficiency (%) Response time (s) Oscillation (W) power Efficiency (%) 17 INC 0.01 2.96 94.6 0.025 2.05 96.90 0.022 2.55 95.5 20 ANN-MPPT 0.003 0.4 98.90 0.002 0.2 98.2 0.004 0.5 97.8 Proposed MPPT PSO-MPPT 0.001 0.2 99.8 0.0015 0.1 99.95 0.002 0.3 99.7",
+            "page": 22,
+            "font_size": 7.0,
+            "bbox": [
+              134.97120666503906,
+              263.4285888671875,
+              551.7465209960938,
+              346.5479736328125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 4. Comparison of experimental results for MPPT controller performance under sudden changes in radiation.",
+            "page": 22,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              356.0798034667969,
+              536.087890625,
+              379.5357971191406
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 22,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              50.499053955078125,
+              552.8663330078125,
+              211.29937744140625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 24. Real-time simulation of the stator current: (a) using the PSO-DTC, (b) using ANN-DTC.",
+            "page": 22,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              220.62628173828125,
+              507.6197509765625,
+              233.08229064941406
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 22 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 22,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 22,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "2. Al-Sumaiti, A. S., Ahmed, M. H. & Salama, M. Residential load management under stochastic weather condition in developing",
+            "page": 23,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              48.53391647338867,
+              555.8906860351562,
+              58.65141677856445
+            ]
+          },
+          {
+            "type": "text",
+            "text": "countries. Electr. Power Compon. Syst. 42, 1452–1473. https://doi.org/10.1080/15325008.2014.933375 (2014). 3. Al-Sumaiti, A. S., Salama, M., El‐Moursi, M., Alsumaiti, T. S. & Marzband, M. Enabling electricity access: revisiting load models for AC‐grid operation—Part I. IET Gener Transm Distrib. 13, 2563–2571. https://doi.org/10.1049/iet-gtd.2018.5556 (2019). 4. El Shamy, A. R. & Al-Sumaiti, A. S. Optimal cost predictive BMS considering Greywater recycling, responsive HVAC, and energy storage. Appl. Energy. 377, 124589. https://doi.org/10.1016/j.apenergy.2024.124589 (2025). 5. Hilali, A., El Ouanjli, N., Mahfoud, S., Al-Sumaiti, A. S. & Mossa, M. A. Optimization of a solar water pumping system in varying weather conditions by a new hybrid method based on fuzzy logic and incremental conductance. Energies 15, 8518. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​ /​1​0​.​3​3​9​0​/​e​n​1​5​2​2​8​5​1​8​ (2022). 6. Saad Al-Sumaiti, A. et al. Economic assessment of distributed generation technologies: A feasibility study and comparison with the literature. Energies 13, 2764. https://doi.org/10.3390/en13112764 (2020). 7. El Hafdaoui, H., Khallaayoun, A. & Ouazzani, K. Long-term low carbon strategy of Morocco: A review of future scenarios and energy measures. Results Eng. 21, 101724. https://doi.org/10.1016/j.rineng.2023.101724 (2024). 8. Muralidhar, K. & Rajasekar, N. A review of various components of solar water-pumping system: configuration, characteristics, and performance. Int. Trans. Electr. Energy Syst. 31, e13002. https://doi.org/10.1002/2050-7038.13002 (2021). 9. Jabari, M., Ekinci, S., Izci, D., Bajaj, M. & Zaitsev, I. Efficient DC motor speed control using a novel multi-stage FOPD(1+PI) controller optimized by the pelican optimization algorithm. Sci. Rep. 14, 22442. https://doi.org/10.1038/s41598-024-73409-5 (2024). 10. Saady, I. et al. Optimization and control of photovoltaic water pumping system using Kalman filter based MPPT and multilevel inverter fed DTC-IM. Results Eng. 17, 100829. https://doi.org/10.1016/j.rineng.2022.100829 (2023). 11. Fey, A. N. & Leite, V. & Ribeiro Romaneli, E. F. A low power photovoltaic water pumping system based on a DC–DC step-up converter and standard frequency converters. In 2020 9th International Conference on Renewable Energy Research and Application (ICRERA) 138–143. https://doi.org/10.1109/ICRERA49962.2020.9242833 (IEEE, 2020). 12. Saady, I. et al. Soft computing approaches for photovoltaic water pumping systems: A review. Clean. Eng. Technol. 22, 100800. https://doi.org/10.1016/j.clet.2024.100800 (2024). 13. Saxena, A., Kumar, R., Amir, M. & Muyeen, S. M. Maximum power extraction from solar PV systems using intelligent based soft computing strategies: A critical review and comprehensive performance analysis. Heliyon 10, e22417. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​j​.​h​e​ l​i​y​o​n​.​2​0​2​3​.​e​2​2​4​1​7​ (2024). 14. Errouha, M. et al. A review of modern techniques for efficient control of AC motors utilized in PV water pumping system. Irrig. Sci. https://doi.org/10.1007/s00271-024-00952-4 (2024). 15. Aliyu, M. et al. A review of solar-powered water pumping systems. Renew. Sustain. Energy Rev. 87, 61–76. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​1​6​ /​j​.​r​s​e​r​.​2​0​1​8​.​0​2​.​0​1​0​ (2018). 16. Errouha, M. et al. Improvement control of photovoltaic based water pumping system without energy storage. Sol Energy. 190, 319–328. https://doi.org/10.1016/j.solener.2019.08.024 (2019). 17. Saady, I. et al. Optimization for a photovoltaic pumping system using indirect field oriented control of induction motor. Electronics 10, 3076. https://doi.org/10.3390/electronics10243076 (2021). 18. Singh, P., Gaur, P. & Mittal, A. P. Battery connected photovoltaic water pumping system with DTC drive. In 2020 International Conference on Power Electronics & IoT Applications in Renewable Energy and Its Control (PARC) 437–442. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​0​9​ /​P​A​R​C​4​9​1​9​3​.​2​0​2​0​.​2​3​6​6​4​8​ (2020). 19. Errouha, M. et al. Optimization and control of water pumping PV systems using fuzzy logic controller. Energy Rep. 5, 853–865. https://doi.org/10.1016/j.egyr.2019.07.001 (2019). 20. Saady, I. et al. OPEN improving photovoltaic water. Sci. Rep. 1, 1 21. Hamidia, F., Abbadi, A. & Boucherit, M. S. Wind water pumping system based on ANN. In 2018 6th International Conference on Control Engineering & Information Technology (CEIT), Istanbul, Turkey 1–5. https://doi.org/10.1109/CEIT.2018.8751756 (IEEE, 2018). 22. Said, M. et al. Higher performance enhancement of direct torque control by using artificial neural networks for doubly fed induction motor. E-Prime Adv. Electr. Eng. Electron. Energy. 8, 100537. https://doi.org/10.1016/j.prime.2024.100537 (2024). 23. Smadi, T. A. et al. Artificial intelligent control of energy management PV system. Results Control Optim. 14, 100343. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​ g​/​1​0​.​1​0​1​6​/​j​.​r​i​c​o​.​2​0​2​3​.​1​0​0​3​4​3​ (2024). 24. Jabari, M. et al. A novel artificial intelligence based multistage controller for load frequency control in power systems. Sci. Rep. 14,",
+            "page": 23,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              56.67137908935547,
+              555.9159545898438,
+              470.25140380859375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "29571. https://doi.org/10.1038/s41598-024-81382-2 (2024). 25. de Oliveira, F. M. et al. Development of an MPPT-based genetic algorithm for photovoltaic systems versus classical MPPT",
+            "page": 23,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              468.53387451171875,
+              555.8320922851562,
+              487.0514221191406
+            ]
+          },
+          {
+            "type": "text",
+            "text": "techniques in scenarios with partial shading. Inventions 9 (3). https://doi.org/10.3390/inventions9030064 (2024). 26. Titri, S., Larbes, C., Toumi, K. Y. & Benatchba, K. A new MPPT controller based on the ant colony optimization algorithm for photovoltaic systems under partial shading conditions. Appl. Soft Comput. 58, 465–479. https://doi.org/10.1016/j.asoc.2017.05.017 (2017). 27. Zhang, M. et al. MPPT control algorithm based on particle swarm optimization and adaptive linear active disturbance rejection control. Energies 15 (23). https://doi.org/10.3390/en15239091 (2022). 28. Kaced, K., Larbes, C., Ramzan, N., Bounabi, M. & Elabadine Dahmane, Z. Bat algorithm based maximum power point tracking for photovoltaic system under partial shading conditions. Sol Energy. 158, 490–503. https://doi.org/10.1016/j.solener.2017.09.063 (2017). 29. Priyadarshi, N., Padmanaban, S., Holm-Nielsen, J. B., Blaabjerg, F. & Bhaskar, M. S. An experimental Estimation of hybrid ANFIS– PSO-based MPPT for PV grid integration under fluctuating sun irradiance. IEEE Syst. J. 14, 1218–1229. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​0​9​/​J​ S​Y​S​T​.​2​0​1​9​.​2​9​4​9​0​8​3​ (2020). 30. Priyadarshi, N., Padmanaban, S., Kiran Maroti, P. & Sharma, A. An extensive practical investigation of FPSO-based MPPT for grid integrated PV system under variable operating conditions with anti-islanding protection. IEEE Syst. J. 13, 1861–1871. ​h​t​t​p​s​:​/​/​d​o​i​.​ o​r​g​/​1​0​.​1​1​0​9​/​J​S​Y​S​T​.​2​0​1​8​.​2​8​1​7​5​8​4​ (2019). 31. Mahfoud, S. et al. A new robust direct torque control based on a genetic algorithm for a doubly-fed induction motor: experimental validation. Energies 15, 5384. https://doi.org/10.3390/en15155384 (2022). 32. Elgbaily, M., Anayi, F. & Packianather, M. Genetic and particle swarm optimization algorithms based direct torque control for torque ripple attenuation of induction motor. Mater. Today Proc. 67, 577–590 (2022). https://doi.org/10.1016/j.matpr.2022.08.293 33. Chiou, J. S., Tsai, S. H. & Liu, M. T. A PSO-based adaptive fuzzy PID-controllers. Simul. Model. Pract. Theory. 26, 49–59. ​h​t​t​p​s​:​/​/​d​ o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​j​.​s​i​m​p​a​t​.​2​0​1​2​.​0​4​.​0​0​1​ (2012). 34. Priyadarshi, N., Padmanaban, S., Bhaskar, M. S., Blaabjerg, F. & Holm-Nielsen, J. B. An improved hybrid PV-wind power system with MPPT for water pumping applications. Int. Trans. Electr. Energy Syst. 30, e12210. https://doi.org/10.1002/2050-7038.12210 (2020). 35. Parameter Identification of PV Solar Cells and Modules Using Biodynamics Grasshopper Optimization Algorithm.pdf. 36. Errouha, M., Motahhir, S., Combe, Q. & Derouich, A. Intelligent control of induction motor for photovoltaic water pumping system. SN Appl. Sci. 3, 777. https://doi.org/10.1007/s42452-021-04757-4 (2021). 37. Errouha, M., Derouich, A., Motahhir, S. & Zamzoum, O. Optimal control of induction motor for photovoltaic water pumping system. Technol. Econ. Smart Grids Sustain. Energy. 5 (9). https://doi.org/10.1007/s40866-020-0078-9 (2020).",
+            "page": 23,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              485.0714111328125,
+              555.9349975585938,
+              730.6514282226562
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 23 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 23,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 23,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "38. Gad, A. G. Particle swarm optimization algorithm and its applications: A systematic review. Arch. Comput. Methods Eng. 29,",
+            "page": 24,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              48.27141571044922,
+              555.8758544921875,
+              58.65141677856445
+            ]
+          },
+          {
+            "type": "text",
+            "text": "2531–2561. https://doi.org/10.1007/s11831-021-09694-4 (2022). 39. Singh, A. et al. An investigation on hybrid particle swarm optimization algorithms for parameter optimization of PV cells. Electronics 11, 909. https://doi.org/10.3390/electronics11060909 (2022). 40. Motahhir, S. et al. The most used MPPT algorithms: review and the suitable low-cost embedded board for each algorithm. J. Clean. Prod. 246, 118983. https://doi.org/10.1016/j.jclepro.2019.118983 (2020). 41. Alturki, F. A. et al. Simulations and dSPACE real-time implementation of photovoltaic global maximum power extraction under partial shading. Sustainability 12, 3652. https://doi.org/10.3390/su12093652 (2020).",
+            "page": 24,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              56.93387985229492,
+              555.90869140625,
+              117.45140075683594
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Author contributions Author statementIkram Saady, Btissam Majout, Badre Bossoufi: Conceptualization, Methodology, Software, Data curation, WritingOriginal draft preparation. Ismail elkafazi, Safae Merzouk, Mishari Metab Almalki, Saleh Mobayen: Visualization, Investigation. Mohammed Karim, Thamer A. H. Alghamdi, Paweł Skruch, Anton Zhilenkov: Supervision, Software, Validation, WritingReviewing and Editing.",
+            "page": 24,
+            "font_size": 9.4,
+            "bbox": [
+              155.9055938720703,
+              126.27940368652344,
+              556.2183837890625,
+              179.9914093017578
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Declarations",
+            "page": 24,
+            "font_size": 11.0,
+            "bbox": [
+              155.9055938720703,
+              188.27940368652344,
+              215.7015838623047,
+              201.3914031982422
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Competing interests The authors declare no competing interests.",
+            "page": 24,
+            "font_size": 10.0,
+            "bbox": [
+              155.9055938720703,
+              210.27940368652344,
+              312.169921875,
+              233.9914093017578
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Additional information Supplementary Information The online version contains supplementary material available at ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​ 0​.​1​0​3​8​/​s​4​1​5​9​8​-​0​2​5​-​0​0​2​9​7​-​8​.​ Correspondence and requests for materials should be addressed to B.B. or S.M. Reprints and permissions information is available at www.nature.com/reprints. Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit ​h​t​t​p​:​/​/​c​r​e​a​t​i​v​e​c​o​m​m​o​ n​s​.​o​r​g​/​l​i​c​e​n​s​e​s​/​b​y​-​n​c​-​n​d​/​4​.​0​/​.​ © The Author(s) 2025",
+            "page": 24,
+            "font_size": 9.3,
+            "bbox": [
+              155.90550231933594,
+              242.27940368652344,
+              556.2489013671875,
+              457.9283752441406
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:16127 24 | https://doi.org/10.1038/s41598-025-00297-8",
+            "page": 24,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 24,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tables": [
+    {
+      "type": "table",
+      "page": 1,
+      "table_id": "table_1_0",
+      "bbox": [
+        0.0,
+        0.0,
+        595.2750244140625,
+        28.668283462524414
+      ],
+      "rows": [
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          "www.nature.com/scientificreports"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 3,
+      "table_id": "table_3_0",
+      "bbox": [
+        58.37816831800673,
+        502.89493907581675,
+        554.3306477864584,
+        712.8441162109375
+      ],
+      "rows": [
+        [
+          "Reference",
+          "Controllers used",
+          "Advantages",
+          "Disadvantages",
+          "Key findings"
+        ],
+        [
+          "16",
+          "P&O for MPPT,\nDFOC for the IM",
+          "MPPT: Simple and easy to implement\nIM: Provides accurate torque and fulx\ncontrol",
+          "MPPT: Oscillations near MPP in\nfulctuating conditions\nIM: Requires precise parameter tuning",
+          "MPPT: P&O improves energy extraction but struggles\nwith oscillations\nIM: DFOC ofefrs decoupling, but is sensitive to\nparameter tuning"
+        ],
+        [
+          "17",
+          "VSS-P&O for\nMPPT, IFOC\nfor IM",
+          "MPPT: Reduced oscillations, dynamic\ntracking speed\nIM: Eliminates direct rotor fulx\nmeasurement, making it simpler",
+          "MPPT: Delays in initial tracking under\nsudden irradiance changes\nIM: Requires accurate motor parameters",
+          "MPPT: VSS-P&O improves tracking speed but with\ndelays\nIM: IFOC eliminates rotor fulx measurement, but\naccuracy is dependent on parameters"
+        ],
+        [
+          "18",
+          "VSS-INC for\nMPPT, DTC\nfor IM",
+          "MPPT: tracking with fewer oscillations\nIM: Provides fast response",
+          "MPPT: Reduced efficiency compared to\nother methods\nIM: Torque and fulx ripples at low speeds",
+          "MPPT: VSS-INC enhances robustness in tracking, but\nwith reduced efficiency\nIM: DTC improves dynamic response but with ripple\nissues at low speeds"
+        ],
+        [
+          "10",
+          "KF-MPPT for\nMPPT, DTC\nfor IM",
+          "MPPT: High accuracy, fast response\nIM: DTC reduces torque and fulx ripples",
+          "MPPT: Computationally demanding\nIM: High system cost due to NPC\ninverter",
+          "MPPT: KF-MPPT ofefrs high accuracy and fast-\ntracking but increases computational demand\nIM: DTC reduces ripples but adds cost and complexity"
+        ],
+        [
+          "19",
+          "Fuzzy Logic for\nMPPT, Fuzzy\nLogic for DTC",
+          "MPPT: Adaptable to changing irradiance\nIM: Improves motor performance and\nminimizes fulx ripples",
+          "MPPT: Takes longer to converge\nIM: Increased system complexity due to\nrule-based control",
+          "MPPT: Fuzzy logic-based MPPT adapts to changing\nirradiance but with slower convergence\nIM: Fuzzy DTC improves motor control but adds\ncomplexity"
+        ],
+        [
+          "20",
+          "ANN for MPPT,\nANN for DTC",
+          "MPPT: Accurate under fulctuating\nirradiance\nIM: Enhances dynamic response and\nstability",
+          "MPPT: Requires extensive training\ndatasets\nIM: High computational requirements for\nANN-based control",
+          "MPPT: ANN-based MPPT ensures accurate power\ntracking in non-uniform conditions\nIM: ANN-based DTC improves dynamic response but\nrequires high computational resources"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 10,
+      "table_id": "table_10_0",
+      "bbox": [
+        156.0342781760476,
+        220.7671915690104,
+        317.4026933149858,
+        315.0462951660156
+      ],
+      "rows": [
+        [
+          "Flux ∆ψ\ne",
+          "",
+          "1 0",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Torque ∆T e",
+          "",
+          "1",
+          "0",
+          "− 1",
+          "1",
+          "0",
+          "− 1"
+        ],
+        [
+          "Sectors (T)\ni",
+          "1",
+          "V2",
+          "V0",
+          "V6",
+          "V3",
+          "V7",
+          "V5"
+        ],
+        [
+          "",
+          "2",
+          "V3",
+          "V7",
+          "V1",
+          "V4",
+          "V0",
+          "V6"
+        ],
+        [
+          "",
+          "3",
+          "V4",
+          "V0",
+          "V2",
+          "V5",
+          "V7",
+          "V1"
+        ],
+        [
+          "",
+          "4",
+          "V5",
+          "V7",
+          "V3",
+          "V6",
+          "V0",
+          "V2"
+        ],
+        [
+          "",
+          "5",
+          "V6",
+          "V0",
+          "V4",
+          "V1",
+          "V7",
+          "V3"
+        ],
+        [
+          "",
+          "6",
+          "V1",
+          "V0",
+          "V5",
+          "V2",
+          "V0",
+          "V4"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 18,
+      "table_id": "table_18_0",
+      "bbox": [
+        85.49932670593262,
+        50.64086444561298,
+        554.3232421875,
+        215.69097900390625
+      ],
+      "rows": [
+        [
+          "The PVWPS performance",
+          "",
+          "Sudden change radiation",
+          "",
+          "",
+          "Profile radiation",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "ANN algorithm",
+          "PSO algorithm",
+          "Improvement (%)",
+          "ANN algorithm",
+          "PSO algorithm",
+          "Improvement (%)"
+        ],
+        [
+          "Time response in power (s)",
+          "ZOOM 1",
+          "0.03",
+          "0.01",
+          "66",
+          "4.5",
+          "4.3",
+          "4.44"
+        ],
+        [
+          "Power oscillation (W)",
+          "",
+          "3",
+          "0.5",
+          "83.33",
+          "2.5",
+          "0.8",
+          "68"
+        ],
+        [
+          "Time response on the rotor speed (s)",
+          "",
+          "0.6",
+          "0.3",
+          "50",
+          "4.02",
+          "3.8",
+          "5.47"
+        ],
+        [
+          "Ripple in the torque (N m)",
+          "",
+          "2.5",
+          "1",
+          "60",
+          "1.2",
+          "0.4",
+          "66.67"
+        ],
+        [
+          "Ripple in the fulx (Wb)",
+          "",
+          "0.03",
+          "0.01",
+          "66.67",
+          "0.04",
+          "0.01",
+          "75"
+        ],
+        [
+          "Current THD (%)",
+          "",
+          "6.74",
+          "3.56",
+          "47.18",
+          "7.26",
+          "4.27",
+          "41.18"
+        ],
+        [
+          "Time response in power (s)",
+          "ZOOM 2",
+          "2.15",
+          "2.06",
+          "4.18",
+          "11.8",
+          "11.5",
+          "2.54"
+        ],
+        [
+          "Power oscillation (W)",
+          "",
+          "2",
+          "0.2",
+          "90",
+          "4",
+          "0.6",
+          "85"
+        ],
+        [
+          "Time response on the rotor speed (s)",
+          "",
+          "3",
+          "2.8",
+          "6.7",
+          "11.8",
+          "11.5",
+          "2.54"
+        ],
+        [
+          "Ripple in the torque (N m)",
+          "",
+          "1.5",
+          "0.5",
+          "66.67",
+          "1.5",
+          "0.5",
+          "66.67"
+        ],
+        [
+          "Ripple in the fulx (Wb)",
+          "",
+          "0.05",
+          "0.02",
+          "60",
+          "0.08",
+          "0.015",
+          "81.25"
+        ],
+        [
+          "Current THD (%)",
+          "",
+          "6.63",
+          "3.08",
+          "53.54",
+          "6.80",
+          "2.87",
+          "57.79"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 22,
+      "table_id": "table_22_0",
+      "bbox": [
+        131.9544620513916,
+        263.0072875976563,
+        554.3290954589844,
+        348.12799072265625
+      ],
+      "rows": [
+        [
+          "Ref",
+          "MPPT controllers",
+          "Sudden change of the radiation",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "From 600 to 800",
+          "",
+          "",
+          "From 800 to 1000",
+          "",
+          "",
+          "From 800 to 700",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Response\ntime (s)",
+          "Oscillation\n(W) power",
+          "Efficiency\n(%)",
+          "Response\ntime (s)",
+          "Oscillation\n(W) power",
+          "Efficiency\n(%)",
+          "Response\ntime (s)",
+          "Oscillation\n(W) power",
+          "Efficiency\n(%)"
+        ],
+        [
+          "17",
+          "INC",
+          "0.01",
+          "2.96",
+          "94.6",
+          "0.025",
+          "2.05",
+          "96.90",
+          "0.022",
+          "2.55",
+          "95.5"
+        ],
+        [
+          "20",
+          "ANN-MPPT",
+          "0.003",
+          "0.4",
+          "98.90",
+          "0.002",
+          "0.2",
+          "98.2",
+          "0.004",
+          "0.5",
+          "97.8"
+        ],
+        [
+          "Proposed\nMPPT",
+          "PSO-MPPT",
+          "0.001",
+          "0.2",
+          "99.8",
+          "0.0015",
+          "0.1",
+          "99.95",
+          "0.002",
+          "0.3",
+          "99.7"
+        ]
+      ]
+    }
+  ],
+  "statistics": {
+    "total_sections": 4,
+    "total_paragraphs": 0,
+    "total_tables": 5,
+    "total_images": 31
+  }
+}

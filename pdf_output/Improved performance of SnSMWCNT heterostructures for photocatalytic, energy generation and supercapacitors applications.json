@@ -1,0 +1,1375 @@
+{
+  "metadata": {
+    "filename": "Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.pdf",
+    "source": "pdf to json\\Nature论文50篇\\Improved performance of SnSMWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications.pdf",
+    "pages": 13,
+    "created_at": "2025-12-05T09:15:09.735584Z",
+    "parser_version": "3.0_paragraph"
+  },
+  "structure": {
+    "sections": [
+      {
+        "id": "section_0",
+        "title": "Improved performance of SnS/ MWCNT heterostructures for photocatalytic, energy generation and supercapacitors applications",
+        "level": 2,
+        "page": 1,
+        "content": [
+          {
+            "type": "text",
+            "text": "P. Sakthi1, J. Uma2, B. Balraj3 & K. Arulvendhan4",
+            "page": 1,
+            "font_size": 8.3,
+            "bbox": [
+              155.90550231933594,
+              254.92877197265625,
+              369.5325012207031,
+              267.43280029296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Semiconductor/graphene allotropes have shown remarkable performance in energy applications in recent years. Efficient visible-light-performance SnS/MWCNT photocatalytic heterostructured nanomaterials were prepared using a simple ultrasonic technique. A tetragonal MWCNT crystal structure and an orthorhombic SnS crystal structure were identified in the composite material through structural research. The uniformly distributed 5 nm SnS nanoparticles on the MWCNT nanosheet surface were visible in TEM images.The addition of SnS nanoparticles to MWCNT resulted in improved visible-light absorption, as proven by UV-vis absorption spectroscopy tests, highlighting its technological significance. The composites produced greater supercapacitance of 1611.89 F/g, 1523.89 F/g, and 1453.2 F/g for 0.5 A/g current density for various concentrations of MWCNT, according to electrochemical measurements. The higher efficiency of 13.1% was evident in photovoltaic experiments using the nanocomposite.It also exhibited an excellent photodegradation efficiency of about 90%. It was found that the nanocomposite’s efficiency was greater than that of pure SnS and MWCNT.",
+            "page": 1,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              276.40399169921875,
+              556.0509643554688,
+              419.12298583984375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Keywords DSSC solar cell, Supercapacitor, Photocatalyst, SnS, MWCNT",
+            "page": 1,
+            "font_size": 9.5,
+            "bbox": [
+              155.90550231933594,
+              426.9559020996094,
+              424.2218017578125,
+              439.71588134765625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Organic contaminants are commonly destroyed using semiconducting photocatalysts. TiO2 is one kind of semiconducting photocatalyst that is a focal material for photodegradation of dye. However, the high recombination rate of electrons and holes limits its photo-efficiency and photo-response activity. Moreover, its broad energy gap (3.03.2 eV) is only sensitive to UV light.For visible light-responsive photocatalysis, new photocatalysts are therefore needed. As a result, novel photocatalysts are required for visible light-responsive photocatalytic applications. Metal sulphides, being a major semiconductor, have been employed in a variety of applications, including laser communication1 and LEDs, hydrogenation processes2, CO-shift reactions3, and non-linear optical features4 due to their quantum size effect. Metal sulphides’ photocatalytic characteristics have attracted a lot of attention in recent years. Tin sulphide (SnS) is an orthogonal semiconductor material belonging tothe chalcogenides group with a 1.3 eV direct bandgap, which has good response in optoelectronics, photovoltaics, and the anode applications of lithium-ion batteries5-9. It offers advantages such as a more visible absorption coefficient (> 104 cm− 1), strong carrier mobility, and p-type electrical conductivity. In addition to being less toxic, tin and sulphur are both abundant in the Earth’s crust.Solar cells with thin films based on SnS have made significant progress in recent years, with device efficiency reaching 4.36%10. Photocatalytic capabilities of SnS nanostructures, on the other hand, are rarely mentioned in the literature.Because of its excellent physical and chemical properties, SnS has arisen as a promising material in supercapacitor applications11-13. Carbon-based nanomaterials especially multiwalled carbon nanotubes have an immensive use as a substance for the electrode in supercapacitor applications. Because of its transfer of ions and electronic conduction at the electrodes, along with faster and reversible methods of charge transfer, supercapacitors can produce higher power per active material mass14–15. Carbon is a preferred electrode material for its better electrical conductivity and compatibility with electrolytes. The MWCNT exhibits good electrical conductivity; asits thin films have",
+            "page": 1,
+            "font_size": 8.3,
+            "bbox": [
+              155.9053955078125,
+              449.57489013671875,
+              556.2615356445312,
+              671.7158813476562
+            ]
+          },
+          {
+            "type": "text",
+            "text": "1Department of Electronics and Communication Engineering, M Kumarasamy College of Engineering, Karur 639113, India. 2Department of Electrical and Electronics Engineering, M Kumarasamy College of Engineering, Karur 639113, India. 3Department of Electrical and Electronics Engineering, JCT College of Engineering and Technology, Coimbatore 641105, India. 4Department of Electrical and Electronics Engineering, SRM Institute of Science and Technology, Ramapuram Campus, Chennai 600089, India. email: uma.jaga96@gmail.com",
+            "page": 1,
+            "font_size": 7.6,
+            "bbox": [
+              155.8137969970703,
+              688.4107666015625,
+              555.9509887695312,
+              739.0391845703125
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_1",
+        "title": "OPEN",
+        "level": 2,
+        "page": 1,
+        "content": [
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 1 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 1,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports",
+            "page": 1,
+            "font_size": 10.0,
+            "bbox": [
+              390.56890869140625,
+              12.369770050048828,
+              546.7947998046875,
+              24.279769897460938
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 1,
+            "font_size": 0,
+            "bbox": [
+              483.0,
+              108.0,
+              555.0,
+              122.0
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 1,
+            "font_size": 0,
+            "bbox": [
+              483.0,
+              108.0,
+              555.0,
+              122.0
+            ]
+          },
+          {
+            "type": "text",
+            "text": "also a larger surface area accessible for ions to adsorb onto, they consequently offer improved energy storage. Due to its good electron transfer properties16-18, it is also used in DSSCapplications.Multi-walled CNTs are excellent adsorbents witha high surface area that createsmore number of active sites for pollutant photocatalytic degradation19-21. Despite the significance, SnS has limited electrical conductivity and cycling stability. Also, CNTs lack homogeneous dispersion which in turn affects the supercapacitor performance. In the photocatalytic process, SnS has reduced stability where CNTs encounter problems in functionalization. In DSSCs SnS faces light harvesting problems due to its band alignment, and CNTs suffer from electron injection.Nowadays, nanocomposites and nanohybrids have been developed to address the challenges faced by independent nanomaterials. The metal oxides or metal sulphides combined with carbon-based materials produced surface modifications that resulted in increased conductivity and stability. In recent years, these nanocomposites have emerged with extensive use as electrode material for supercapacitors22-24, solar cell applications25,26, and dye degradation27,28. In this present study, the challenges faced by SnS and CNT were encounteredin the fabrication of the SnS-MWCNT nanocomposite. This SnS-MWCNT with excellent electronic, and structural properties would increase the electrical conductivity of the supercapacitors, and improved charge separation and its effective charge transport would increase the light absorption in the DSSCs.",
+            "page": 2,
+            "font_size": 7.7,
+            "bbox": [
+              155.90550231933594,
+              48.140869140625,
+              556.2741088867188,
+              210.28187561035156
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Photocatalytic activity The photocatalytic mechanism of SnS/MWCNT nanocomposite is shown in Fig. 1.The semiconductor SnS absorbs light energy and the electrons are excited from the valence (VB) to the conduction band (CB). Owing to the admirable electrical conductivity and better surface area, MWCNT accepts the high energy electrons from the CB of SnS. Superoxide radicals (·O2",
+            "page": 2,
+            "font_size": 8.8,
+            "bbox": [
+              155.90550231933594,
+              217.52186584472656,
+              556.2481689453125,
+              272.4149169921875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "−) are created when the photoexcited electrons on the MWCNT breakdown oxygen. The holes of SnS in the VB react with water to produce hydroxyl ions19. Thus, the produced superoxide anions and hydroxyl ions break down the organic pollutants such as dyes into smaller molecules (CO2 and H2O).",
+            "page": 2,
+            "font_size": 8.0,
+            "bbox": [
+              155.90550231933594,
+              257.706298828125,
+              556.2490844726562,
+              302.4149169921875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Charge storage The metal sulphide SnS undergoes redox reactions when in contact with an electrolyte. This redox reaction causes both intercalation and deintercalation of electrolytic ions into the structure of SnS. Being an excellent conductor, MWCNT facilitates the quick electron flow to and from SnS. Moreover, MWCNT provides good structural support that prevents SnS from agglomerating. The charging takes place when the electrons leave the external circuit to the working electrode made of SnS/MWCNT nanocomposite.The positive ions of the electrolytic solution either participate in the intercalation of SnS or the redox reaction. The discharging happens when SnS releases the ions into the electrolyte. The pseudo-capacitance behaviour of SnS and the conductive property of the MWCNT enable improved charge storage.",
+            "page": 2,
+            "font_size": 9.1,
+            "bbox": [
+              155.90550231933594,
+              307.52191162109375,
+              556.2579956054688,
+              400.2818908691406
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Experimental section Material fabrication MWCNTs (multi-walled carbon nanotubes) were first acquired from Ad-Nano Technologies in India. The MWCNTs were used in the tests without being purified in any way. MWCNTs of 0.05, 0.1, and 0.15 g were",
+            "page": 2,
+            "font_size": 9.8,
+            "bbox": [
+              155.90550231933594,
+              408.56988525390625,
+              556.2662353515625,
+              452.2818908691406
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 2,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              469.1890869140625,
+              445.10546875,
+              711.4690551757812
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 1. Photocatalytic mechanism in SnS/MWCNT nanocomposite.",
+            "page": 2,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              720.7960205078125,
+              400.0456237792969,
+              733.2520141601562
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 2 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 2,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 2,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "distributed in separate 100 ml of concentrated HNO3 solution and then refluxed at 90 °C for 12 h to functionalize the surfaces of CNTs. The CNTs were recovered by centrifugation after the reflux process and washed many times with water to ensure neutrality. Finally, 60 ml water was added to the oxidized MWCNT/water combination. Each functionalized CNT solution was used to make the SnS decorated CNT preparation.In each container, 1 mM of SnCl2 and polyvinyl pyrrolidonein 2 g amounts were also well dissolved. The mixture was thoroughly sonicated until it yielded a homogenous solution.Under sonication conditions, to each mixture, Na2S of 1.2mM dissolved in 50 ml waterwas added. The sonication was maintained for another 20 min after the Na2S solution had been completely added. An ultrasonicate bath with high-intensity running at 20 kHz and with a maximum power output of 500 W was used for the sonication. The resulting nanocomposites were separated from the mixture using centrifugation. Thus, unreacted compounds and soluble by-products were removed by washing the collected nanocomposites many times with solvents such as ethanol, water, and acetone. The nanoparticles were then dried at 100 °C for 2 h before being used for further testing.The pristine SnS nanoparticles were also synthesized in the same protocol in the absence of carbon nanotubes.",
+            "page": 3,
+            "font_size": 8.5,
+            "bbox": [
+              155.90550231933594,
+              48.140869140625,
+              556.2671508789062,
+              180.28187561035156
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Characterization The crystalline information of SnS QDs adorned MWCNTS was investigated using a model of X’pert Pro X-ray diffractometer supplied by PANanalytical Products. Cu K radiation with an X-ray wavelength of 1.5406was employed. The morphology of the SnS/MWCNT nanocomposite was obtained using a JEOL JEM-2010 model (Japan) high-resolution TEMwhich operates at 200 Kilovolts. Within the absorption spectrum between 200 and 800 nm, a Shimadzu-made UV-vis spectrophotometer (UV-3600) was used to record the nanocomposites’ absorption spectra. Electrochemical measurements The electrochemistry applications of SnS/MWCNT QDs were investigated utilizing a three-electrode setup and an electrochemical cyclic voltammetry analyzer (Princeton applied research equipment). Platinum wire as counter electrode, Ag/AgCl as reference electrode, and SnS QDs-adorned MWCNT nanosheets covered ITO substrates(working electrodes) were used in the electrochemical tests. The electrolyte solution used for all electrochemical reactions was an aqueous solution containing 1 M of KCl. Fabrication of DSSCs SnS QDs adorned MWCNT nanosheets were used to make dye-sensitized solar cells. The photoelectrodes were made of SnS and SnS nanocomposite, and the dye sensitizer of monolayer crystal structured such as N719 was employed to form a covalent bond with the photoelectrode layers, enabling the local capture of light and the photoexcited electrons to be obtained from the nanocomposite. In the DSSC fabrication, the counter electrode was chosen as the Platinum-coated indium tin oxide (Pt-ITO) substrate. A 10 μm thickness was used for the photoanode made of nanocomposite.Forthe fabrication of the DSSC, the sensitization time of the dye was about 12–16 h.The Pt-ITO was placed above the framework of the device. A hot plate was used to heat the cell’s edges for 2 min at 100 degrees Celsius. After that, a polychemical sheet from Mitsui-Dupont Polychemical PECHM-1 m was used to seal the cell. In the DSSC, the electrochemical redox solution consists of a mixture of potassium iodide (KI) of 0.5 M and I2 in 4-tert-butylpyridine of 0.05 M. After thoroughly mixing the mixture with an ultra-sonicator, a drop of the redox solution was inserted into the counter electrode through a drill hole. Immediately, the opening was sealed tightly. The final DSSC cell structure was 0.5 cm × 0.5 cm in size. Visible light photocatalytic measurements The visible light photocatalytic activities of ultrasonically SnS-decorated multi-walled carbon nanotubes were investigated using the methylene blue dye degradation process. To begin, a 100 ml of 20 ppm of methylene blue dye solution was prepared. The photocatalyst for the degradation process was made up of 40 mg of nanomaterials. The light source for the responses was a 20 W LED light source obtained from Philips. Throughout the procedure, a 5 ml dye mixture was collected at regular intervals. The solution was centrifuged, and the liquid above the precipitate was studied using a UV spectrophotometer for dye absorption intensity.",
+            "page": 3,
+            "font_size": 9.1,
+            "bbox": [
+              155.90550231933594,
+              187.52186584472656,
+              556.275390625,
+              550.2818603515625
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_2",
+        "title": "Results and discussion XRD analysis The crystalline information of SnS-decorated multi-walled carbon nanotubes was studied from the XRD patterns shown in Fig. 2. The hexagonal graphite structure was represented by the pattern in pristine MWCNT. The (002), (100), and (101) diffractions of the hexagonal graphite structure wererelated to the peaks obtained at the two theta angle points of 26.09º, 42.86º, and 44.9º, as described elsewhere.The polycrystalline SnS orthorhombic single-phase system was shown by the XRD pattern generated was in accordance with standard JCPDS card number 39–035429. There were crystallographic planes (110), (121), (021), (101), (111), (131), (141), (002), (211), (003) and (042) that can be associated with the peaks observed at different 2θ positions of 22.04º, 26.02º, 26.9º, 30.47º, 31.5º, 39.05º, 44.5º, 45.5º, 48.60º, and 56.62º. The orthorhombic crystal system with a pure phase might be the cause of inappropriate peaks in the pattern. The bigger crystalline peaks and the peak full width at half maximum are responsible for the sub-nanoscale crystalline size.The obtained XRD patterns of the nanocomposite also exhibited the same crystalline peaks of SnS nanoparticles. However, the intensity of the crystalline peaks of the SnS nanoparticles has decreased and broadened with increasing concentration of CNT. Because of the van der Waals forces, CNTs tend to form clusters at larger concentrations. These clusters lead to the peak broadening shown in XRD is caused by the variations in the electronic and vibrational states of the CNT. Additionally, the aggregates cause the CNT to become less homogeneous which leads to peak broadening. To ascertain the material’s, crystalline size, the Scherrer equation was applied. The peak broadening at higher",
+        "level": 1,
+        "page": 3,
+        "content": [
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 3 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 3,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 3,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "concentrations was also evidenced in the literature reported30. This indicates that the formation of smaller particles for the higher CNT concentration is due to the availability of a vastly increased active surface area and nucleation sites presented for the SnS formation.",
+            "page": 4,
+            "font_size": 8.5,
+            "bbox": [
+              155.90550231933594,
+              542.4403686523438,
+              556.2013549804688,
+              575.01611328125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Morphological analysis Field Emission Scanning Electron Microscopy (FESEM) and Transmission Electron Microscopy (TEM) were employed to evaluate the morphological characteristics of the synthesized nanocomposites, as shown in Fig. 3. In Figs. 3a, the interconnected nanoparticle architectures can be observed in pristine MWCNT. In addition to the spherical morphology, rod-like structures are also present in the SnS-decorated MWCNTs, as shown in Fig. 3b. Elemental analysis was performed using Energy Dispersive Spectroscopy (EDS), as shown in the Fig. 3c. The analysis confirms the absence of impurities in the sample, and the elemental peaks are within the appropriate range for the expected materials. The SnS nanoparticles exhibit a nanoparticulate structure with particle sizes ranging from 5 to 20 nm, and an average particle size of approximately 7 nm, as confirmed in the inset of Fig. 3e. The chemically functionalized MWCNTs are 15–30 nm in diameter and a few micrometers in length. TEM images (Fig. 3d,e) clearly show the homogeneous distribution of SnS nanoparticles on the surfaces of the carbon nanotubes. The average particle size of the SnS nanoparticles decorated on the MWCNTs was around 6–7 nm. Notably, no isolated SnS nanoparticles were observed, indicating that the MWCNTs were uniformly decorated with SnS nanoparticles. Furthermore, it was possible to distinguish SnS nanoparticles attached to the CNT surfaces from those embedded within the CNTs.",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              582.256103515625,
+              556.256103515625,
+              735.01611328125
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 4,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              50.4990234375,
+              467.66546630859375,
+              484.6590270996094
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 2. XRD Patterns of MWCNT (JCPDS No. 96-101-1061), SNS nanoparticles (JCPDF No. 00-39-0354) and SnS decorated MWCNT.",
+            "page": 4,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              493.98590087890625,
+              552.9647827148438,
+              516.44189453125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 4 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 4,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 4,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Optical properties Energy applications rely heavily on the optical characteristics of the semiconducting nanomaterial. The absorbance spectraof SnS nanoparticle-decorated carbon nanotubes produced by the ultrasonication method were examined in the 200–800 nm wavelength range, as shown in Fig. 4. Using pure acetone as the control solvent, the nanoparticles were evenly dispersed throughout the acetone to provide a homogeneous solution for recording absorption spectra. SnS nanoparticles generally show remarkable absorption characteristics and broad spectral responsiveness. The absorbance spectrum of the pristine MWCNT exhibited broad region absorption in our measurement. The SnS nanoparticle deposited on the surfaces of the MWCNT exhibited enhanced spectral absorption in the visible region and UV region. Withan increase in the concentration of MWCNT, more absorption was realized in the specimens. Supercapacitor performance Cyclic voltammetry and galvanostatic tests (charging and discharging techniques) were used to analyze the supercapacitance behaviour of pure SnS, pure MWCNT, and their hybrid systems. We employed a 3 M KOH electrolyte solution in our experiments to facilitate the electrochemical reactions. Figure 5a-c displays the curve produced by cyclic voltammetry measurements the graph generated by cyclic voltammetry measurements of SnS, MWCNT, and SnS/MWCNT hybrid samples. The graphs are produced for all nanomaterials in the electrode potential range of -0.3 V to 0.5 V at various scanning speeds between 10-50mV/s. The curve exhibited the quasi-rectangular shapefor all specimens indicating how SnS, MWCNT, and SnS/MWCNT nanoparticlebased electrodes behave in terms of electrical capacitance. The rectangular curves indicate that the produced nanocomposites have a double-layer capacitance type.",
+            "page": 5,
+            "font_size": 9.1,
+            "bbox": [
+              155.90550231933594,
+              406.3497009277344,
+              556.259033203125,
+              619.1096801757812
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Using the formulae below, the graphs were used to calculate nanomaterials’ specific capacitance values31.",
+            "page": 5,
+            "font_size": 8.1,
+            "bbox": [
+              167.90550231933594,
+              616.5339965820312,
+              541.442626953125,
+              629.1096801757812
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Cs = 1 mk (vf −vi)",
+            "page": 5,
+            "font_size": 8.2,
+            "bbox": [
+              284.89910888671875,
+              633.8326416015625,
+              365.1306457519531,
+              665.4793701171875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "vf ∫ vi",
+            "page": 5,
+            "font_size": 6.2,
+            "bbox": [
+              368.01611328125,
+              635.5603637695312,
+              375.5142822265625,
+              659.9730224609375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "I (V ) dv",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              377.6250915527344,
+              639.6316528320312,
+              409.26495361328125,
+              652.3638916015625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Cs = S mk∆v",
+            "page": 5,
+            "font_size": 8.6,
+            "bbox": [
+              155.90550231933594,
+              667.09912109375,
+              371.17718505859375,
+              689.1428833007812
+            ]
+          },
+          {
+            "type": "text",
+            "text": "S stands for the area surrounded by the curve encircled by the cyclic voltammetry curve, k is the specific capacitance, m is the solid mass, and v is the electrode potential. The obtained specific capacitance of the nanocomposite is represented as a graph in figure. 5(d) at various scanning rates. The graph depicts the link between numerous nanospecimens’ scanning rates and specific capacitance. The graph indicates that the",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              155.9055938720703,
+              695.5059204101562,
+              556.2366333007812,
+              737.6469116210938
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 5,
+            "font_size": 0,
+            "bbox": [
+              105.85321044921875,
+              50.4990234375,
+              554.1732177734375,
+              347.8590087890625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 3. FESEM images of (a) MWCNT (b) SnS decorated MWCNT, (c) EDS analysis SnS decorated MWCNT, TEM images of (d-f) and SnS decorated MWCNT and (inset of e) Size Distribution SnS decorated MWCNT.",
+            "page": 5,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              357.1858825683594,
+              552.4052734375,
+              379.6418762207031
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 5 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 5,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 5,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "particular specific capacitance obtained at reduced scanning speeds is greater than that obtained at higher scanning rates in all nanospecimens. Increased OHion intercalation at lower scanning speeds might explain this. The SnS/MWCNT hybrid nanospecimens produced higher specific capacitance than the bare SnS nanoparticles. Additionally, GCD experiments were carried out employing electrodes made of SnS/MWCNT hybrid nanospecimens. There were variations in the current density ranging from 0.5 A/g to 3.0 A/g, while the potential window was adjusted from − 0.3 to 0.5 V. The graphs developed as a consequence of this technique are shown in Fig. 6a-c. Galvanostatic measurements were used to calculate the specific capacitances of the nanoparticles, with the parameters discharge current density(I), discharge time (t), and measuring window(v) using the equation Cp = I*t / m*v. The specific capacitances of 1611.89 F/g, 1562.77 F/g, 1478.23 F/g, 1322 F/g and 1189.67 F/g for CN1.5, 1523.89 F/g, 1467.76 F/g, 1398.45 F/g, 1299.98 F/g and 1021.89 F/g for CN1.0 and 1453.2 F/g, 1391.21 F/g, 1313.78 F/g, 1211.21 F/g and 976.45 F/g for CN 0.5 for varying current densities of 0.5 A/g, 1.0 A/g, 1.5 A/g, 2 A/g and 3 A/g were calculated. The values of specific capacitance are shown against the current density utilized in the experiment. The graph in Fig. 6d depicts how specific capacitance varies as current density changes. The high voltage drop resulted in a reduction in specific capacitance at greater current densities, according to the graphs. This might be due to the inadequacy of the redox processesof the active hybrid nanospecimens. The provided formulae were employed to compute the energy density and power density of the SnS/MWCNT hybrid nanospecimens-coated electrodes.",
+            "page": 6,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              378.91510009765625,
+              556.2653198242188,
+              561.0560913085938
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Pd = E/t",
+            "page": 6,
+            "font_size": 8.4,
+            "bbox": [
+              155.90550231933594,
+              565.02490234375,
+              367.63482666015625,
+              580.8200073242188
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Ed = 1/2 CV 2",
+            "page": 6,
+            "font_size": 8.0,
+            "bbox": [
+              155.90550231933594,
+              582.4765014648438,
+              377.8274230957031,
+              599.1892700195312
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Where Ed and Pd are the energy and power densities, respectively, and C, V, and t are the specific capacitance, potential window, and discharge duration. As demonstrated in Fig. 7, the values of power and energy densities obtained are in good alignment with the usual supercapacitor area. Several charging and discharging cycles were used to test the stability and recycling capabilities of nanocomposite-covered electrodes. As a result of the research, a graph of capacitance retention vs. cycle number was produced (Fig. 8). In our investigation, we conducted 1000 cycles and discovered that the samples had a low level of capacitance retention loss. After 1000 charging and discharging cycles, the nanoparticles preserved 99.6% of their capacitance. This indicates that supercapacitors produced from the SnS/MWCNT nanoparticles obtained will last longer. The performance of SnS/MWCNT was compared with thatreported in the literature. It was predicted that the rGO@PANI produced a specific capacitance of 681 F/g at 1 A/g current density. After 5000 cycles of charging and discharging, rGO@PANI maintained a 91% capacitance retention32. Another work with graphene/PANI delivered a specific capacitance of 838 F/g at 1 A/g with 93.7% retention over 5000 cycles33. 178 F/g of specific capacitance was found when the electrochemical tests were performed with the electrode made of ZnO@",
+            "page": 6,
+            "font_size": 8.7,
+            "bbox": [
+              155.90550231933594,
+              605.5521850585938,
+              556.2630615234375,
+              737.6931762695312
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 6,
+            "font_size": 0,
+            "bbox": [
+              155.905517578125,
+              50.49896240234375,
+              505.70550537109375,
+              330.6989440917969
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 4. UV–vis absorption spectrum of the obtained SnS/MWCNT nanocomposites.",
+            "page": 6,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              340.0259094238281,
+              459.41680908203125,
+              352.4819030761719
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 6 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 6,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 6,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "PdO/Pd nanocomposite34. A good specific capacitance of 267.5 F/g was delivered at 2 A/g for a mesoporous α-Fe2O3 nanowire electrode. It had a capacitance retention of around 87% after 2000 cycles35. The chemically modified TiO2 nanorods showed a specific capacitance of 57.6 mF/Cm2 at 10mV/s36. It obtained an exceptional capacitance retention rate of 91% over 10,000 charge-discharge cycles.",
+            "page": 7,
+            "font_size": 8.0,
+            "bbox": [
+              155.90550231933594,
+              436.2403869628906,
+              556.2236938476562,
+              478.81610107421875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "DSSC performance The measured values of photocurrents of the fabricated devices and the accompanying J-V graphs are depicted in Fig. 9. The graph visibly illustrates the DSSCs created with different nanocomposites containing different amounts of MWCNT have the same photovoltaic performance trend. Table 1 lists the photovoltaic performance parameters for all SnS/MWCNT hybrid nanospecimens-based DSSCs, including open circuit voltage (Voc), short circuit current (Jsc), fill factor (FF), and efficiency (η).",
+            "page": 7,
+            "font_size": 8.7,
+            "bbox": [
+              155.90550231933594,
+              486.0561218261719,
+              556.253662109375,
+              550.9490966796875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fill factor (FF) = ImaxVmax",
+            "page": 7,
+            "font_size": 8.3,
+            "bbox": [
+              283.0191955566406,
+              555.5802001953125,
+              409.7716979980469,
+              570.72216796875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "IscVsc",
+            "page": 7,
+            "font_size": 7.5,
+            "bbox": [
+              379.5611877441406,
+              567.460205078125,
+              403.1305847167969,
+              576.6754150390625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Efficiency (η) in % = ∗Fill Factor ∗100%",
+            "page": 7,
+            "font_size": 9.0,
+            "bbox": [
+              155.9055938720703,
+              579.7542114257812,
+              444.6104431152344,
+              598.4580688476562
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Imax constitutes the high current density, Vmax represents the high voltage, Isc represents the short circuit current, Voc represents the open circuit potential, and Pin represents the light source’s input power.The input power was calculated by multiplying the values of Imax and Vmax. SnS/MWCNT nanocomposites with DSSCs had a higher efficiency (13.1%) than DSSCs based on pristine SnS (12%) and pristine MWCNT (9%). Similar efficiency statistics have been reported in the works of literature37-39. The elevated voltage and the current density readingsachieved for the pure specimens can be ascribed to the improved efficiency of the SnS/MWCNT nanocomposite samples. Possible causes for this include charge carrier migration via the contacts as a result of energy band interactions.",
+            "page": 7,
+            "font_size": 8.0,
+            "bbox": [
+              155.9055938720703,
+              601.9122314453125,
+              556.2515869140625,
+              684.05322265625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Photocatalytic performance The temporal history of the MB removal is depicted in Fig. 10 when the reaction mixture was taken from the reactor at 10-minute intervals. With reaction time, the strength of the MB solution’s absorption peak, which was centered at 664 nm, steadily decreased. Figure 10 (a-d) depict the photocatalytic degradation of MB for",
+            "page": 7,
+            "font_size": 9.1,
+            "bbox": [
+              155.9055938720703,
+              691.293212890625,
+              556.2607421875,
+              734.0531616210938
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 7,
+            "font_size": 0,
+            "bbox": [
+              108.97320556640625,
+              50.4990234375,
+              554.1732177734375,
+              378.458984375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 5. CV curves of (a-c) SnS/MWCNT nanocomposites and (d) Specific Capacitance Values at different scan rates of SnS/MWCNT.",
+            "page": 7,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              387.785888671875,
+              554.5003051757812,
+              410.24188232421875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 7 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 7,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 7,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 8,
+            "font_size": 0,
+            "bbox": [
+              155.90548706054688,
+              428.3853759765625,
+              455.66546630859375,
+              671.745361328125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 7. Energy density vs power density curve.",
+            "page": 8,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              681.0723266601562,
+              323.0686340332031,
+              693.5283203125
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 8,
+            "font_size": 0,
+            "bbox": [
+              145.9332275390625,
+              50.498992919921875,
+              554.1732177734375,
+              366.8189697265625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 6. (a-c) Galvanostatic charging-discharging of SnS/MWCNT nanocomposites and (d) specific capacitance values at different current densities.",
+            "page": 8,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              376.1459045410156,
+              556.4174194335938,
+              398.6018981933594
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 8 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 8,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 8,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "various materials. Among them, CN-1.5 is the most successful at removing MB, achieving 100% eradication in 60 min under visible light.Therates of MB dye molecule photocatalytic degradation with different catalysts are as follows: SnS < CN-0.5 < CN-1.0 < CN-1.5.The present work is compared with other materials such as TiO2, ZnTiO2 and Cd ZnTiO2 which produced a degradation efficiency of about 82%, 90% and 94% respectively40. N-ZnO/CD nanocomposite biosynthesized using organic soybean exhibited a degradation efficiency of 83.4%41 against MB dye. According to the findings, when enough SnS wasadded into CNTs, MB’s photocatalytic activity was suppressed. The photocatalytic activity of the CN-1.5 photocatalyst was likewise evidently removed after four cycles under identical testing conditions, indicating that it has high stability and performance. The plots of the c/c0 vs. time graph and the ln(c/c0) vs. time are shown in Fig. 11.The mentioned chemical equations provide the pathway of MB dye degradation.",
+            "page": 9,
+            "font_size": 8.3,
+            "bbox": [
+              155.90550231933594,
+              342.79510498046875,
+              556.2589721679688,
+              444.93609619140625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "SnS/MWCNT + hν →SnS ( e−+ h+) SnS (e−) + O2 →SnS + .O− 2",
+            "page": 9,
+            "font_size": 8.8,
+            "bbox": [
+              155.90550231933594,
+              444.7239074707031,
+              431.1769714355469,
+              489.9341125488281
+            ]
+          },
+          {
+            "type": "text",
+            "text": ".O− 2 + H2O →OH. h+ + H2O →H+ + .OH h+ + OH−.OH → MB dye + .OH →CO2 + H2O MB dye + .O− 2 →CO2 + H2O",
+            "page": 9,
+            "font_size": 8.3,
+            "bbox": [
+              155.90550231933594,
+              488.573486328125,
+              413.83624267578125,
+              575.8645629882812
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_3",
+        "title": "Conclusion The more efficient visible light performance SnS/MWCNT photocatalytic heterostructured nanomaterials using a simple ultrasonic technique was generated. Structure analysis of the composite materials revealed tetragonal MWCNT and orthorhombic SnS crystal structures. In TEM images, the 5 nm size SnS nanoparticles were equally scattered on the superficial layers of the MWCNT were evident. UV-vis absorption spectroscopy tests confirmed the boosted visible absorption in MWCNT following the loading of SnS nanoparticles, demonstrating the technical importance. Electrochemical tests demonstrated that the composites at different concentrations had greater supercapacitance values of 1611.89 F/g, 1523.89 F/g and 1453.2 F/g than pure SnS nanoparticles. Additionally, we have shown a higher efficiency of 13.1%in photovoltaic experiments due to the heterostructures of the nanocomposite. Furthermore, hybrid nanoparticles outperformed conventional nanoparticles in terms of visible light photocatalytic degradations of MB dye. The present work can also be extended by optimizing the synthesis methods involving spray pyrolysis, hydrothermal methods, or roll-to-roll fabrication. SnS/MWCNT can also explored in the development of flexible sensors. Further, research may be conducted to improve the surface chemistry between SnS and MWCNT which will boost the efficient charge transfer and thereby improve the device performance.",
+        "level": 1,
+        "page": 9,
+        "content": [
+          {
+            "type": "image",
+            "text": "",
+            "page": 9,
+            "font_size": 0,
+            "bbox": [
+              155.905517578125,
+              50.4990234375,
+              472.58551025390625,
+              294.5790100097656
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 8. Capacitive retention for the SnS/MWCNT nanocomposites.",
+            "page": 9,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              303.9058837890625,
+              397.5616149902344,
+              316.36187744140625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 9 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 9,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1762084960938,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 9,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "DSSC Sample Concentration of CNT",
+            "page": 10,
+            "font_size": 7.0,
+            "bbox": [
+              159.04620361328125,
+              474.0281982421875,
+              249.0263214111328,
+              491.2161865234375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Jsc (mA/cm2) Voc (V) Fill Factor",
+            "page": 10,
+            "font_size": 6.2,
+            "bbox": [
+              256.11248779296875,
+              474.0281982421875,
+              341.5173645019531,
+              491.2161865234375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Efficiency η% CN-0.5 0.05 g 12.14 0.84 0.45 12.1 CN-1 0.1 g 12.25 0.86 0.46 12.5 CN-1.5 0.15 g 12.88 0.88 0.47 13.1",
+            "page": 10,
+            "font_size": 7.0,
+            "bbox": [
+              159.04710388183594,
+              474.0281982421875,
+              377.2621765136719,
+              526.4700317382812
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Table 1. Parameters associated with DSSC calculated from JV curves.",
+            "page": 10,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              536.0018920898438,
+              406.4159240722656,
+              548.4578857421875
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 10,
+            "font_size": 0,
+            "bbox": [
+              117.61318969726562,
+              50.4990234375,
+              554.1732177734375,
+              421.8990173339844
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 9. Current density vs voltage curve for SnS/MWCNT nanocomposites.",
+            "page": 10,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              431.22589111328125,
+              427.20660400390625,
+              443.681884765625
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 10 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 10,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 10,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Data availability The data generated and analysed during the current study are available from the corresponding author on rea­ sonable request.",
+            "page": 11,
+            "font_size": 9.7,
+            "bbox": [
+              155.90550231933594,
+              678.1077270507812,
+              554.1734008789062,
+              711.8197021484375
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Received: 11 August 2024; Accepted: 13 June 2025",
+            "page": 11,
+            "font_size": 8.5,
+            "bbox": [
+              155.90550231933594,
+              720.7396850585938,
+              331.4695739746094,
+              732.189208984375
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 11,
+            "font_size": 0,
+            "bbox": [
+              143.1732177734375,
+              465.18536376953125,
+              554.1732177734375,
+              629.8253784179688
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 11. C/C0 Vs time graph (a) ln (C/C0) Vs time graph (b) of various nanocomposites.",
+            "page": 11,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              639.1522827148438,
+              475.53436279296875,
+              651.6082763671875
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 11,
+            "font_size": 0,
+            "bbox": [
+              112.57319641113281,
+              50.4990234375,
+              554.1731567382812,
+              413.6190185546875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Fig. 10. Photocatalytic degradation of MB dye using SnS/MWCNT nanocomposites and pristine SnS.",
+            "page": 11,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              422.9458923339844,
+              521.5536499023438,
+              435.4018859863281
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 11 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 11,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 11,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "image",
+            "text": "",
+            "page": 12,
+            "font_size": 0,
+            "bbox": [
+              155.905517578125,
+              50.4988899230957,
+              287.905517578125,
+              61.29888916015625
+            ]
+          }
+        ]
+      },
+      {
+        "id": "section_4",
+        "title": "References 1. Wang, L., Sun, Q. & Li, J. Recent progress on sulfide infrared nonlinear optical materials with large SHG response and wide band",
+        "level": 1,
+        "page": 12,
+        "content": [
+          {
+            "type": "text",
+            "text": "gap. Chin. J. Struct. Chem. Volume. 42 (1), 100013 (2023). 2. Aleksey Pimerzin, A., Savinov, A. & Vutolkina Anna Makova 1, Aleksandr glotov, Vladimir Vinokurov and Andrey pimerzin, transition metal Sulfidesand noble metal-Based catalysts for N-Hexadecane hydro isomerization: A study of poisons tolerance. Catalysts 10, 594 (2020). 3. Xing, M. et al. Metal sulfides as excellent Co-catalysts for H2O2 decomposition in advanced oxidation processes. Chem 4 (6),",
+            "page": 12,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              90.41887664794922,
+              555.916748046875,
+              136.17649841308594
+            ]
+          },
+          {
+            "type": "text",
+            "text": "1359–1372 (2018). 4. Liu, B. W. et al. Syntheses, structures, and Nonlinear-Optical properties of metal sulfides Ba2Ga8MS16 (M = Si, Ge),Inorganic",
+            "page": 12,
+            "font_size": 6.7,
+            "bbox": [
+              155.90550231933594,
+              132.68138122558594,
+              555.8778076171875,
+              152.9764862060547
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Chemistry, 54 (3), 976–981 (2015). 5. Koteeswara Reddy, N., Devika, M. & Gopal, E. S. R. Review on Tin (II) sulfide (SnS) material: synthesis, properties, and applications. Crit. Reviews Solid State Mater. Sci. 40 (6), 359–398 (2015). 6. Hegde, S. S., Venkatesh Prashantha, R., Murahari, B., Fernandes, J. & Ramesh, K. Synthesis, thermal stability and structural transition of cubic SnS nanoparticles. J. Alloys Compd. 820, 153116 (2020). 7. Himani Chauhan, Manoj, K., Singh, S. A., Hashmi, S. & Deka Synthesis of surfactant-free SnS nanorods by a solvothermal route with better electrochemical properties towards supercapacitor applications. RSC Adv. 5 (22), 17228–17235 (2015). 8. Kane, J., Norton, F., Alam, D. J. & Lewis A review of the synthesis, properties, and applications of bulk and two-dimensional tin (II) sulfide (SnS),Appl. Sci. 11 (5) 2062. (2021). 9. Parmar, R. J., Solanki, V. R. & Pathak, R. J. M.D.Parmar, Synthesis and characterization tin sulphide nanoparticles, AIP Conference. Proceedings. 1837 040023, (2017). 10. Sinsermsuksakul, P. et al. Overcoming efficiency limitations of SnS-based solar cells. Adv. Energy Mater. 4, 1400496 (2014). 11. Dar, M. A., Bhat, M. Y., Mala, N. A., Rather, H. A. & Venkatachalam, S. Nagarajan Srinivasan, Structural, morphological and supercapacitor applications of SnS nanomaterials prepared in three different types of solvents, Materials Today: Proceedings, 66 (4), 1689–1698, (2022). 12. Dar, M. A., Govindarajan, D. & Dar, G. N. Facile synthesis of SnS nanostructures with different morphologies for supercapacitor and dye-sensitized solar cell applications. J. Mater. Sci.: Mater. Electron. 32, 20394–20409 (2021). 13. Ansari, M. Z. et al. Enhanced activity of highly conformal and layered Tin sulfide (SnSx) prepared by atomic layer deposition (ALD) on 3D metal scaffold towards high performance supercapacitor electrode. Sci. Rep. 9, 10225 (2019). 14. Kyle Jiang & Gerhardt, R. A. Fabrication and supercapacitor applications of multiwall carbon nanotubes. J. Carbon Res., 7(4), (2021). 15. Korkmaz, S. et al. MWCNT/Ruthenium hydroxide aerogel supercapacitor production and investigation of electrochemical performances. Sci. Rep. 12, 12862 (2022). 16. Younas, M., Gondal, M. A., Dastageer, M. A. & Harrabi, K. Efficient and cost-effective dye-sensitized solar cells using MWCNT- TiO2 nanocomposite as photoanode and MWCNT as Pt-free counter electrode. Sol. Energy. 188, 1178–1188 (2019). 17. Umer Mehmood, A., Ishfaq, M. & Sufyan Nanocomposites of Multi-walled carbon nanotubes and titanium dioxide (MWCNTs/ TiO2) as affective counter electrode materials for Platinum-free Dye-Sensitized solar cells (DSSCs). Sol. Energy. 220, 949–952 (2021). 18. Al-Marzouki, F. M., Abdalla, S. & Al-Ameer, S. Volume, Dye sensitized solar cells with Lowcost carbon nanotubes electrodes. Adv. Mater. Sci. Eng., (2016). 19. Farzaneh Hosseini, AlibakhshKasaeian, F., Pourfayaz, M., Sheikhpour, D. & Wen Novel ZnO-Ag/MWCNT nanocomposite for the photocatalytic degradation of phenol. Mater. Sci. Semiconduct. Process. 83, 175–185 (2018). 20. Mousa Farhadian, P., Sangpour & Hosseinzadeh, G. Preparation and photocatalytic activity of WO3–MWCNT nanocomposite for degradation of naphthalene under visible light irradiation. RSC Adv., 6 (45), (2016). 21. Sedigheh & Abbasi Improvement of photocatalytic decomposition of Methyl orange by modified mwcnts, prediction of degradation rate using statistical models. J. Mater. Sci.: Mater. Electron. 32, 14137–14148 (2021). 22. Jagtap, K. & Barde, R. Kailash Nemade and sandeep waghuley, graphene/zno hybrid nanocomposite electrode material for High- performance supercapacitor application, J. Electronic Mater. (2024). 23. Pazhamalai, P., Krishnan, V. & Saleem, M. M. et al. Investigating composite electrode materials of metal oxides for advanced energy storage applications. Nano Convergence, 11(30), (2024). 24. Yi, S., Wang, L., Li, X. Z. C., Xu, Y. & Wang, K. Xianzhong sun and Yanwei Ma recent advances in Mxenebased nanocomposites for supercapacitors. Nanotechnology, 34 (43), (2023). 25. Kaniz Fatima, A. H., Pandith, T., Manzoor & Qureashi, A. DFT Studieson a MetalOxide@graphene-decorated D – π1–π2–A Novel multi-junction light-harvesting system for efficientdye-sensitized solar cell applications ACS Omega 8 (9), 8865–8875, 2023. (2023). 26. Ramesh, T. & Madhavi V,Nanocomposite materials for Dye-Sensitized solar cells. In: (eds Malik, J. A. & Sadiq Mohamed, M. J.) Modern Nanotechnology. (Springer, 2023). 27. Suresh, R., Gnanasekaran, L., Rajendran, S., Soto-Moscoso, M. & Chen, W. H. PauLoke show, Kuan shiongkhoo,application of nanocomposites in integrated photocatalytic techniquesfor water pollution remediation. Environ. Technol. Innov. 31,103149, 2023. 28. Zhihan Yu, F. & Li QuanjunXiang,Carbon dots-based nanocomposites for heterogeneous photocatalysis. J. Mater. Sci. Technol. 175, 244–257 (2024). 29. Mukherjee, A. & Mitra, P. Structural and optical characteristics of SnS thin film prepared by SILAR. Mater. Science-Poland. 33 (4), 847–851 (2015). 30. Hadianfard, M. J., Alizadeh, M. & Moradzaman, M. Effects of Chemical and Mechanical Funtionalization of Carbon Nanotubes on",
+            "page": 12,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              149.218994140625,
+              555.921142578125,
+              604.7988891601562
+            ]
+          },
+          {
+            "type": "text",
+            "text": "the Behavior of a CNT/Phenolic Nanocomposite, Bol (Grupo Español Carbón, 2019). 31. Parvin Asen, M., Haghighi, S., Shahrokhian, N. & Taghavinia One step synthesis of SnS2-SnO2 nano-heterostructured as an",
+            "page": 12,
+            "font_size": 6.9,
+            "bbox": [
+              155.9055938720703,
+              602.9840087890625,
+              555.8688354492188,
+              623.3765258789062
+            ]
+          },
+          {
+            "type": "text",
+            "text": "electrode material for supercapacitor applications. J. Alloys Compd. 782, 38–50 (2019). 32. Zhang, J. M. et al. Jie tang,high ratecapability electrode from a ternary composite of nanodiamonds/reduced graphene oxide@pani forelectrochemical capacitors. Chem. Phys. Volume 526, (2019). 33. Yu, H. et al. Facile fabrication and energystorage analysis of graphene/pani paper electrodes for supercapacitor application. Electrochim. Acta. 253, 239–247 (2017). 34. Irum Shaheen, K. S., Ahmad, C., Zequine, R. K. & Gupta Andrew GThomas and Mohammad Azad malik, facile ZnO-based nanomaterial and its fabrication as asupercapacitor electrode: synthesis, characterization and electrochemical studies. RSC Adv. 11, 23374–23384 (2021). 35. Wu, H. et al. Preparation and electrochemical properties of mesoporous α-Fe2O3 nanowires for supercapacitor application. J. Mater. Sci: Mater. Electron. 34, 1098 (2023). 36. Elshahawy, A. M. et al. Surface-Engineered TiO2 for High-Performance flexible supercapacitor applications. J. Mater. Sci: Mater. Electron. 52, 1347–1356 (2023). 37. Chen, X., Hou, Y., Zhang, B., Xiao, H. Y. & Yang, H. G. Low-cost SnSx counter electrodes for dye-sensitized solar cells. Chem. Commun. 49 (51), 5793–5795 (2013).",
+            "page": 12,
+            "font_size": 7.5,
+            "bbox": [
+              155.9055938720703,
+              619.6190185546875,
+              555.8912963867188,
+              739.1990356445312
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 12 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 12,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 12,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          },
+          {
+            "type": "text",
+            "text": "38. Jitendra, P., Sawant, R. B. & Kale CZTS counter electrode in dye-sensitized solar cell: enhancement in photo conversion efficiency",
+            "page": 13,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              48.53391647338867,
+              555.8994140625,
+              58.65141677856445
+            ]
+          },
+          {
+            "type": "text",
+            "text": "with morphology of TiO2 nanostructured thin films. J. Solid-State Electrochem. 24 (2), 461–472 (2020). 39. Raveena, J., Manikandan, V. S., Bakiyaraj, G. & Navaneethan, M. Co substituted SnS2 nanoflakes performed as cost-effective counter electrode for DSSC applications. J. Mater. Sci.: Mater. Electron. 33, 8987–8994 (2021). 40. Khan, S. et al. TiO2 and its binary ZnTiO2 and ternary CdZnTiO2 nanocompositesas efficient photocatalystsfor the organic dyes",
+            "page": 13,
+            "font_size": 7.0,
+            "bbox": [
+              155.90550231933594,
+              56.67137908935547,
+              555.896728515625,
+              94.02891540527344
+            ]
+          },
+          {
+            "type": "text",
+            "text": "degradation. Appl. Water Sci. 12, 118 (2022). 41. Ayu, D. G., Gea, S., Andriayani, D. J. & Telaumbanua Averroes Fazlur Rahman piliang, Mahyuni harahap, Zhihao yen, Ronn Goei and Alfred Iing Yoong tok, photocatalytic degradation of methylene blue using N-Doped zno/carbon Dot (N-ZnO/CD) nanocomposites derived from organic soybean. ACS Omega, 8(17),2023.",
+            "page": 13,
+            "font_size": 7.5,
+            "bbox": [
+              155.90550231933594,
+              90.27141571044922,
+              555.878662109375,
+              125.85142517089844
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Author contributions Sakthi P: Visualization, Investigation, WritingOriginal draft preparation. Uma J: Software, Validation, Super­ vision, Data curation. Balraj B: Software, Methodology, WritingReviewing and Editing. Arulvendhan K: Con­ ceptualization, Methodology.",
+            "page": 13,
+            "font_size": 9.5,
+            "bbox": [
+              155.90550231933594,
+              134.67942810058594,
+              554.1734008789062,
+              178.3914337158203
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Declarations",
+            "page": 13,
+            "font_size": 11.0,
+            "bbox": [
+              155.90550231933594,
+              186.67942810058594,
+              215.7014923095703,
+              199.78042602539062
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Competing interests The authors declare no competing interests. Additional information Correspondence and requests for materials should be addressed to J.U.",
+            "page": 13,
+            "font_size": 10.0,
+            "bbox": [
+              155.90550231933594,
+              208.67942810058594,
+              411.1772766113281,
+              264.39141845703125
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Reprints and permissions information is available at www.nature.com/reprints. Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit ​h​t​t​p​:​/​/​c​r​e​a​t​i​v​e​c​o​m​m​o​ n​s​.​o​r​g​/​l​i​c​e​n​s​e​s​/​b​y​-​n​c​-​n​d​/​4​.​0​/​.​ © The Author(s) 2025",
+            "page": 13,
+            "font_size": 9.0,
+            "bbox": [
+              155.90550231933594,
+              266.9811096191406,
+              556.2488403320312,
+              431.2826843261719
+            ]
+          },
+          {
+            "type": "text",
+            "text": "Scientific Reports | (2025) 15:22747 13 | https://doi.org/10.1038/s41598-025-07281-2",
+            "page": 13,
+            "font_size": 8.5,
+            "bbox": [
+              41.102298736572266,
+              754.34765625,
+              554.1793212890625,
+              766.2576904296875
+            ]
+          },
+          {
+            "type": "text",
+            "text": "www.nature.com/scientificreports/",
+            "page": 13,
+            "font_size": 10.0,
+            "bbox": [
+              41.090999603271484,
+              12.308612823486328,
+              200.56703186035156,
+              24.218612670898438
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tables": [
+    {
+      "type": "table",
+      "page": 1,
+      "table_id": "table_1_0",
+      "bbox": [
+        0.0,
+        0.0,
+        595.2750244140625,
+        28.668283462524414
+      ],
+      "rows": [
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          "www.nature.com/scientificreports"
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "page": 10,
+      "table_id": "table_10_0",
+      "bbox": [
+        156.02354685465494,
+        473.6070368840144,
+        381.37302652994794,
+        528.0499877929688
+      ],
+      "rows": [
+        [
+          "DSSC Sample",
+          "Concentration\nof CNT",
+          "J\n(msc A/cm2)",
+          "V\noc\n(V)",
+          "Fill Factor",
+          "Efficiency\nη%"
+        ],
+        [
+          "CN-0.5",
+          "0.05 g",
+          "12.14",
+          "0.84",
+          "0.45",
+          "12.1"
+        ],
+        [
+          "CN-1",
+          "0.1 g",
+          "12.25",
+          "0.86",
+          "0.46",
+          "12.5"
+        ],
+        [
+          "CN-1.5",
+          "0.15 g",
+          "12.88",
+          "0.88",
+          "0.47",
+          "13.1"
+        ]
+      ]
+    }
+  ],
+  "statistics": {
+    "total_sections": 5,
+    "total_paragraphs": 0,
+    "total_tables": 2,
+    "total_images": 14
+  }
+}
