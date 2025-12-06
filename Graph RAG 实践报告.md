@@ -9,7 +9,7 @@
 | CherryStudio |    API 调试     | 用于快速测试 LLM API 的连通性和响应格式，帮助我在编写代码前验证了 Prompt 的有效性。 |
 
  ![](images/trae_use.png)
-![](Cherry Studio.png)
+![](images/Cherry_Studio.png)
 
 ## 2. PDF 解析与 JSON 格式化
 
@@ -95,7 +95,7 @@
 #### 4.1 部署配置
 使用 Docker Compose 部署 Neo4j 。
 
->![[Pasted image 20251206101502.png]]
+>![](images/neo4j_docker.png)
 
 #### 4.2 知识图谱模式设计
 
@@ -124,7 +124,7 @@ def ingest_triples(session, triples):
 ```
 
 #### 4.4 构建后的图谱可视化
->![[neo4j@neo4j___localhost_7687_neo4j - Neo4j Browser - Google Chrome 2025_12_6 10_16_02.png]]
+>![](images/neo4j_image.png)
 ## 5. Graph RAG 社区发现与向量化方案
 
 我们采用 **Louvain 算法**进行社区发现，并结合LLM生成摘要，最终通过向量模型和数据库实现高效的语义检索。
@@ -166,9 +166,9 @@ def ingest_triples(session, triples):
 
 | 查询示例                   | 返回结果                                         |
 | :--------------------- | :------------------------------------------- |
-| 什么是 AMPC?              | ![[Pasted image 20251206111505.png]]<br><br> |
-| AMPC 和 VSM 方法有什么区别?    | ![[Pasted image 20251206111541.png]]         |
-| 如何利用离线强化学习来提升并网逆变器的性能？ | ![[Pasted image 20251206111609.png]]         |
+| 什么是 AMPC?              | ![](tool_1.png)      |
+| AMPC 和 VSM 方法有什么区别?    | ![](tool_2.png)        |
+| 如何利用离线强化学习来提升并网逆变器的性能？ | ![](tool_3.png         |
 
 ## 7. ReAct 智能体工作流
 
