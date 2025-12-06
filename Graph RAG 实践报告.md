@@ -166,9 +166,9 @@ def ingest_triples(session, triples):
 
 | 查询示例                   | 返回结果                                         |
 | :--------------------- | :------------------------------------------- |
-| 什么是 AMPC?              | ![](tool_1.png)      |
-| AMPC 和 VSM 方法有什么区别?    | ![](tool_2.png)        |
-| 如何利用离线强化学习来提升并网逆变器的性能？ | ![](tool_3.png         |
+| 什么是 AMPC?              | ![](images/tool_1.png)      |
+| AMPC 和 VSM 方法有什么区别?    | ![](images/tool_2.png)        |
+| 如何利用离线强化学习来提升并网逆变器的性能？ | ![](images/tool_3.png)         |
 
 ## 7. ReAct 智能体工作流
 
@@ -185,11 +185,11 @@ def ingest_triples(session, triples):
 | **Step3** | **回答** | "AMPC 相比于传统 MPC 的主要优势包括：1. 更好的频率稳定性；2. 更灵活的控制策略..."            |
 
 #### 7.3 演示截图
-![[Pasted image 20251206110933.png]]
+![](images/workflow_1.png)
 
-![[Pasted image 20251206111046.png]]
+![](images/workflow_2.png)
 
-![[Pasted image 20251206111106.png]]
+![](images/workflow_3.png)
 
 ## 8. 问题与解决方案及心得
 
