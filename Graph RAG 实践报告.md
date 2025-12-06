@@ -168,7 +168,7 @@ def ingest_triples(session, triples):
 | :--------------------- | :------------------------------------------- |
 | 什么是 AMPC?              | ![](images/tool_1.png)      |
 | AMPC 和 VSM 方法有什么区别?    | ![](images/tool_2.png)        |
-| 如何利用离线强化学习来提升并网逆变器的性能？ | ![](images/tool_3.png)         |
+| 如何利用离线强化学习来提升并网逆变器的性能？ | ![](images/tool3.png)         |
 
 ## 7. ReAct 智能体工作流
 
